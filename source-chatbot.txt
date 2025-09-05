@@ -1,0 +1,822 @@
+Jakarta, 25 -26 Februari 2025Disampaikan pada briefing Intama dan Innas BAHAN AJAR GROUNDCHECK DTSEN -KEMENSOS
+2BAHAN AJAR KONSEP DAN DEFINISI VARIABEL
+VARIABEL PEMUTAKHIRAN DATA 3No Nama Variabel Konsep Definisi 1 nomor_induk_kependudukan nomor induk kependudukan yang tercatat di Dukcapil 2 nama nama lengkap yang tercatat di Dukcapil 3 nomor_kartu_keluarga nomor kartu keluarga yang tercatat di Dukcapil 4 tanggal_lahir tanggal lahir yang tercatat di Dukcapil 5 umur umur /usia pada saat pendataan 6 jenis_kelamin jenis kelamin individu 7 status_hubungan_keluarga status hubungan anggota keluarga terhadap kepala keluarga 8 status_kawin status perkawinan individu 9 pendidikan partisipasi sekolah dan pendidikan terakhir 10 pekerjaan status dan lapangan usaha pekerjaan utama individu 11 kepemilikan_usaha jumlah usaha dan lapangan usaha yang dimiliki 12 penyandang_disabilitas status penyandang disabilitas pada individu 13 penyakit_kronis keluhan kesehatan kronis /menahun pada individu13 INFORMASI INDIVIDU I D E N T I T A S Keterangan :Seluruh variabel menggunakan kondef regsosek kecuali 4variabel yakni : nama gadis ibukandung ,keterampilan individu ,pendapatan ,danpenyandang disabilitas (menggunakan kondef Kemensos )
+VARIABEL PEMUTAKHIRAN DATA 4No. Nama Variabel Konsep Definisi 1kode_provinsi kode provinsi pada DTSEN 2provinsi nama provinsi 3kode_kabupaten_kota kode kabupaten /kota pada DTSEN 4kabupaten_kota nama kabupaten /kota 5kode_kecamatan kode kecamatan pada DTSEN 6kecamatan nama kecamatan 7kode_kelurahan_desa kode kelurahan /desa pada DTSEN 8kelurahan_desa nama kelurahan /desa 9alamat alamat domisili 10 lokasi garis lintang (latitude) dan garis bujur (longitude) geotagging 11 nomor_kartu_keluarga nomor kartu keluarga yang tercatat di Dukcapil 12 nama_kepala_keluarga nama anggota keluarga yang berstatus sebagai kepala keluarga 13 keluarga_dalam_rumah Jumlah keluarga yang tinggal dalam satu rumah 14 status_kepemilikan_rumah status kepemilikan rumah yang dihuni 15 jenis_lantai_terluas jenis lantai terluas darirumah yang dihuni 16 jenis_dinding_terluas jenis dinding terluas darirumah yang dihuni 17 jenis_atap_terluas jenis atap terluas darirumah yang dihuni 18 sumber_air_minum_utama sumber air minum utama darirumah yang dihuni 19 sumber_penerangan_utama sumber penerangan utama darirumah yang dihuni 20 daya_terpasang daya listrik terpasang darirumah yang dihuni 21 id_meteran_PLN ID pelanggan / nomor meteran PLN rumah yang dihuni 22 bahan_bakar_utama_memasak bahan bakar utama memasak darirumah yang dihuni 23 fasilitas_bab fasilitas babdarirumah yang dihuni 24 jenis_kloset jenis kloset yang digunakan darirumah yang dihuni 25 pembuangan_akhir_tinja jenis pembuangan akhir tinjadarirumah yang dihuniNo. Nama Variabel Konsep Definisi 26 Kepemilikan: tabung_gas jumlah tabung gas minimal 5,5kg yang dimiliki lemari_es jumlah lemari es atau kulkas yang dimiliki AC jumlah AC (Air Conditioner) yang dimiliki pemanas_air jumlah pemanas air (Water Heater) untuk mandi telepon_rumah jumlah telepon rumah atau PSTN yang dimiliki tv_datar jumlah televisi datar (min. 30 inch) yang dimiliki emas_perhiasan banyaknya perhiasan emas (gram) komputer_laptop_tablet jumlah komputer/PC atau laptop atau tablet sepeda_motor jumlah sepeda motor yang dimiliki sepeda jumlah sepeda yang dimiliki mobil jumlah mobil yang dimiliki perahu jumlah perahu yang dimiliki kapal_perahu_motor jumlah kapal atau perahu motor yang dimiliki smartphone jumlah smartphone yang dimiliki sawah_kebun luas lahan sawah/ kebun diusahakan yang dimiliki (Ha) lahan_lainnya kepemilikan lahan selain yang dihuni rumah_lainnya kepemilikan rumah selain yang dihuni ternak_besar jumlah ternak besar (sapi, kerbau, kuda) yang dimiliki ternak_kecil jumlah ternak kecil (kambing, domba, babi) yang dimiliki26 Informasi Keluarga I D E N T I T A S
+5Variabel Ground Check 5 39 Variabel Groundcheck Variabel Individu Variabel Keluarga
+•Terdapat sebanyak 13 variabel individu
+•Variabel yang dikumpulkan adalah identitas , status hubungan dengan kepala keluarga status perkawinan , pekerjaan , kepemilikan usaha , disabilitas , dan riwayat penyakit kronis•Terdapat sebanyak 26 variabel keluarga
+•Variabel yang dikumpulkan adalah identitas keluarga , perumahan , sumber air minum utama , data ID pelanggan PLN, sumber penerangan utama , sanitasi , kepemilikan asset, dan kepemilikan ternak
+Variabel Individu -Kependudukan 6 Terdapat daftar individu yang akan diverifikasi pada saat groundcheck .Setelah dipilih ,terdapat pertanyaan terkait keberadaan individu yang bersangkutan :
+•Ditemukan
+•Pindah /tidak ditemukan
+•Meninggal Apabila berstatus ditemukan ,akan dilanjutkan dengan pertanyaan selanjutnya .
+Apabila pindah /tidak ditemukan /meninggal maka stop
+(pindah individu /keluarga berikut ).
+Catatan :
+•Ditemukan : Selama Pendamping PKH masih bisa menemukan dalam wilayah kerjanya maka masuk kategori ditemukan
+•Pindah /tidak ditemukan : Apabila Pendamping PKH tidak bisamenemukan individu tersebut dalam wilayah kerjanya .
+•Meninggal : sesuai pengakuan responden
+(meskipun belum adaakta kematian /belum laporan )
+Variabel Individu -Kependudukan 1Nomor Kartu Keluarga Kartu Keluarga (KK) adalah kartu identitas keluarga yang memuat data tentang nama ,susunan dan hubungan dalam keluarga ,serta identitas anggota keluarga .
+Nomor Kartu Keluarga tercantum pada Kartu Keluarga .
+Nomor KKterdiri dari 16digit angka .
+7Yang ditanyakan pada groundcheck adalah ”Apakah No KKsama ?”dengan pilihan jawaban ”Ya” dan ”Tidak” .
+*Jika nomor KKpada aplikasi tidak sama dengan yang dilapangan, harus memasukkan nomor KKyang baru
+(Dasarnya KK) Tampilkan ss aplikasi
+Variabel Individu -Kependudukan Nama harus sesuai dengan dokumen kependudukan resmi /legal (akta kelahiran ,KTP, KK).2Nama 8 Yang ditanyakan pada groundcheck adalah ”Apakah Nama Sama?” dengan pilihan jawaban ”Ya” dan ”Tidak” .
+*Jika Nama pada aplikasi tidak sama dengan yang di lapangan ,harus memasukkan Nama yang baru (Dasarnya KK) beda satu huruf, beda spasi dantanda baca lainjuga dikategorikan tidak sama
+Variabel Individu -Kependudukan Data wilayah sudah ditampilkan dalam aplikasi yakni provinsi ,kabupaten ,kecamatan ,dan kelurahan .3Wilayah 9 Tampilkan ss aplikasiYang di tanyakan pada groundcheck adalah ”Apakah Wilayah Sama?” dengan pilihan jawaban ”Ya” dan
+”Tidak”.
+*Jika wilayah pada aplikasi tidak sama dengan yang di lapangan , harus memasukkan wilayah yang baru
+(Provinsi , Kabupaten /Kota, Kecamatan , Kelurahan/Desa) -(Dasarnya KK)
+Variabel Individu –Kependudukan
+(Nama Gadis Ibu Kandung ) 10 Konsep Kemensos / Skip Konsep mengikuti yang sudah digunakan oleh Kemensos Selanjutnya akan disampaikan oleh Pihak Kemensos langsung kepada Pendamping PKH
+Variabel Individu -Kependudukan Alamat lengkap adalah alamat tempat tinggal sekarang yang mencakup nama jalan ,nomor rumah ,lingkungan ,termasuk RT/RW atau jurong dan keterangan lainnya seperti kode pos.5Alamat 11 Isikan alamat lengkap secara jelas mencakup jalan /gang dan nomor rumah
+-Alamat secara de-factoCATATAN
+Variabel Individu -Kependudukan Isikan jenis kelamin anggota keluarga yang bersangkutan .6Jenis Kelamin 12Diisikan sesuai dokumen Resmi (KK) -(Dasarnya KK)CATATAN
+Variabel Individu -Kependudukan Informasi tanggal ,bulan ,dan tahun lahir dapat diketahui dari dokumen seperti kartu keluarga (KK), kartu tanda penduduk (KTP), kartu lahir /akta kelahiran ,dan lain-lain.
+Perlu diperhatikan bagi pencacah yang menuliskan tanggal ,bulan ,dan tahun lahir dengan menyalin dari dokumen KK.7Tanggal Lahir 13Diisikan sesuai dokumen Resmi (KK) -(Dasarnya KK)
+*Setelah memasukkan tanggal lahir,sistem otomatis menampilkan Umur .
+Umur akan digunakan untuk memvalidasi pertanyaan terkait partisipasi sekolah , pekerjaan ,danusaha .CATATAN
+Variabel Individu -Kependudukan Informasi tempat lahir dapat diketahui dari dokumen seperti kartu keluarga (KK), kartu tanda penduduk (KTP), kartu lahir /akta kelahiran ,dan lain-lain.8Tempat Lahir 14 CATATAN Diisikan sesuai dokumen Resmi (KK) -(Dasarnya KK)
+Variabel Individu -Kependudukan 15 Belum kawin adalah belum mempunyai istri (bagi laki-laki)atau suami (bagi perempuan )pada saat pencacahan .
+Kawin adalah mempunyai istri (bagi laki-laki)atau suami (bagi perempuan )pada saat pencacahan ,baik tinggal bersama maupun terpisah .Dalam haliniyang dicakup tidak saja mereka yang kawin sah secara hukum (adat ,agama, negara, dsb.),tetapi juga mereka yang hidup bersama dan oleh masyarakat sekelilingnya dianggap sebagai suami -istri,termasuk kawin siri.
+Cerai Hidup adalah berpisah sebagai suami -istri karena bercerai dan belum kawin lagi.Dalam hal initermasuk mereka yang mengaku cerai walaupun belum resmi secara hukum .Kasus wanita yang mengaku belum pernah kawin tetapi pernah hamil ,juga dianggap cerai hidup .
+Tidak termasuk mereka yang hanya hidup terpisah tetapi masih berstatus kawin ,misalnya suami /istri ditinggalkan oleh istri/suami ketempat lain karena sekolah ,bekerja ,mencari pekerjaan ,atau untuk keperluan lain.
+Cerai mati adalah ditinggal mati oleh suami atau istrinya dan belum kawin lagi.9 Status Perkawinan
+Variabel Individu -Kependudukan Tanyakan hubungan setiap anggota keluarga dengan kepala keluarga dan isikan kode yang sesuai pada kotak yang tersedia .  10 Status Hubungan Anggota Keluarga dengan Kepala Keluarga 16Status Hubungan Anggota Keluarga dengan Kepala Keluarga Kepala Keluarga adalah salah seorang dari anggota keluarga yang tertulis di dalam Kartu Keluarga sebagai Kepala Keluarga .
+Apabila Kepala Keluarga meninggal dan telah digantikan oleh pasangannya , maka nama Kepala Keluarga digantikan dengan nama pasangan atau yang ditunjuk sebagai Kepala Keluarga .Istri/Suami adalah pasangan dari kepala keluarga Anak mencakup anak kandung , anak tiri, atau anak angkat dari kepala keluarga Menantu adalah suami /istri/pasangan dari anak kandung , anak tiriatau anak adopsi /angkatCucu adalah anak dari anak kandung , anak tiri, atau anak adopsi /angkat Orang tua/mertua yaitu ayah atau ibudari Kepala Keluarga atau bapak /ibu dari istri/suami /pasangan Kepala Keluarga
+Variabel Individu -Kependudukan 17Pembantu /sopir adalah orang yang bekerja sebagai pembantu atau asisten keluarga , sopir , tukang kebun termasuk satpam yang menginap /tinggal dan makan di keluarga responden tersebut dengan menerima upah /gajibaik berupa uang maupun barang . Termasuk pembantu : a. Famili yang dipekerjakan sebagai pembantu (menerima upah /gaji) dan tinggal bersama keluarga dianggap sebagai pembantu rumah tangga .
+b. Tukang kebun yang menjadi Anggota Keluarga majikan (makan dan menginap di rumah majikan ), maka dicatat sebagai pembantu .
+c. Anak pembantu yang ikut tinggal di dalam keluarga , apabila diperlakukan sebagai pembantu , status hubungan dengan KRT dicatat sebagai pembantu . Apabila anak tersebut tidak diperlakukan sebagai pembantu , maka dicatat sebagai lainnya .
+Lainnya adalah mereka yang tidak ada hubungan famili dengan Kepala Keluarga atau Anggota Keluarga lainnya , yang tinggal di rumah tersebut lebih dari 1 tahun , seperti tamu , teman , dan orang yang mondok dengan makan (indekos ), termasuk anak pembantu yang juga tinggal dan makan di keluarga majikannya . Termasuk dalam kategori “lainnya ” adalah mantan menantu yang tidak ada hubungan famili dengan Kepala Keluarga .Status Hubungan Anggota Keluarga dengan Kepala Keluarga
+Variabel Individu –Pendidikan (5 Tahun keatas ) 18Bersekolah adalah apabila seseorang terdaftar dan aktif mengikuti proses belajar , baik di suatu jenjang pendidikan formal maupun nonformal khususnya program kesetaraan
+(Paket A/B/C) yang berada di bawah pengawasan Kementerian Pendidikan dan Kebudayaan
+(Kemdikbud ) maupun kementerian lainnya .11 Status Partisipasi Sekolah Tidak/ belum pernah sekolah untuk anggota keluarga berumur 5 tahun keatas yang tidak pernah atau belum pernah terdaftar dan tidak /belum pernah aktif mengikuti pendidikan baik di suatu jenjang pendidikan formal maupun nonformal
+(Paket A/B/C), termasuk juga yang tamat /belum tamat taman kanak -kanak .Masih sekolah untuk anggota keluarga berumur 5 tahun keatas yang terdaftar dan aktif mengikuti pendidikan baik di suatu jenjang pendidikan formal maupun nonformal (Paket A/B/C), yang berada di bawah pengawasan Kementerian Pendidikan dan Kebudayaan (Kemdikbud ), Kementerian Agama ( Kemenag ), Instansi Negeri lain maupun Instansi Swasta . Termasuk bagi mahasiswa yang sedang cuti dianggap masih bersekolah .Tidak Bersekolah Lagi untuk anggota keluarga berumur 5 tahun keatas yang pernah terdaftar dan aktif mengikuti pendidikan baik di suatu jenjang pendidikan formal maupun nonformal (Paket A/B/C), tetapi pada saat pencacahan tidak terdaftar atau tidak aktif mengikuti pendidikan lagi.
+*Jika memilih selain Tidak/ belum pernah sekolah maka akan tampil tiga pertanyaan tambahan
+Tampilkan ss aplikasi 19Jenjang pendidikan tertinggi yang sedang diduduki oleh seseorang yang masih bersekolah atau yang pernah diduduki oleh seseorang yang sudah tidak bersekolah lagi (walaupun tidak lulus), baik jenjang pendidikan formal maupun nonformal kesetaraan (Paket A/B/C) .11 Jenjang dan Jenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Jenjang Pendidikan Penjelasan Paket A Paket A adalah satuan pendidikan nonformal yang setara atau sederajat dengan jenjang pendidikan dasar (SD). Program Paket A setara SD/MI disediakan untuk : a. Penduduk yang belum selesai menempuh pendidikan (putus sekolah ) di SD/ sederajat .
+b. Penduduk yang belum pernah menempuh pendidikan SD/sederajat atau tidak dapat bersekolah karena berbagai faktor , seperti faktor ekonomi , kendala waktu , geografi , dan masalah sosial /hukum , seperti : anak jalanan , korban napza , dan anak lapas Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2011 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan SDLB Sekolah Dasar Luar Biasa adalah satuan pendidikan /sekolah pada tingkat Sekolah Dasar (SD) yang menyelenggarakan pendidikan bagi Anak Berkebutuhan Khusus (ABK) SD Sekolah Dasar (SD) adalah Sekolah Dasar atau yang sederajat (sekolah dasar kecil , sekolah dasar pamong ) MI Madrasah Ibtidaiyah (MI) adalah satuan pendidikan formal yang menyelenggarakan pendidikan umum dengan kekhasan agama islam yang terdiri dari 6 (enam ) tingkat pada jenjang pendidikan dasar (sederajat dengan SD) SPM/PDF Ula SPM/PDF Ula adalah Satuan Pendidikan Muadalah /Pendidikan Diniyah Formal yaitu pesantren yang diselenggarakan pada jalur pendidikan formal jenjang pendidikan dasar setingkat SD/sederajat yang mengadopsi kurikulum nasional .
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2111 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan Paket B Paket B adalah satuan pendidikan nonformal yang setara atau sederajat dengan jenjang Sekolah Menengah Pertama (SMP).
+SMP LB SMP LB  adalah satuan pendidikan /sekolah pada tingkat Sekolah Menengah Pertama (SMP)  yang menyelenggarakan pendidikan bagi Anak Berkebutuhan Khusus (ABK).
+SMP Sekolah Menengah Pertama adalah sekolah menengah pertama atau yang sederajat .
+MTs Madrasah Tsanawiyah (MTs) adalah satuan pendidikan formal yang menyelenggarakan pendidikan umum dengan kekhasan agama islam yang terdiri dari 3 (tiga) tingkat pada jenjang pendidikan dasar sebagai lanjutan dari Sekolah Dasar (SD), MI, atau bentuk lain yang sederajat .
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2211 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan SPM/PDF SPM/PDF Wustha adalah pesantren yang diselenggarakan pada jalur pendidikan formal jenjang pendidikan dasar setingkat SMP/ Sederajat dan mengadopsi kurikulum nasional .
+Paket C Paket Cadalah satuan pendidikan nonformal yang setara atau sederajat dengan jenjang pendidikan Sekolah Menengah Atas (SMA) .Program Paket Csetara SMA/MA disediakan untuk : Penduduk yang lulus (putus lanjut )SMP/ sederajat ;atau penduduk yang putus SMA/ sederajat .
+Penduduk yang lulus SMP/ sederajat tidak melanjutkan pada SMA/ Sederajat karena berbagai faktor ,seperti faktor ekonomi ,kendala waktu ,geografi ,dan masalah sosial /hukum ,seperti anak jalanan ,korban napza ,dan anak lapas .
+SMLB SMLB adalah satuan pendidikan /sekolah pada tingkat Sekolah Menengah Atas yang menyelenggarakan pendidikan bagi Anak Berkebutuhan Khusus (ABK).
+SMA Sekolah Menengah Atas (SMA) adalah Sekolah Menengah Atas (SMA), atau yang sederajat (HBS 5 tahun , AMS, dan Kursus Pegawai Administrasi Atas (KPAA).
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2311 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan MA MA (Madrasah Aliyah) adalah satuan pendidikan formal yang menyelenggarakan pendidikan umum dengan kekhasan agama islam yang terdiri atas 3 (tiga) tingkat pada jenjang pendidikan menengah
+(sederajat dengan SMA) sebagai lanjutan dari SMP, MTs, atau bentuk lain yang sederajat .
+SMK Sekolah Menengah Kejuruan (SMK) adalah sekolah kejuruan setingkat SMA, misalnya Sekolah Menengah Pekerjaan Sosial (SMPS),  Sekolah Menengah Industri  Kerajinan ,  Sekolah Menengah Seni  Rupa,  Sekolah Menengah Karawitan Indonesia (SMKI), Sekolah Menengah Musik, Sekolah Teknologi Menengah Pembangunan,  Sekolah Menengah Ekonomi  Atas  (SMEA), Sekolah Teknologi Menengah ,  Sekolah Menengah Teknologi Pertanian ,  Sekolah Menengah Teknologi Perkapalan , Sekolah Menengah Teknologi Pertambangan ,  Sekolah Menengah Teknologi Grafika, Sekolah Guru Olahraga (SGO), Sekolah Guru Pendidikan Luar Biasa (SGPLB), Pendidikan Guru Agama 6 tahun , Sekolah Guru  Taman  Kanak -Kanak,  Kursus Pendidikan  Guru (KPG),  Sekolah Menengah Analis Kimia,  Sekolah Asisten Apoteker (SAA), Sekolah Bidan, dan Sekolah Penata Rontgen.
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2411 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan MAK Madrasah Aliyah Kejuruan adalah salah satu bentuk satuan pendidikan formal dalam binaan Kemenag yang menyelenggarakan pendidikan kejuruan dengan kekhasan agama Islam pada jenjang pendidikan menengah sebagai lanjutan dari SMP, MTs, atau bentuk lain yang sederajat atau lanjutan dari hasil belajar yang diakui sama /setara SMP/ MTs.
+SPM/PDF Ulya SPM/PDF Ulya adalah pesantren yang diselenggarakan pada jalur pendidikan formal jenjang pendidikan menengah setingkat SMA/ Sederajat yang mengadopsi kurikulum nasional .
+D1/D2/D3 D1/D2/D3 adalah Program Diploma 1 atau 2 atau 3 yang diselenggarakan /dikelola oleh akademi /perguruan tinggi D4/S1 D4/S1 adalah program pendidikan diploma 4 atau strata 1 suatu perguruan tinggi Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2511 Jenjang danJenis Pendidikan Tertinggi yang Pernah /Sedang Diduduki Penjelasan Profesi Profesi merupakan pendidikan tinggi setelah program sarjana yang menyiapkan mahasiswa dalam pekerjaan yang memerlukan persyaratan keahlian khusus . Pendidikan profesi dapat diselenggarakan oleh Perguruan Tinggi dan bekerja sama dengan Kementerian Pendidikan Tinggi dan Ristek , Kementerian lain, Lembaga Pemerintah Non Kementerian (LPNK) dan/ atau organisasi profesi yang bertanggung jawab atas mutu layanan profesi (Undang -Undang Nomor 12 tahun 2012 Pasal 17).
+Contoh apoteker , psikolog , dokter , dll.
+Program profesi merupakan pendidikan keahlian khusus yang diperuntukkan bagi lulusan program sarjana atau sederajat untuk mengembangkan bakat dan kemampuan memperoleh kecakapan yang diperlukan dalam dunia kerja (Undang -Undang Nomor 12 tahun 2012 Pasal 24).
+S2 S2 adalah program pendidikan pascasarjana (magister), strata 2 pada suatu perguruan tinggi .
+Pendidikan spesialis 1 disetarakan dengan S2 S3 S3 adalah program pendidikan pascasarjana (doktor ), strata 3 pada suatu perguruan tinggi .
+Pendidikan spesialis 2 disetarakan dengan S3 Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 26Tingkatan/kelas terakhir atau paling tinggi yang dilalui seseorang pada suatu jenjang pendidikan baik formal maupun nonformal (Paket A/B/C) disekolah negeri maupun swasta .
+Isikan tingkat/kelas tertinggi yang pernah/sedang diduduki .Isikan salah satu kode 1sampai dengan 8kedalam kotak yang telah disediakan .11 Kelas Tertinggi yang Pernah/Sedang Diduduki Penjelasan Tamat sekolah/satuan pendidikanMenyelesaikan pelajaran yang ditandai dengan lulus ujian akhir pada kelas atau tingkat terakhir suatu jenjang pendidikan formal dan nonformal (Paket A/B/C) di sekolah negeri maupun swasta dengan mendapatkan tanda tamat belajar/ijazah. Seseorang yang belum mengikuti pelajaran pada kelas tertinggi tetapi sudah mengikuti ujian akhir/sidang dan lulus, dianggap tamat sekolah/satuan pendidikan.
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2711 Kelas Tertinggi yang Pernah/Sedang Diduduki Panduan Isian Kuesioner untuk Setiap Jenjang Pendidikan SMP/sederajat dan SMA/sederajat Jenjang Kelas yang sedang/pernah diduduki Kode isian jawaban dalam kuesioner SMP/Sederajat Kelas 7 1 Kelas 8 2 Kelas 9 3 SMA/Sederajat Kelas 10 1 Kelas 11 2 Kelas 12 3 Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2811 Kelas Tertinggi yang Pernah/Sedang Diduduki Panduan Isian Kuesioner untuk Setiap Jenjang Pendidikan Paket A/B/C Disetarakan dengan sekolah formal (Permen Diknas RI No.3 Tahun 2008) dengan ketentuan sebagai berikut: Jenis Paket Jumlah SKK Kelas Paket A 0-34 SKK Kelas 1 35-68 SKK Kelas 2 69-102 SKK Kelas 3 103-136 SKK Kelas 4 137-170 SKK Kelas 5 171-204 SKK Kelas 6Jenis Paket Jumlah SKK Kelas Paket B 0-34 SKK Kelas 1 35-68 SKK Kelas 2 69-102 SKK Kelas 3 Paket C 0-40 SKK Kelas 1 41-81 SKK Kelas 2 82-102 SKK Kelas 3 Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 2911 Kelas Tertinggi yang Pernah/Sedang Diduduki Panduan Isian Kuesioner untuk Setiap Jenjang Pendidikan Perguruan Tinggi Memakai sistem satuan kredit semester (SKS), keterangan tentang tingkat/kelas yang diduduki dapat diperoleh dengan mengajukan pertanyaan tambahan sebagai berikut Jumlah SKS Tingkatan 0-30 SKS Tingkat 1 31-60 SKS Tingkat 2 61-90 SKS Tingkat 3 91-120 SKS Tingkat 4
+>= 121 SKS Tingkat 5 Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 3011 Kelas Tertinggi yang Pernah /Sedang Diduduki Panduan Isian Kuesioner untuk Setiap Jenjang Pendidikan CATATAN Variabel Individu –Pendidikan (5 Tahun keatas ) 1. Seseorang yang telah tamat sekolah , maka tingkat /kelas tertinggi yang pernah /sedang diduduki diberi kode 8.
+2. Anggota keluarga yang sedang menempuh /menjalani pendidikan profesi diberi kode 1, jikasudah lulus diberi kode 8.
+3. Seseorang yang pernah /sedang mengikuti tingkat /kelas tertinggi pada program D1/ D2/ D3 diberi kode 1, 2, 3, atau 8.
+4. Seseorang yang pernah /sedang mengikuti tingkat /kelas tertinggi pada program S1 diberi kode 5 (belum /tidak lulus).
+5. Sarjana yang pernah /sedang kuliah pada program master/S2 diberi kode 6 (belum /tidak lulus).
+6. Seseorang yang pernah /sedang kuliah program doktor /S3 diberi kode 7
+(belum /tidak lulus).
+7. Tingkat/ kelas pada Paket A adalah 1 s.d6 (belum /tidak lulus).
+8. Tingkat/ kelas pada Paket B dan Paket C adalah 1 s.d3 (belum /tidak lulus).
+9. Penulisan kelas pada tingkat SMP/ sederajat dan SMA/ sederajat menggunakan 1, 2 dan 3 ( belum /tidak lulus).
+Tampilkan ss aplikasi 31Ijazah/STTB adalah lembaran atau tanda bukti kelulusan yang diberikan kepada seseorang yang sudah menyelesaikan semua persyaratan akademik pada suatu jenjang pendidikan tertentu .Terdapat 23pilihan jawaban untuk isian variabel ini.
+Penjelasan terkait konsep dan definisi pada pilihan jawaban pada rincian inisama dengan rincian Jenjang dan jenis Pendidikan tertinggi yang pernah /sedang diduduki ,namun terdapat satu tambahan pilihan jawaban ,Tidak Punya Ijazah SD.11 Ijazah Tertinggi yang Dimiliki Tidak Punya Ijazah SD Tidak punya ijazah SDadalah mereka yang tidak atau belum pernah menamatkan jenjang pendidikan formal atau nonformal terendah .Mereka yang pernah bersekolah disekolah dasar 5/6/7tahun atau yang sederajat (antara lain sekolah luar biasa tingkat dasar ,madrasah ibtidaiyah ,sekolah dasar pamong ,sekolah dasar kecil ,dan Paket A) tetapi tidak /belum tamat .Termasuk juga seseorang yang tamat sekolah dasar 3tahun atau yang sederajat bukan karena akselerasi .
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Tampilkan ss aplikasi 3211 Ijazah Tertinggi yang Dimiliki CATATAN 1. Kepala /anggota keluarga yang duduk dikelas 5SD, atau kelas 2SMP (kelas VIII), atau kelas 2SMA (kelas XI) tetapi telah mengikuti ujian SD, atau SMP, atau SMA dan lulus, maka pendidikan yang ditamatkan adalah SDatau SMP atau SMA, sesuai dengan jenjang yang dinyatakan lulus ujiannya .
+2. Ada kemungkinan kepala /anggota keluarga yang telah menamatkan jenjang pendidikan tertentu ternyata pada saat wawancara sedang menjalani jenjang pendidikan yang lebih rendah dari yang telah ditamatkan .Pastikanlah hal tersebut dengan mengajukan pertanyaan sekali lagi.
+3. Jikaijazah yang dimiliki hilang /terbakar dianggap memiliki ijazah .
+4. Jika seseorang pernah /sedang bersekolah dijenjang formal, karena gagal UAN kemudian ikut ujian paket maka jenjang dan jenis pendidikan tertinggi yang pernah /sedang yang diduduki adalah jenjang formalnya dan ijazah/STTB tertinggi yang dimiliki adalah ijazah paket .
+Variabel Individu –Pendidikan (5 Tahun keatas )
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3312 Status Bekerja /Membantu Bekerja Bekerja adalah kegiatan melakukan pekerjaan dengan maksud memperoleh atau membantu memperoleh penghasilan atau keuntungan paling sedikit selama satu jam dalam seminggu terakhir .
+Bekerja selama satu jam tersebut boleh dilakukan baik secara berturut -turut/tidak terputus maupun kumulatif satu jam dalam seminggu terakhir .
+Seminggu terakhir adalah jangka waktu tujuh (7)hari berturut -turut yang berakhir sehari sebelum tanggal pendataan .Isikan Kode 1apabila bekerja .Bekerja disinijuga mencakup kondisi mempunyai pekerjaan/usaha, tetapi sementara tidak bekerja .
+Mempunyai pekerjaan, tetapi sementara tidak bekerja adalah mereka yang mempunyai pekerjaan/usaha, tetapi selama seminggu terakhir tidak bekerja karena sesuatu sebab, seperti :sakit, cuti, menunggu panen, tugas belajar, atau mogok kerja .Ya Isikan Kode 2apabila anggota keluarga tidak bekerja dalam seminggu terakhir .Jika memilih kode 2,maka skip lanjut kepertanyaan tentang keterampilanTidak
+*Jika memilih YA, tampil dua pertanyaan tambahan : Lapngan Usaha dan Status Dalam Pekerjaan
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3412 Lapangan Usaha dari Pekerjaan Utama Lapangan usaha dari pekerjaan utama adalah lapangan usaha dari pekerjaan yang menggunakan waktu terbanyak ,jika waktunya sama ,maka pekerjaan utama adalah yang memberikan penghasilan terbesar .
+Kepala/anggota keluarga yang sedang cuti dan pada masa cuti tersebut tidak melakukan pekerjaan lain, maka pekerjaan utamanya adalah pekerjaan yang diacutikan .Kepala/anggota keluarga yang sedang cuti dan pada masa cuti tersebut melakukan pekerjaan lain, maka salah satu dari pekerjaan lainnya itumerupakan pekerjaan utamanya .
+PNS/TNI/POLRI/BUMN/BUMD/PEJABAT NEGARA walaupun cuti tetap dicatat sebagai PNS/TNI/POLRI/BUMN/BUMD/PEJABAT NEGARA
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3512 Lapangan Usaha dari Pekerjaan Utama Panduan Pengisian Petugas Pilih lapangan usaha dari pekerjaan utama , dengan kriteria sebagai berikut : a. Apa yang dilakukan b. Tempat bekerja (jika bekerja di suatu perusahaan , juga bidang usaha dari perusahaannya ) c. Bahan baku yang digunakan (untuk kegiatan yang menghasilkan barang ) d. Output yang dihasilkan (untuk kegiatan yang menghasilkan barang ) e. Status perusahaan (swasta /pemerintah )
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3612 Lapangan Usaha dari Pekerjaan Utama Contoh Pengisian Kode No. Apa yang Dilakukan Apa yang Diproduksi Bidang PekerjaanKode Lapangan Usaha 1. Menanam tembakau Tembakau kering/basah Pertanian tembakau Perkebunan 2. Mengantarkan penumpang dan mengantarkan barangJasa ojek online Angkutan ojek online Pengangkutan dan pergudangan 3. Mengemudi truk kelapa sawitJasa angkutan Perkebunan kelapa sawitPerkebunan 4. Penjual nasi goreng Nasi goreng Penjual makanan Penyedia akomodasi dan makan minum
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3712 Lapangan Usaha dari Pekerjaan Utama CATATAN 1. Kesalahan yang umum terjadi adalah kesalahan dalam mengklasifikasikan usaha produksi makanan kedalam usaha perdagangan semata -mata karena perusahaan tersebut juga memiliki unit pemasaran yang menjual langsung kepada pedagang eceran .
+2. Apabila responden bekerja dengan menyiapkan makanan dan/atau minuman dengan proses terlebih dahulu sehingga dapat disajikan kepada konsumen maka kegiatan tersebut tidak masuk kedalam kelompok Jasa Perdagangan
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3812 Status/Kedudukan dalam Pekerjaan Utama Bekerja atau berusaha dengan menanggung risiko secara ekonomis ,serta tidak menggunakan pekerja dibayar maupun pekerja tak dibayar ,termasuk yang sifat pekerjaannya memerlukan teknologi atau keahlian khusus .
+Perusahaan yang didirikan oleh lebih dari satu orang dan tidak memiliki buruh /pegawai maka masing -masing orang berstatus sebagai berusaha sendiri .BERUSAHA SENDIRI Bekerja atau berusaha atas risiko sendiri , dan menggunakan buruh /karyawan /pegawai tidak tetap atau buruh takdibayar .
+Buruh karyawan /pegawai tidak tetap adalah buruh /karyawan /pegawai yang bekerja pada orang lain atau instansi /kantor /perusahaan dan hanya menerima upah berdasarkan pada banyaknya waktu kerja atau volume pekerjaaan yang dikerjakan .BERUSAHA DIBANTU BURUH TIDAK TETAP/TIDAK DIBAYAR
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 3912 Status/Kedudukan dalam Pekerjaan Utama Bekerja atau berusaha atas risiko sendiri ,dan menggunakan paling sedikit satu orang buruh/karyawan/pegawai tetap atau dibayar .BERUSAHA DIBANTU BURUH TETAP/DIBAYAR Buruh/karyawan/pegawai swasta yang bekerja pada orang lainatau instansi/kantor/perusahaan dengan menerima upah/gaji secara tetap baik berupa uang maupun barang, baik ada kegiatan maupun tidak adakegiatan .BURUH/KARYAWAN/PEGAWAI SWASTA Seseorang yang bekerja di instansi pemerintah baik pusat maupun daerah, termasuk BUMN, BUMD, anggota legislatif, Gubernur, Bupati, dan anggota legislatif. PNS/TNI/POLRI/BUMN/BUMD/PEJABAT NEGARA PNS/TNI/POLRI/BUMN/BUMD/PEJABAT NEGARA walaupun cuti tetap dicatat sebagai PNS/TNI/POLRI/BUMN/BUMD/PEJABAT NEGARA
+Variabel Individu -Ketenagakerjaan Tampilkan ss aplikasi 4012 Status/Kedudukan dalam Pekerjaan Utama Kepala /anggota keluarga yang bekerja pada orang lain/ majikan /institusi yang tidak tetap pada lapangan usaha pertanian ,yaitu lebih dari satu majikan dalam sebulan terakhir diusaha keluarga maupun bukan usaha keluarga atas dasar balas jasa dengan menerima upah atau imbalan baik berupa uang maupun barang ,dan baik dengan sistem pembayaran harian maupun borongan .
+Usaha pertanian meliputi pertanian tanaman pangan ,perkebunan ,kehutanan ,peternakan ,perikanan , dan perburuan ,termasuk jasa pertanian .PEKERJA BEBAS PERTANIAN Anggota keluarga yang membantu anggota keluarga lain yang berusaha ,dengan tidak mendapat upah /gaji,baik berupa uang maupun barang .PEKERJA KELUARGA/TIDAK DIBAYARKepala /anggota keluarga yang bekerja pada orang lain/ majikan /institusi yang tidak tetap pada lapangan usaha non pertanian .Contoh pekerja bebas non-pertanian adalah kuli-kulidipasar, stasiun atau tempat - tempat lainnya yang tidak mempunyai majikan tetap ,calo penumpang angkutan umum, tukang cuci keliling ,kulibangunan ,tukang parkir bebas ,dan sebagainya .PEKERJA BEBAS NON -PERTANIAN
+Variabel Individu –Pendapatan Tampilkan ss aplikasi 4113 Pendapatan Sebulan Terakhir Konsep yang sudah digunakan Kemensos Selanjutnya akan disampaikan oleh Pihak Kemensos langsung kepada Pendamping PKHKonsep Kemensos / Skip
+Variabel Individu -Keterampilan Tampilkan ss aplikasi 4214 Keterampilan Khusus/Sertifikat Keahlian yang Dimiliki Konsep yang sudah digunakan Kemensos Selanjutnya akan disampaikan oleh Pihak Kemensos langsung kepada Pendamping PKH Konsep Kemensos / Skip
+Variabel Individu –Kepemilikan Usaha Tampilkan ss aplikasi 43*Jika memilih ya, akan tampil lima pertanyaan tambahanKepemilikan Usaha Sendiri/Bersama 1. Usaha adalah kegiatan yang dilakukan untuk mendapatkan keuntungan baik yang dilakukan oleh individu maupun kelompok yang berbadan hukum maupun tidak berbadan hukum .
+2. Usaha yang dimaksud adalah usaha yang masih berjalan saat pendataan CATATAN 1. Tanyakan apakah adaanggota keluarga yang memiliki usaha .Jikaadaisikan kode 1.
+2. Jikatidak, isikan dengan kode 2 15
+Variabel Individu –Kepemilikan Usaha Tampilkan ss aplikasi 4415 Jumlah Usaha yang Dimiliki Sendiri/Bersama Tanyakan jumlah usaha yang dimiliki sendiri/bersama Penentuan jumlah usaha yang dimiliki sendiri/bersama ditentukan berdasarkan pengelolaan keuangannya .Contoh :jika seseorang/beberapa orang memiliki 2usaha dan pengelolaan keuangannya berbeda, maka jumlah usahanya 2.Tetapi sebaliknya, jika pengelolaan keuangannya tidak dapat dibedakan, maka jumlah usahanya adalah 1.
+Variabel Individu –Kepemilikan Usaha Tampilkan ss aplikasi 4515 Lapangan Usaha dari Usaha Utama
+•Jika anggota keluarga memiliki satu usaha maka isikan informasi mengenai usaha tersebut .
+•Bila memiliki lebih dari satu usaha ,maka isikan informasi mengenai usaha utama ,yaitu usaha yang menggunakan waktu terbanyak .
+•Bila waktu yang digunakan sama ,isikan informasi mengenai usaha yang memberikan penghasilan terbesar .
+•Bedakan antara usaha dan pekerjaan dari anggota keluarga
+Variabel Individu –Kepemilikan Usaha Tampilkan ss aplikasi 4615 Jumlah Pekerja yang Dibayar dari Usaha Utama Jumlah pekerja terhitung sebagai pekerja dibayar apabila lebih dari 1minggu telah ikut dalam kegiatan usaha dan telah/akan menerima upah/gaji baik berupa uang maupun barang .Bila pekerja yang dibayar berjumlah 1.000 orang atau lebih, maka isikan 997.
+Jika tidak ada pekerja yang dibayar, isikan 000.
+15 Jumlah Pekerja yang Tidak Dibayar dari Usaha Utama Jumlah pekerja terhitung sebagai pekerja tidak dibayar apabila telah bekerja pada kegiatan usaha lebih dari 1minggu kerja dan tidak ada kesepakatan akan menerima upah/gaji baik berupa uang maupun barang dalam 1bulan kedepan atau berstatus pekerja keluarga .Bila pekerja yang dibayar berjumlah 100 orang atau lebih, maka isikan 97.
+Jika tidak ada pekerja yang tidak dibayar, isikan 00.
+Variabel Individu –Kepemilikan Usaha Tampilkan ss aplikasi 4715 Omzet dari Usaha Utama Perbulan (Rupiah) 1. Gaji dan Omzet berbeda 2. Omzet adalah seluruh jumlah uang yang didapat dari hasil penjualan (usaha) dalam jangka waktu tertentu dan belum dikurangi dengan biaya pokok produksi, upah pekerja dan lain- lain.
+Contoh Pengisian Kode Kode 1
+< 5 juta (ultra mikro ) Kode 2 5 hingga < 15 juta (ultra mikro ) Kode 3 15 hingga < 25 juta (ultra mikro ) Kode 4 25 hingga < 167 juta (mikro ) Kode 5 167 hingga < 1.250 juta (kecil ) Kode 6 1.250 hingga 4.167 juta (menengah ) Kode 7
+>= 4.167 juta (besar )
+Variabel Individu –Disabilitas Tampilkan ss aplikasi 4816 Penyandang Disabilitas UNDANG -UNDANG REPUBLIK INDONESIA NOMOR 8 TAHUN 2016 TENTANG PENYANDANG DISABILITAS Dalam Undang -Undang iniyang dimaksud dengan :
+• Penyandang Disabilitas adalah setiap orang yang mengalami keterbatasan fisik,intelektual , mental, dan/ atau sensorik dalam jangka waktu lama yang dalam berinteraksi dengan lingkungan dapat mengalami hambatan dan kesulitan untuk berpartisipasi secara penuh dan efektif dengan warga negara lainnya berdasarkan kesamaan hak
+• Ragam Penyandang Disabilitas meliputi : o Penyandang Disabilitas fisik; o Penyandang Disabilitas intelektual ; o Penyandang Disabilitas mental ;dan/ atau o Penyandang Disabilitas sensorik .
+Yang dimaksud dengan “Penyandang Disabilitas fisik”adalah terganggunya fungsi gerak ,antara lainamputasi ,lumpuh layuh atau kaku ,paraplegi ,celebral palsy (CP), akibat stroke, akibat kusta ,danorang kecil.
+Yang dimaksud dengan ”Penyandang Disabilitas intelektual ”adalah terganggunya fungsi pikir karena tingkat kecerdasan dibawah rata-rata, antara lainlambat belajar ,disabilitas grahita dandown syndrom .
+Yang dimaksud dengan“Penyandang Disabilitas mental” adalah terganggunya fungsi pikir,emosi ,danperilaku ,antara lain:
+•psikososial diantaranya skizofrenia ,bipolar, depresi ,anxietas ,dan gangguan kepribadian ;dan
+•disabilitas perkembangan yang berpengaruh pada kemampuan interaksi sosial diantaranya autis danhiperaktif .
+Yang dimaksud dengan “Penyandang Disabilitas sensorik”adalah terganggunya salah satu fungsi daripanca indera ,antara laindisabilitas netra , disabilitas rungu ,dan/atau disabilitas wicara .
+Yang dimaksud dengan “Penyandang Disabilitas ganda ataumulti” adalah Penyandang Disabilitas yang mempunyai dua atau lebih ragam disabilitas , antara laindisabilitas runguwicara dandisabilitas netra -tuli.
+Yang dimaksud dengan“dalam jangka waktulama” adalah jangka waktu paling singkat 6(enam )bulan dan/atau bersifat permanen .
+Konsep Kemensos / Skip Konsep yang sudah digunakan Kemensos Selanjutnya akan disampaikan oleh Pihak Kemensos langsung kepada Pendamping PKH
+Variabel Individu –Kesehatan Tampilkan ss aplikasi 4917 Keluhan Kesehatan Kronis/Menahun Penyakit kronis/menahun Merupakan gangguan atau penyakit yang berlangsung lama (berbulan -bulan atau bertahun -tahun), tidak terjadi secara tiba - tiba/spontan, dan penyembuhannya memakan waktu yang lama.
+Catatan
+❖Apabila menderita lebih dari satu penyakit kronis maka isikan jenis penyakit yang paling berat dirasakan .
+❖Penyakit COVID -19 tidak dikategorikan penyakit kronis/ menahun .
+❖Jika memiliki riwayat dan dinyatakan sembuh, maka tidak dinyatakan memiliki penyakit kronis .
+❖Jika memiliki riwayat namun tidak merasakan gejala, maka tetap dinyatakan memiliki penyakit kronis .
+Variabel Individu –Kesehatan Tampilkan ss aplikasi 5017 Keluhan Kesehatan Kronis/Menahun 1. Tidak ada: anggota keluarga tidak memiliki penyakit kronis /menahun 2. Hipertensi (Darah Tinggi): peningkatan tekanan darah di dalam arteri 3. Rematik :penyakit yang menyerang sendi dan bagian tubuh lainnya 4. Asma : keadaan saluran napas yang mengalami penyempitan 5. Masalah jantung : bisa diakibatkan oleh penyempitan pembuluh darah 6. Diabetes ( Kencing Manis ): keadaan kadar gula dalam darah tinggi 7. Tuberkulosis (TBC): penyakit yang disebabkan oleh kuman mycobacterium tuberculosis yang menyebabkan kerusakan terutama pada paru 8. Stroke: penyediaan darah kebagian dari otak terganggu yang diakibatkan oleh tekanan darah tinggi /hipertensi 9. Kanker atau Tumor Ganas : selyang mengalami pertumbuhan tidak normal10. Gagal Ginjal: penurunan fungsi ginjal yang irreversibel pada suatu derajat dimana memerlukan terapi pengganti ginjal yang tetap 11. Haemophilia: penyakit keturunan yang mengganggu proses pembekuan darah 12. HIV/AIDS: infeksi virus yang menyerang sistem kekebalan tubuh dan melemahkannya sehingga menjadi rentan diserang penyakit 13. Kolesterol: kadar kolesterol di dalam darah melebihi batas normal 14. Sirosis Hati: cedera hati yang terjadi dalam jangka waktu lama dan menimbulkan kerusakan serius pada struktur hati 15. Thalasemia: kelainan darah karena kurangnya hemoglobin
+(Hb) yang normal pada sel darah merah 16. Leukimia:  kanker darah akibat tubuh terlalu banyak memproduksi sel darah putih abnorma 17. Alzheimer: merupakan penyebab paling umum dari demensia (kehilangan memori, perubahan suasana hati, masalah dengan komunikasi dan penalaran) 18. Lainnya: seperti paru -paru/flek, dan sejenisnya
+VARIABEL KELUARGA
+Keterangan Demografi 52 Tampilkan ss aplikasi Merupakan isian untuk mengonfirmasi jumlah keluarga yang tinggal dalam satu rumah berdasarkan kondisi saat ini
+(menggunakan konsep Regsosek )1.Jumlah keluarga yang tinggal dalam satu rumah
+Keterangan Perumahan 2. Status Kepemilikan Bangunan Tempat Tinggal 53Kode 1 Merupakan milik kepala keluarga atau salah seorang anggota keluarga .MILIK SENDIRI Kode 2 Disewa dalam jangka waktu tertentu berdasarkan perjanjian kontrak .KONTRAK Kode 2 Pembayaran sewa teratur dan terus menerus tanpa batasan waktu tertentu .SEWAKode 3 Diperoleh dari pihak lain (baik famili/bukan famili/orang tua yang tinggal ditempat lain) dan ditempati tanpa mengeluarkan pembayaran apapun .BEBAS SEWA Kode 4 Bangunan /tanah dimiliki dan disediakan oleh suatu instansi /perusahaan berbadan hukum tempat bekerja salah satu anggota keluarga baik dengan membayarDINAS Kode 5 Misalnya rumah tanah adat.LAINNYA Tampilkan ss aplikasi
+Keterangan Perumahan 3. Jenis Lantai Terluas 54 Lantai adalah bagian bawah/dasar/alas suatu ruangan Jika bangunan menggunakan lebih dari satu jenis lantai yang luasnya sama , maka jenis lantai terluas yang dipilih adalah jenis lantai dengan kode lebih kecil .
+Tampilkan ss aplikasi
+Keterangan Perumahan 3. Jenis Lantai Terluas 55 KODE 1 MARMER/GRANIT KODE 2 KERAMIK KODE 3 PARKET/VINIL/KARPET KODE 4 UBIN/TEGEL/TERASO KODE 5 KAYU/PAPAN KODE 6 SEMEN/BATA MERAH KODE 7 BAMBU KODE 8 TANAH
+Keterangan Perumahan 4. Jenis Dinding Terluas 56 Dinding adalah sisi luar/batas dari suatu bangunan atau penyekat dengan bangunan fisik lain Jika bangunan menggunakan lebih dari satu jenis dinding yang luasnya sama, maka jenis dinding terluas yang dipilih adalah jenis dinding dengan kode lebih kecil.
+Tampilkan ss aplikasi
+Keterangan Perumahan 4. Jenis Dinding Terluas 57 KODE 1 TEMBOKKODE 2 PLESTERAN ANYAMAN BAMBU/KAWATKODE 3 KAYU/PAPAN/ GYPSUM/GRC/ CALCIBOARD KODE 4 ANYAMAN BAMBUKODE 5 BATANG KAYU KODE 6 BAMBU
+Keterangan Perumahan 5. Jenis Atap Terluas 58Atap adalah penutup bagian atas suatu bangunan sehingga terlindung dari terik matahari , hujan , dan sebagainya Untuk bangunan bertingkat, atap adalah bagian teratas dari bangunan tersebut.
+Tampilkan ss aplikasi
+Keterangan Perumahan 5. Jenis Atap Terluas 59 KODE 1 BETON KODE 2 GENTENG KODE 3 SENG KODE 4 ASBES KODE 5 BAMBU KODE 6 KAYU/SIRAP KODE 7 JERAMI KODE 7 IJUK
+Keterangan Perumahan 6. Sumber Air Minum Utama 60 Sumber airminum adalah sumber airyang digunakan untuk minum sehari -hari.Pilih salah satu sumber airyang volume airnya paling banyak digunakan oleh keluarga .a.Keluarga yang minum airyang berasal dari mata air atau air hujan yang ditampung dan dialirkan ke rumah dengan menggunakan pipa paralon /pipa leding maka sumber airminumnya tetap mata air atau airhujan .
+b.Keluarga yang menggunakan airhujan pada musim penghujan dan membeli airpada musim kemarau maka sumber airminumnya tergantung pada airyang banyak diminum selama sebulan yang lalu.
+Tampilkan ss aplikasi
+*Jika memilih sumber air minum urutan 4,5,6,7,8 maka akan menampilkan satu pertanyaan tambahan
+Keterangan Perumahan 6. Sumber Air Minum Utama 61 KODE 1 AIR KEMASAN BERMERK KODE 2 AIR ISI ULANG KODE 3 LEDING KODE 4 SUMUR BOR/POMPA KODE 5 SUMUR TERLINDUNG
+Keterangan Perumahan 6. Sumber Air Minum Utama 62 KODE 6 SUMUR TAK TERLINDUNG KODE 7 MATA AIR TERLINDUNG KODE 8 MATA AIR TAK TERLINDUNG KODE 9 AIR PERMUKAAN KODE 10 AIR HUJAN
+Keterangan Perumahan 7. Sumber Penerangan Utama 63• Apabila responden menggunakan lebih dari satu sumber penerangan , maka pilih sumber penerangan yang paling banyak digunakan .
+• Bila terdapat tiga bedeng /rumah kontrakan yang menggunakan satu meteran listrik , maka bedeng /rumah kontrakan yang ada meterannya menempel pada dinding rumah dicatat dengan meteran , sedangkan dua bedeng /rumah kontrakan lainnya dicatat tanpa meteran .sumber penerangan listrik yang dikelola oleh PLN dengan menggunakan meteran (volumetrik ).KODE 1 LISTRIK PLN DENGAN METERANKODE 2 LISTRIK PLN TANPA METERAN KODE 3 LISTRIK NON -PLN KODE 4 BUKAN LISTRIKsumber penerangan listrik yang sumber listriknya mengambil dari rumah /bangunan lain, tiang listrik tanpa melalui meteran , atau listrik yang disalurkan dari listrik tetangga .
+sumber penerangan listrik yang dikelola oleh instansi /pihak lain selain PLN, contoh generator, PLTS yang tidak dikelola PLN.sumber penerangan listrik seperti petromak, aladin, pelita, sentir, obor, lilin, dan lain -lain.
+*Jika memilih Listrik PLN dengan meteran maka ada pertanyaan tambahan berapa jumlahnya .
+Untuk kolom isian ID Pelanggan mengikuti jumlah meteran yang dimiliki Jika tidak mengetahui ID Pelanggan bisa pakai nomor meteran
+648. Bahan Bakar Utama Untuk Memasak KODE 7 MINYAK TANAH KODE 8 BRIKET KODE 9 ARANG KODE 10 KAYU BAKAR
+659. Kepemilikan Fasilitas BAB KODE 1 KODE 4KODE 2 KODE 5KODE 3 KODE 6bila keluarga memiliki fasilitas tempat buang air besar dan hanya digunakan oleh keluarga responden saja.bila keluarga memiliki fasilitas tempat buang air besar dan digunakan oleh beberapa keluarga tertentu.MCK komunal melayani warga di mana warga yang tidak memiliki jamban akan datang secara mandiri ke lokasi MCK.
+Contoh: MCK di terminal, MCK di stasiun pengisian bahan bakar umum (SPBU), MCK di tempat ibadah, dsb.Apabila keluarga responden memiliki fasilitas tempat buang air besar, tetapi tidak ada yang menggunakan .Apabila keluarga responden tidak mempunyai fasilitas tempat buang airbesar .
+*Jika memilih urutan 1,2,3 akan tampil dua pertanyaan tambahan
+(jenis kloset dan pembuangan akhir tinja)
+669. Jenis Kloset KODE 1 KODE 2 KODE 3 KODE 4 Kloset adalah tempat duduk/jongkok yang digunakan di WC/kakus“ Jika Pertanyaan sebelumnya berkode 1,2 atau 3 maka:
+679. Pembuangan Akhir Tinja KODE 1 TANGKI SEPTIK KODE 2 IPAL KODE 3 LAUT KODE 4 LUBANG TANAH KODE 5 PANTAI/TANAH LAPANG/KEBUN
+6810. Kepemilikan Aset Bergerak Rincian inidapat digunakan untuk menentukan suatu ukuran kasar mengenai keadaan sosial ekonomi keluarga502
+•Jika aset dimiliki bersama oleh beberapa keluarga = memiliki
+•Barang proses kredit /sedang digadaikan /digunakan orang lain
+= memiliki
+•Jika barang dalam keadaan rusak , namun hanya sementara tidak dapat dipakai = memiliki
+•Jika barang rusak dan tidak dapat diperbaiki = tidak memiliki
+•Televisi Layar datar : TV layar LED/LCD ( bukan televisi tabung ), diagonal layar minimal 30 inch.
+•Emas/ perhiasan : emas batangan /emas perhiasan total berat minimal 10 gram. ( pembulatan kebawah ) Dibatasi 1 Digit sajaApabila tidak memiliki , isikan 0 pada aplikasi
+6911. Kepemilikan Aset Tidak Bergerak Lahan Sawah/Kebun Pertanyaan Terkait Kepemilikan Lahan Sawah /Kebun yang diusahakan milik sendiri
+7011. Kepemilikan Aset Tidak Bergerak Pertanyaan ini bertujuan untuk memperoleh informasi terkait aset tetap/tidak bergerak yang dimiliki oleh keluarga. Rincian mengenai kepemilikan aset ini dapat digunakan untuk menentukan suatu ukuran kasar mengenai keadaan sosial ekonomi keluarga.
+-Lahan selain yang ditempati saat ini yang dimiliki keluarga/salah seorang anggota keluarga ditandai dengan tanda bukti kepemilikan lahan atas nama anggota keluarga.
+-Lahan pertanian/non -pertanian
+-Termasuk lahan yang ada bangunan/ tidak ada bangunanLahan (selain yang ditempati)
+-kepemilikan rumah /bangunan selain rumah yang ditempati sekarang .
+-baik rumah /bangunan siap huni , sudah dihuni , maupun belum siap huni .
+-Tanpa mempertimbangkan status kepemilikan lahan rumah tersebut .Rumah/bangunan tempat lain Catatan : Bisa divalidasi apabila pertanyaan sebelumnya lahan /sawah ada isian jawaban
+(selain tidak memiliki ) maka pertanyaan memiliki lahan otomatis harus terisi Ya
+7112. Kepemilikan Hewan Ternak 71Rincian ini bertujuan untuk mendapatkan informasi tentang jumlah ternak yang dimiliki oleh keluarga.
+•Kepala Keluarga merupakan anggota dari kelompok ternak 5 sapi (5 anggota)
+•Bulan lalu, 2 sapi mati karena wabah PMK.
+Sapi yang dimiliki keluarga saat ini: 3/5 = 0,6 sapi dibulatkan menjadi 1 sapi.
+•Berikan catatan: 3 sapi dimiliki 5 orang ContohJumlah ternak yang dimiliki per kelompok = Jumlah ternak Jumlah anggota dalam kelompok•Jumlah ternak yang dimiliki diisikan sesuai pengakuan responden.
+•Jika keluarga tidak memiliki, isikan “0” pada kolom isian dan kotak yang tersedia.
+•Ternak yang dimiliki kelompok minimal terisi “1”, isi catatan jumlah ternak dan anggota kelompok
+•Untuk kelompok yang memperoleh subsidi ternak dari pemerintah, dengan perjanjian sapi tersebut milik pemerintah, bila beranak, menjadi milik kelompok, maka apabila disubsidi 10 sapi dan beranak 3, maka yang dicatat  menjadi milik kelompok ternak adalah 3 Sapi Catatan
+Dokumentasi
+Terima Kasih!
+www.bps.go.id
+
+DUKUNGAN DUKCAPIL PADA PEMUTAKHIRAN DATA BANTUAN SOSIAL Rapat  Koordinasi  Nasional “Implementasi  Penggunaan  DTSEN untuk  Bantuan Sosial, Pemberdayaan  Sosial dan Program Penyelenggaraan  Kesejahteraan  Sosial” Hera  Mutiara Ketua  Tim Pengelolaan  dan Pelayanan  Data Kependudukan Direktorat  Pengelolaan  Informasi  Administrasi  Kependuduka n 08-07-2025
+REGULASI
+© freepik PASAL 5 HURUF E DAN PENJELASANNYA UU NO 24 TAHUN 2013
+•Pemerintah  melalui  Menteri berwenang menyelenggarakan  adminduk  secara nasional  meliputi : Pengelolaan  dan penyajian  data kependudukan  berskala nasional
+•Data kependudukan  skala  nasional diterbitkan  secara  berkala  per semester, yaitu  untuk  semester pertama  yg diterbitkan  30 Juni dan semester kedua yg diterbitkan  tanggal  31 Desember
+DATA KEPENDUDUKAN INDONESIA SEMESTER I TAHUN 2025286.693.693  JIWA 21,83
+% 55,89
+% 5,55
+%6,21
+%7,35
+% 1,17
+%2,00
+%JAWA SUMATERA SULAWESI KALIMANTAN BALI & NUSA TENGGARA PAPUA MALUKU55,89 % 21,83 % 7,35 % 6,21 % 5,55 % 2,00 % 1,17 %144.688.671  jiwa 142.005.022  jiwa PEREKAMAN KTP -el 212.513.093  JIWA  WKTP 205.170.185  JIWA  REKAM PERSEN 96,54%
+DINAMIKA KEPENDUDUKAN P E R I S T I WA  K E P E N D U D U K A N P E R I S T I WA  P E N T I N G kejadian  yg dialami  Penduduk  yg harus dilaporkan  karena   membawa  akibat terhadap  penerbitan  atau  perubahan  KK, KTP dan/ atau  surat  keterangan kependudukan  lainnya  meliputi  pindah datang , perubahan  alamatkejadian  yang dialami  oleh seseorang meliputi  kelahiran , kematian , lahir  mati , perkawinan , perceraian , pengakuan  anak , pengesahan  anak , pengangkatan  anak , perubahan  nama  dan perubahan  status kewarganegaraan .
+SALAH SATU KRITERIA UTAMA : PEREKAMAN KTP -EL
+PENTINGNYA PEREKAMAN BIOMETRIK UNTUK PENUNGGALAN DATA DATA TUNGGAL DATA DUPLICATE
+PENONAKTIFAN DATA Penonaktifan  adalah  cara  dukcapil  dalam  melakukan  pembersihan  data. Hal tersebut  juga disebutkan dalam  Pasal 96 Permendagri  nomor  95 Tahun  2019 tentang  SIAK Penyebab  dinonaktifkan  : meninggal  tidak  lapor , pindah  keluar  negeri, tidak  dikenal , tidak  ditemukan  saat jemput  bola, WNA tidak  sengaja  tercatat  sbg WNI, WNI yg sudah  menjadi  WNA, data ganda , dan Wajib KTP belum  rekam  yg tidak  kunjung  merekam  setelah  bertahun -tahun Sumber  nya dapat  berasal  dari informasi  desa , hasil  coklit  KPU, hasil  temuan  pada saat jemput  bola, laporan  dari Imigrasi , dan laporan  dari Kedutaan  Besar  RI di luar negeri, referensi  meninggal  dari hasil sensus  BPS tahun  2020, referensi  meninggal  dari BPJS Kesehatan Bagi penduduk  non aktif  karena  dilaporkan  meninggal  atau  karena  belum  rekam  dan tidak  ditemukan saat jemput  bola, jika ternyata  orangnya  ada, masih  hidup  dan dapat  merekam KTP-el dengan  hasil  rekam  Tunggal, maka  penduduk  tsb dapat  aktif  kembali Dengan  demikian , penonaktifan data initidak perlu menjadi isu, karena  merupakan  bagian  dari dinamika  kependudukan
+DUKUNGAN DUKCAPIL DALAM PEMANFAATAN DATA KEPENDUDUKAN WEB SERVICE WEB PORTAL CARD READERFACE RECOGNITION IKD PEMADANAN DATA
+CATATAN PENTING Data SIAK  sudah Terpusat Data dinamis
+TERIMAKASIH Tim PPDK Dit. PIAK
+© 2025 ppdk
+
+PERAN BPS GROUNDCHECK DTSEN -KEMENSOS Jakarta, 25 Februari 2025Disampaikan pada Briefing dengan BPS Provinsi Selindo Ateng  Hartono Deputi Bidang Statistik Sosial
+INSTRUKSI PRESIDEN NO. 4 TAHUN 2025 2 Tugas  Badan Pusat Statistik 1.Menetapkan  sumber  dan jenis  data serta  pedoman  integrasi  data yang digunakan dalam  penyusunan  dan pengelolaan  integrasi  DTSEN; 2.Menerima  DTSEN yang mencakup  infromasi  by name by address  dari Kementerian/Lembaga, dan melakukan  integrasi  data…..; 3.Menyusun DTSEN yang akurat , terkini , dan terintegrasi ; 4.Mengelola  DTSEN untuk  penyelenggaraan  kegiatan  statistik , termasuk pemutakhiran dan pengamanan data ; 5.Menyerahkan  pemanfaatan  DTSEN kepada  Menko  PM, Men PPN, dan Mensos……; 6.Melaporkan  pelaksanaan  DTSEN kepada  Presiden  secara  berkala….; Melakukan sinkronisasi Bersama Badan Pusat Statistik untuk  mendukung  pemutakhiran data Tunggal sosial  dan Ekonomi Nasional sebagai  acuan  utama  dalam  penetapan pemberian  bantuan  dan/ atau  pemberdayaan  sosialTugas  Kementerian Sosial
+PENYERAHAN DTSEN SESUAI AMANAT INPRES 3BPS menyerahkan  DTSEN sesuai  Amanah INPRES 4/2025 Tentang  Data Tunggal Sosial Dan Ekonomi Nasional kepada  3 Menteri, yaitu : Menteri PPN/ Kepala  Bappenas , Menteri Sosial , dan Menko  Pemberdayaan Masyarakat285.579.122  penduduk 93.025.360 keluargaDTSEN
+(per 3 Februari )Inpres  No. 4/2025 tentang  Data Tunggal Sosial  Ekonomi Nasional Data by name by address dilindungi  Undang -Undang 20 Februari  2025
+KERANGKA KERJA DATA TUNGGAL SOSIAL EKONOMI NASIONAL 4Data Dukcapil
+(Kemendagri )PLN PERTAMINA NIK BPJS Kesehatan DTSEN menyatukan  3 jenis  data sosial  ekonomi  ditambah  dengan  data administratif  lain untuk  memutakhiran  data yang ada.
+DTSEN divalidasi  dengan  data kependudukan  di DukcapilPengayaan  dan validasi  dataREGSOSEK P3KEDTKS UnifikasiKeterangan :Data Tunggal Sosial  Ekonomi Nasional
+(DTSEN) Kemensos  Menyalurkan  Bansos Tahap  II dst (Triwulan  II dst) Berdasarkan  DTSENKolaborasi Pemutakhiran
+(ground check): Kemensos  dgn BPS
+KOLABORASI KEMENSOS BPS 5
+TINDAK LANJUT 6Pedoman  bagi  pakai  data by name by address akan  diatur  melalui  Peraturan Menteri PPN/ Kepala  Bappenas .
+PEMANFAATAN DTSEN UNTUK BANTUAN SOSIAL Penyaluran  Bansos  Tahap  1 (Triwulan  1-2025) masa transisi Penyaluran  Bansos  Tahap  2 dan seterusnyaDTSENmasa pemanfaatanSebelum  penyaluran  Bansos  Tahap  2, Kementerian Sosial  akan  melakukan verifikasi  data melalui  pengecekan lapangan  (Ground Check) BPS berkomitmen  untuk  mendukung kelancaran  kegiatan  tersebut  dengan:
+-Memberikan  usulan  variabel  untuk verifikasi  data
+-Memberikan  pelatihan  kepada Pendamping PKH dalam  pengumpulan data sesuai  dengan  konsep  definisi
+-Melakukan  monitoring dan evaluasi
+-Melakukan pemeringkatan ulang dari hasil verifikasi lapangan  PEMUTAKHIRAN OLEH KEMENSOS PENYUSUNAN PEDOMAN
+POIN -POIN MENGAWAL PENDATAAN 71.Perkuat  Komunikasi  dan Kolaborasi  Kepala  BPS Provinsi  dan Kabupaten /Kota dengan  Dinas  Sosial  atau  Dinas /Instansi  yang Menangani  Kegiatan  Sosial 2.Pendampingan  Pegawai  BPS Provinsi  dan Kab/Kota terhadap  Petugas Pendamping  PKH ( silakan  rasio  pendampingan  disesuaikan  dengan  daerah ) 3.Sertakan  Peran  Dinas  Sosial  atau  Dinas /Instansi  yang Menangani  Kegiatan  Sosial 4.Pendampinan  melalui  WA Group/ Komunikasi  Media 5.Tujuan  Pendampingan : Mengawal  Ketepatan  Pelaporan  dan Menjaga  Kualitas Pemutakhiran 6.Buat  Koordinator  dan Tim Mengawal  Pemutakhiran 7.BPS: Optimalkan  Penggunaan  NSCC
+PERAN BPS PROVINSI DAN KABUPATEN/KOTA 8•Memberikan  pembinaan  kepada  pendamping  PKH melalui  pelatihan  konsep  dan definisi  dari variabel  yang akan  dikumpulkan .
+•Melaksanakan  pelatihan  pengumpulan  data variabel  Ground Check DTSEN kepada  pendamping PKH
+•Bersama dinas  sosial  provinsi /kabupaten /kota  melakukan  monitoring dan evaluasi  pelaksanaan Ground Check DTSEN Petugas  Ground Check Pendamping  PKH (Kementerian Sosial )
+±33.603 orang tersebar  di 38 ProvinsiBPS Provinsi  dan BPS Kab/Kota Metode  Pelatihan Pelatihan  Jarak Jauh  (via Zoom) dengan  36 link
+(kelas ) terpisah
+•Metode : Pemaparan  dan pembahasan materi , dilengkapi  dengan  pre-test dan post - test serta  praktek  penggunaan  aplikasi  oleh Kemensos
+•Jumlah  peserta  per kelas : 20 - 40 orang
+•Variabel  Ground Check  merupakan variabel  yang digunakan  untuk PMT dan ditentukan  oleh BPS
+•Aplikasi  pendataan  dan dashboard dibangun  oleh KemensosVariabel  dan Aplikasi Pelatihan  2 tahap : 1. Pelatihan  Innas  oleh Intama  BPS RI 2. Pelatihan  Pendamping PKH oleh Innas  BPS Prov/ Kab/KotaPelatihan  Innas
+PEMETAAN JUMLAH PENDAMPING PKH DAN INNAS 9ProvinsiJumlah Pendamping PKHKebutuhan Instruktur Nasional ACEH 1,158 39 SUMATERA UTARA 1,660 55 SUMATERA BARAT 718 24 RIAU 672 22 JAMBI 547 18 SUMATERA SELATAN 1,098 37 BENGKULU 449 15 LAMPUNG 1,581 53 KEPULAUAN BANGKA BELITUNG 114 4 KEPULAUAN RIAU 186 6 JAWA BARAT 4,869 162 JAWA TENGAH 4,987 166 DAERAH ISTIMEWA YOGYAKARTA 731 24 JAWA TIMUR 5,215 174 BANTEN 736 25 DKI JAKARTA 214 7 BALI 282 9 NUSA TENGGARA BARAT 1,115 37 NUSA TENGGARA TIMUR 1,394 46 ProvinsiJumlah  Pendamping PKHKebutuhan Instruktur  Nasional KALIMANTAN BARAT 605 20 KALIMANTAN TENGAH 235 8 KALIMANTAN SELATAN 418 14 KALIMANTAN TIMUR 272 9 KALIMANTAN UTARA 58 2 SULAWESI UTARA 407 14 SULAWESI TENGAH 549 18 SULAWESI SELATAN 1,035 35 SULAWESI TENGGARA 447 15 GORONTALO 270 9 SULAWESI BARAT 233 8 MALUKU 385 13 MALUKU UTARA 177 6 PAPUA BARAT 214 7 PAPUA BARAT DAYA 109 4 PAPUA PEGUNUNGAN 139 5 P A P U A 159 5 PAPUA SELATAN 74 2 PAPUA TENGAH 91 3
+TAHAPAN KEGIATAN 10Briefing BPS Provinsi  SelindoSelasa , 25 Februari  2025 1Pencanangan  Ground Check oleh Menteri Sosial  dan Kepala  BPS2 Pelatihan  Instruktur  Nasional 3Rabu, 26 Februari  2025 Kamis, 27 Februari  2025 Jumat , 28 Februari  2025 Penyelenggara : BPS RI Tempat : Zoom Waktu: 07.30 – selesai Peserta : BPS ProvinsiPenyelenggara : Kemensos  & BPS RI Tempat : NSCC (luring), zoom dan livestream (daring) Waktu: 09.00 – 11.00 Peserta : Kepala  BPS dan Dinsos  Prov/ Kab/Kota, Pendamping  PKH Penyelenggara : BPS RI Tempat : Zoom (36 kelas  terpisah ) Waktu: 08.00 – 15.30 Peserta : Innas  (BPS Prov/ Kab/Kota)Pelatihan Pendamping  PKH Penyelenggara : BPS Provinsi Tempat : Zoom Waktu: 08.00 – 15.30 Peserta : Pendamping  PKH SelindoPelatihan  Monev BPS Dinsos  (Tentative) Penyelenggara : BPS RI?
+Tempat : Zoom Waktu: 08.00 – 15.30 Peserta : BPS dan Dinsos  Kab/Kota4 5
+MATERI DAN RUNDOWN PELATIHAN 11•Pemaparan  Bahan Ajar Konsep  dan Definisi Variabel  sesuai  dengan Pendataan  Awal Regsosek 2022
+•Pemaparan  melalui Livestream Youtube 1.Sosialisasi  oleh Menteri Sosial  dan Kepala  BPS 2.Organisasi  Lapangan oleh Kementerian Sosial 3.Pengenalan  Aplikasi oleh Kementerian SosialMateri Rundown 39 Variabel  GroundcheckVariabel  yang dikumpulkan  adalah  identitas , status hubungan dengan  kepala  keluarga  status perkawinan , pekerjaan , kepemlikan  usaha ,  disabilitas , dan riwayat  penyakit  kronis Variabel  yang dikumpulkan  adalah  identitas  keluarga , perumahan , sumber  air minum  utama , data ID meteran PLN, sumber  penerangan  utama , sanitasi , kepemilikan  asset, dan kepemilikan  ternak13 Variabel  Individu 26 Variabel  Keluarga
+POIN DISKUSI 121. Penyediaan akun zoom di BPS Provinsi 2. Bagaimana BPS Provinsi dapat berkoordinasi dengan Dinsos untuk pelatihan pendamping? (BPS provinsi menyediakan linkzoom dan menyediakan tenaga pengajar ( innas )) 3. Bagaimana strategi untuk memastikan pendamping PKH memahami materi pelatihan
+Terima  Kasih!
+www.bps.go.id
+
+SALINAN PRESIDEN REFIIBL|K INDONEISIA INSTRUKSI PRESIDEN REPUBLIK INDONESIA NOMOR 4 TAHUN 2025 TENTANG DATATUNGGAL SOSIAL DAN EKONOMI NASIONAL PRESIDEN REPUBLTK INDONESIA, Dalam rangka mendukung keterpaduan pnogram pembangunan nasional dan sinergi antar kementcrian, lembaga, dan pemerintah daerah yang memerlukan pefSelolaal data tunggal sosial dan ekonomi nasional yang akurat dan lerilttgglsi guna mencapai tqiuan pembangunan yang terukur dan berkelanjutan scbagai dasar kebliakan, perencanain, - dan evaluasi pembangunan yang efektif, dengan ini menginstruksikan: Kepada l. Menteri Koordinator Bidang Pemberdayaan Masyarakat; 2. Menteri Koordinator Bidang Perekonomian;3. Menteri Sosial;4. Menteri Dalam Negeri;5. Menteri Energi dan Sumber Daya Mineral;6. Menteri Desa dan Pembangunan Daerah Tertinggal;7, Menteri Perencanaan Pembangunan Nasional/ Kepala Badan Perencanaan Pembangunan Nasional;8. Menteri Keuangan;9. Menteri Komunikasi dan Digital; lO. Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi; I l. Menteri Pendidikan Dasar dan Menengah; 12. Menteri Pendidikan Tinggr, Sains, dan Teknologi; 13. Menteri Agama; 14. Kepala Badan hrsat Statistik; 15. Kepala Badan Siber dan Sandi Negara; 1!. Kcpata Badan Pengawasan Keuangan dan pembangunan; 17. Direktur Utama Badan penyelenggara Jaminan- Sosiat Kesehatan; dan 18. Direktur Utama Badan penyelenggara Jaminan Sosial Ketenagakerjaan.
+Untuk KESATU Mengambil langkah-langkah yang diperlukan sesuai dengantuggg, fungsi, dan kewenangan masing-masing uniuk melakukan optimalisasi pelaksanaan integraJi data sosial danekonomi nasional dengan memastikan akurasi, interoperabilitas, _dan pemutakhiran data, serta sinergi antai kementerian/lembaga.
+SK No35847AKEDUA. . .
+KEDUA KETIGA KEEMPAT KELIMA dikelola oleh Badan Kesehatan dan BadanJaminan Sosial Jaminan Sosialb.lY:IEiIFT{I]
+-2- Mendukung pelaksanaan integrasi data sosial dan ekonomi nasional, meliputi: a. penguatan mekanisme verifikasi, validasi, dan pemutakhiran data secara berkala; interoperabilitas dan aksesibilitas data antar kementerian / lembaga; dan c. pengembangan teknologi untuk mendukung integrasi data yang andal dan aman.
+Menyampaikan data administrasi, data kegiatan statistik, dan data lainnya yang mencakup informasi menurut nama dan alamat lbg name bg oddtessl kepada Badan Pusat Statistik dalam rangka mendukung penJrusunan dan pemutakhiran data tunggal sosial dan ekonomi nasional secara berkala dan berkelanjutan.
+Menggunakan data tunggal sosial dan ekonomi nasional sebagai sumber data utama dalam perencanaan, pelaksanaan, dan evaluasi kebijakan sosial dan ekonomi untuk memastikan program pemerintah terlaksana secara tepat sasaran, efektif, efisien, dan akuntabel.
+Khusus kepada: l. Menteri Koordinator Bidang Pemberdayaan Masyarakat untuk: a. melakukan sinkronisasi, koordinasi, dan pengendalian kebijakan kementerian/lembaga guna mendukung integrasi data sosial dan ekonomi nasional untuk meningkatkan akurasi dan efisiensi kebijakan sosial dan ekonomi; b. mengoordinasikan dukungan dari sektor nonpemerintah untuk mendukung pelaksanaan integrasi data sosial dan ekonomi nasional; c. memfasilitasi penyerahan data jaminan sosial yang Ketenagakerjaan kepada Badan Pusat Statistik; d. melakukan sinkronisasi bersama Badan Pusat Statistik untuk mendukung pemutakhiran data tunggal sosial dan ekonomi nasional sebagai acuan utama dalam penetapan sasaran danekstrem; melakukan pemantauan dan evaluasi secara terpadu bersama dengan kementerian / lembaga terkait untuk menjamin efektivitas integrasi dan pemanfaatan data.e 2. Menteri . . .
+SK No235890A
+-3- 2. Menteri Koordinator Bidang untuk melakukan sinkronisasi, koordinasi, dan kebijakan kementerian/lembaga guna mendukung penyusunan, pengelolaan, dan pemanfaatan data tunggal sosial dan ekonomi nasional untuk penyusunan kebljakan sosial dan ekonomi yang tepat sasElran.
+3. Menteri Sosial untuk melakukan sinkronisasi bersama Badan Pusat Statistik untuk mendukung pemutakhiran data tunggal sosial dan ekonomi nasional sebagai acuan utama dalam penetapan pemberian bantuan dan/ atau pemberdayaan sosial.
+4. Menteri Dalam Negeri untuk: a. memberikan hak akses data kependudukan kepada Badan Pusat Statistik untuk kebutuhan pemutakhiran data tunggal sosial dan ekonomi nasional; b. melakukan koordinasi dan sinkronisasi dengan gubernur dan bupati/wali kota dalam rangka pemanfaatan data tunggal sosial dan ekonomi nasional; dan c. memfasilitasi pemerintah daerah dalam penyusunan program dan kegiatan pada rencana ke{a pemerintah daerah serta anggaran pada anggaran dan belanja daerah yang mendukung integrasi dan data tunggal sosial dan ekonomi nasional.
+5. Menteri Energi dan Sumber Daya Mineral untuk: a. melakukan fasilitasi dan koordinasi pemberian data di bidang energi dan sumber daya mineral kepada BadanPusat Statistik, sesuai kebutuhan integrasi data tunggal sosial dan ekonomi nasional; dan b. melakukan pemanfaatan data tunggal sosial dan ekonomi nasional untuk ketahanan dan ketersediaan energi nasional.
+6. Menteri Desa dan Pembangunan Daerah Tertinggal untuk: a. melaksanalan pemutakhiran data sosial dan ekonomi pada tingkat desa untuk memastikan akurasi dan kelengkapan data dalam mendukung integrasi data nasional; dan b. melakukan data tunggal sosial dan ekonomi nasional di tingkat desa.
+7.Menteri...
+SK No235889A
+-4- 7. Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencanaan Pembangunan Nasional untuk: a. memastikan perencanaan dan penganggaran program kementerian/lembaga mendukung pen5rusunan, pengelolaan, dan pemanfaatan data tunggal sosial dan ekonomi nasional;b. melakukan perencanaan program pembangunan dengan memanfaatkan data tunggal sosial dan ekonomi nasional;c. melakukan sinkronisasi bersama Badan Pusat Statistik untuk mendukung pemutalhiran data tunggal sosial dan ekonomi nasional sebagai acuan utama dalam penetapan perencanaan dan program bantuan sosial, pem dasar;d. melakukan pemantauan dan evaluasi terhadap pemanfaatan data dan memberikan rekomendasi perencanaan dan pemutakhiran data tunggal sosial dan ekonomi nasional; dane. menlrusun pedoman berbagi pakai data tunggal sosial dan ekonomi nasional.8. Menteri Keuangan untuk alokasi anggaran dan sinergi pendanaan untuk mendukung penyusunan, pengelolaan, dan pemanfaatan data tunggal sosial dan ekonomi nasional.9. Menteri Komunikasi dan Digital untuk memfasilitasidan infrastruktur Pusat Data Nasional, jaringan 1ntrapemerintah, dan sistem penghubung layanan pemerintah yang diperlukan untuk pengelolaan data tunggal sosial dan ekonomi nasional secara efektif, aman, dan terintegrasi.
+10. Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi untuk:a. melakukan koordinasi dan sinkronisasi penerapan transformasi digital pemerintah dalam mendukung penlrusunan, pengelolaan, dan data tunggal sosial dan ekonomi nasional; danb. melakukan koordinasi dan sinkronisasi dalam perumusErn peta proses bisnis lintas instansi pemerintah terkait pen5rusunErn, dan data tunggal sosial dan ekonomi nasional.
+I l. Kepala Badan Pusat Statistik untuk: sumber dan jenis data serta pedoman integrasi data yang digunakan dalam penyusunan dan pengelolaan integrasi data tunggal sosial dan ekonomi nasional; b. menerima . . .
+SK No 235888 Aa.
+K INDONESIA
+-5- b. menerima data sosial dan ekonomi nasional yang mencakup informasi menurut nama dan alamat (bg natne bg addressl dari kementerian/lembaga, serta melakukan integrasi data secara nasional untuk menghasilkan data tunggal sosial dan ekonominasional sebagai rujukan utama bag kementerian/lembaga dan pemerintah daerah; c. men5rusun data tunggal sosial dan ekonomi nasional yang akurat, terkini, dan terintegrasi; d. mengelola data tunggal sosial dan ekonomi nasional untuk penyelenggaraan kegiatan statistik, termasuk pemutakhiran dan pengamanan data sesuai standar terbaik; menyerahkan pemanfaatan data tunggal sosial dan ekonomi nasional kepada Menteri Koordinator Bidang Pemberdayaan Maiyarakat, Menteri Perencanaan Pembangunan Nasional/Kepala Badan Perencanaan Pembangunan Nasional, dan Menteri Sosial sesuai dengan ketentuan peraturan perundang-undangan; dane, KEENAM KETUJUHf. melaporkan pelaksanaan integrasi data tunggal sosial dan ekonomi nasional kepada Presiden secara berkala atau sewaktu-waktu jika diperlukan.
+l2.Kepda Badan Siber dan Sandi Negara untuk melaksanakan asistensi pembinaan dan pengamErnan data, informasi, dan infrastruktur teknologi untuk penyusunan dan pengelolaan data tunggal sosial dan ekonomi nasional, guna memastikan kerahasiaan, integritas, dan ketersediaan data sesuai dengan standar keamanan siber nasional.
+13. Kepala Badan Pengawasan Keuangan dan Pembangunan untuk melakukan pengawasan terhadap pelaksanaan penyusunan, pengelolaan, dan pemanfaatan data tunggal sosial dan ekonomi nasional.
+Pendanaan untuk pelaksanaan penJrusunan, pengelolaan, dan data tunggal sosial dan ekonomi nasional dibebankan pada: a. anggaran pendapatan dan belanja negara; b. anggaran pendapatan dan belanja daerah; dan c. sumber lain yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang-undangan.
+Melaksanakan Instruksi Presiden ini dengan penuh tanggung jawab.
+Instruksi . . .
+SK No235846A
+NT-{JTFIIIITTIIItrIIETA 6- Instnrksi Presiden ini mulai berlaku pada tanggal dikeluarkan.
+Dikeluarkan diJalerta peda tanggal 5 Februari 2o25 REPUBUK INDONESI,A, ttd Salinan sesuai dengan aslinya.
+KEMENTERIAN SEKRSTARIAT NEGARA
+|T{{II.ITITTNII]trIIIEFIN Ferundang-undangan danB SK No235836A
+
+Kesimpulan Menteri Sosial Rapat Koordinasi Nasional Penggunaan Data Tunggal Sosial dan Ekonomi Nasional  (DTSEN)
+DTSEN, Fondasi Keadilan dan Martabat Data bukan hanya angka, tetapi wajah dan harapan jutaan rakyat.
+DTSEN menjadi fondasi menegakkan keadilan sosial, memastikan setiap bantuan dan program sampai tepat sasaran, tepat waktu, dan tepat jumlah.1.
+Amanat Presiden, Amanat Sejarah Instruksi Presiden Nomor 4 Tahun 2025 bukan sekadar aturan, tetapi panggilan sejarah yang menuntut kita bekerja sungguh-sungguh menuntaskan kemiskinan ekstrem dan mewujudkan kesejahteraan sosial berkeadilan.2.
+Sekolah Rakyat, Simbol Kehadiran Negara Sekolah Rakyat, gagasan besar Presiden Prabowo, adalah bukti negara hadir untuk memuliakan anak-anak dari keluarga termiskin. Kesuksesan program ini bertumpu pada akurasi DTSEN yang kita kelola dengan tanggung jawab.3.
+Tugas Kepala Dinsos: Penjaga Harapan Bangsa Kepala Dinas Sosial adalah garda depan yang memastikan data warga miskin selalu mutakhir, valid, dan digunakan dengan bijak. Di pundak Saudara, terpikul amanah mengawal keadilan sampai ke akar rumput.4.
+Integritas dan Kolaborasi adalah Nafas Perjuangan Jangan hanya bekerja dengan angka, tetapi libatkan hati nurani. Bekerjalah dengan kejujuran, saling mendukung lintas daerah, agar tidak ada satu pun jiwa miskin yang tercecer dari perhatian kita.5.
+Masa Depan Bangsa Ditentukan Akurasi Data Kita Setiap data yang kita benahi bukan hanya mengurangi angka kemiskinan, tetapi menumbuhkan martabat bangsa.
+DTSEN yang akurat akan menjadi jembatan menuju Indonesia yang lebih adil dan bermartabat.6.
+Seruan untuk Bangkit dan Bergerak Mari kita pulang dari rakor ini dengan semangat yang menyala, satukan kekuatan, gerakkan semua potensi daerah, dan jadikan DTSEN senjata paling ampuh untuk menegakkan keadilan sosial di seluruh pelosok negeri.7.
+“ Karena di balik setiap data yang kita perbarui, ada jiwa yang menanti keadilan, dan di sanalah letak kehormatan kita sebagai pelayan rakyat.
+“ Data bukan hanya deretan angka, melainkan cermin martabat manusia yang harus kita bela. Di tangan kita, DTSEN bukan sekadar alat, tetapi lentera yang menuntun negara menghadirkan keadilan di setiap sudut negeri. Teruslah menata data dengan kejujuran, karena di situlah kita menata masa depan Indonesia yang bermartabat dan berkeadilan.
+Setiap angka dalam data kita bukan sekadar statistik, tetapi denyut harapan mereka yang terpinggirkan. Teruslah bekerja dengan hati, karena di balik data yang akurat, tumbuh masa depan bangsa yang lebih adil dan bermartabat.“
+”
+
+DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL (D TSEN) TERHADAP KEBIJAKAN BANTUAN SOSIAL, PEMBERDAYAAN SOSIAL DAN PROGRAM KESEJAHTERAAN SOSIAL Joko Widiarto – Plt. Kepala Pusdatin Kesos Disampaikan pada Kegiatan Rakornas DTSEN oleh : Pusat Data dan Informasi Kesejahteraan Sosial Tahun 2025
+Dasar Hukum Instruksi Presiden  Nomor  4 Tahun  2025 tentang  Data Tunggal Sosial  dan Ekonomi Nasional Menteri Sosial  untuk melakukan sinkronisasi bersama Badan Pusat Statistik untuk mendukung pemutakhiran data tunggal sosial dan ekonomi nasional sebagai acuan utama dalam penetapan pemberian bantuan dan/atau pemberdayaan sosial.
+Dasar Hukum Menteri Sosial untuk : 1.Melakukan pemutakhiran data penerima bantuan dan/atau pemberdayaan sosial untuk mendukung pemutakhiran data tunggal sosial dan ekonomi nasional; 2.Menyalurkan bantuan dan/atau pemberdayaan sosial kepada target sasaran pengentasan kemiskinan dan penghapusan kemiskinan ekstrem sesuai dengan hasil asesmen; 3.Mengelola data penyaluran bantuan dan/atau pemberdayaan sosial serta data kondisi para penerima manfaat yang tergolong miskin dan miskin ekstrem; 4.Membentuk dan menyelenggarakan sekolah rakyat berasrama bagi masyarakat miskin dan miskin ekstrem; 5.Menyiapkan dan menyusun kurikulum sekolah rakyat berasrama yang berlandaskan pada sekolah formal dan sekolah karakter; 6.Menyiapkan sarana prasarana dan asrama sekolah rakyat, membentuk tim formatur program sekolah rakyat;Instruksi Presiden Nomor 8 Tahun 2025 tentang tentang Optimalisasi Pelaksanaan Pengentasan Kemiskinan dan Penghapusan Kemiskinan Ekstrem
+Permensos  Nomor  3 Tahun  2025 tentang  Pemutakhiran dan Penggunaan Data Tunggal Sosial Dan Ekonomi Nasional Untuk Bantuan Sosial, Pemberdayaan Ssosial, dan Program Penyelenggaraan Kesejahteraan Sosial Kepmensos  Nomor  79/HUK/ 2025 tentang  Penetapan Peringkat Kesejahteraan Keluarga untuk Penyaluran Bantuan Sosial dan Bantuan Program Kesejahteraan Sosial di Lingkungan Kementerian Sosial PERATURAN DAN KEPUTUSAN MENTERI SOSIAL SALINAN
+DTSEN
+PROSES USULAN DATA Permensos Nomor 3 Tahun 2025 Tentang Pemutakhiran dan Penggunaan DTSEN untuk Bantuan Sosial, Pemberdayaan Sosial, dan Program Penyelenggaraan Kesejahteraan Sosial 1.RT/RW 2.Kepala Lingkungan 2. Kepala Desa/Lurah/Dusun/Nama lain 3. Potensi dan Sumber Kesejahteraan Keluarga (PSKS) 4. Masyarakat ke Perangkat Desa/Kel./Nama lain.Proses Usulan Data
+(Bab II Bagian Kedua Proses Usulan Data)Kementerian Sosial Pemerintah Daerah MasyarakatUsulan Daerah Melalui Aplikasi SIKS -NG User Pengisi Data Desa/Kelurahan (Pasal 4) Usulan Data melalui Aplikasi Cek BansosUsulan Data melalui Aplikasi SIKS -CC Usulan Dinas Sosial Kabupaten/KotaUsulan Daerah Melalui Aplikasi SIKS -NG User Pengisi Data Kabupaten/Kota Musyawarah Desa/kelurahanKementerian Sosial.
+Verifikasi dan Validasi dilakukan PSKS menggunakan Aplikasi SIKS -MAJalur Formal Jalur Partisi patif
+(Pasal 10)(Pasal 5)(Pasal 9) Penentuan Tingkat Kesejahteraan
+(Pasal 5 -ayat 2)Badan Pusat Statistik (BPS)Pengesahan Pemerintah Daerah Kabupaten/Kota
+(Pasal 8)
+(Pasal 11)
+Kanal Pengaduan  masyarakat Aplikasi  SIKS  NG Aplikasi  Cek Bansos Command  Center  171
+Tampilan  Cek Bansos
+VARIABEL LENGKAP DTSEN - DATA KELUARGA
+VARIABEL LENGKAP DTSEN - DATA INDIVIDU
+PENERAPAN PERINGKAT KESEJAHTERAAN UNTUK PENETAPAN DATA PENERIMA PROGRAM
+*  Penetapan  data penerima  program mempertimbangkan  alokasi  distribusi  pemenuhan  program dan kriteria  khusus  sesuai dengan  jenis  program masing -masing. Penetapan  peringkat  kesejahteraan  ini dapat  dievaluasi  di masa yang akan  datanga. Kelompok Desil 1 – 4 b. Penerima  bantuan program  ATENSI  dapat menerima  bantuan  sosial PKH diluar  DTSEN berdasarkan  hasil asesmen .
+c. Penerima  PKH yang berada diluar kelompok desil  masih  dapat mendapatkan  bantuan PKH apabila  belum dilakukan  GC.a. Kelompok Desil 1 – 5 b. Penerima  bantuan program  ATENSI  dapat menerima  bantuan  sosial SEMBAKO  diluar  DTSEN berdasarkan  hasil asesmen .
+c. Penerima  SEMBAKO  yang berada diluar kelompok desil  masih  dapat mendapatkan  bantuan SEMBAKO  apabila  belum dilakukan  GC .a. Kelompok  Desil 1- 5 atau berdasarkan  hasil asesmen  program b. Penerima  bantuan program  ATENSI  dapat menerima  bantuan  sosial PKH/SEMBAKO  diluar DTSEN  berdasarkan  hasil asesmen .a. Kelompok Desil 1-5 b. Penerima  PBI JK yang berada diluar kelompok desil  masih  dapat mendapatkan  bantuan  PBI JK apabila  belum dilakukan  GC .Kelompok  Desil 1- 5 atau sesuai  hasil asesmen masing -masing program Kepmensos Nomor 79/H UK/2025 Pada DIKTUM KEEMPAT MENERAPKAN
+PENERAPAN PEMENUHAN PROGRAM TIDAK DAPAT DIPENUHI DARI INDIVIDU DAN/ATAU KELUARGA DENGAN KRITERIA Bekerja  sebagai  ASN/TNI/POLRI/ pegawai BUMN/BUMD/ Pejabat  NegaraAlamat Tidak Ditemukan Individu Tidak Ditemukan Meninggal  Dunia Keluarga  ASN/TNI/POLRI/ pegawai BUMN/BUMD/ Pejabat  Negara Sesuai DIKTUM KETUJUH Kepmensos Nomor 79/HUK /2025 Tentang Penetapan  Peringkat Kesejahteraan  Keluarga  untuk  Penyaluran  Bantuan Sosial dan Bantuan Program Kesejahteraan  Sosial di Lingkungan  kementerian  sosial .
+PENETAPAN DATA PENERIMA PROGRAM DAPAT DILAKSANAKAN TANPA MEMPERTIMBANGKAN PERINGKAT KESEJAHTERAAN DAN/ATAU KEBERADAAN DATA DALAM DTSEN Sesuai  dengan  Kebijakan  Pemerintah  Dan/Atau Arahan Presiden /Wakil Presiden .Situasi  Kebencanaan Pemerlu  Pelayanan  Kesejahteraan  Sosial ditemukan dalam  kondisi  tidak  tertangani Kondisi  Lain yang Mengancam  Keselamatan  atau Kedaruratan Sesuai Pasal 16 Ayat 2 Permensos Nomor 3 Tahun 2025 Tentang Pemutakhiran dan Penggunaan DTSEN untuk Bantuan Sosial, Pemberdayaan Sosial, dan Program Penyelenggaraan Kesejahteraan Sosial.
+REKAPITULASI HASIL GROUNDCHECK (GC) DTSEN PRELISTJUMLAH SUDAH DISURVEY
+(KK) Exclusion 2.645.058 Inclusion Non Active Grand Total3.382.887 2.747.460 8.775.405Rangkuman Pelaksanaan Groundcheck
+(Kemensos - BPS) 1.Sosialisasi dan pelatihan online GC (pengecekan lapangan) DTSEN kepada 33.603 pendamping PKH di Kantor BPS, Jakarta pada 26 -27 Februari 2025 2.GC dilaksanakan serentak seluruh di Indonesia mulai 1 Maret 2025 3.Capaian GC 8,7 jt KK selama 50 hari 4.Kecepatan GC ± 5,2KPM/hari/pendamping (libur tetap kerja) 5.Kecepatan GC ± 7,2KPM /hari/pendamping (libur istirahat) Catatan : 1.Hasil GC sudah diserahkan ke BPS pada tanggal 21 April 2025 dan selanjutnya akan digunakan untuk mengupdate variabel dan Pemeringkatan ulang DTSEN oleh BPS; 2.BPS menggunakan hasil GC untuk memperbarui metode pemeringkatan kesejahteraan dan hasilnya dengan metode baru tersebut angka Inclusion Error  menurun; 3.Pada tanggal 15 Mei 2025 , BPS sudah menyerahkan kembali sebanyak 20 juta Keluarga penerima bantuan sosial Triwulan I dengan desil terbaru; 4.DTSEN baru hasil GC dan perangkingan akan digunakan sebagai dasar penyaluran bantuan sosial tahap II yang akan disalurkan bul an Mei-Juni 2025.
+PENENTUAN PENERIMA BANSOS TRIWULAN II Sebelum  penetapan  penerima  Bantuan  Sosial  PKH dan BPNT/ Sembako  Tw II, data  calon  penerima  diolah  oleh  BPS dan direview  oleh  BPKP . Memperhatikan  rekomendasi  BPKP ,  maka  kaidah  penetapan  calon  penerima  bansos sebagai  berikut : C. Kaidah  Pemenuhan  Bansos  Tw II : 1.Keluarga  Exclusion Error  hasil  GC pada desil  1-4; 2.Mekanisme Komplementaritas  (KPM termiskin  desil  1-2 yang baru  mendapatkan  1 jenis  bantuan  akan dilengkapi ); 3.Bagi KPM Bansos  Tw I yang berada  di desil  5-10 tetap  dapat  menerima  bansos  sebelum  mereka  dilakukan Groundcheck.B. Penerima  Bansos  Tw I yang Tidak  disalurkan  pada Tw II : 1.KPM PKH pada desil  5-10 setelah  dilakukan  Groundcheck ; 2.KPM BPNT/ Sembako  pada desil  6-10 setelah  dilakukan  Groundcheck ; 3.KPM PKH/BPNT/ Sembako  yang berada  di luar DTSEN.A. Penerima  Bansos  Tw I yang  Tetap  disalurkan  pada  Tw II: 1.KPM PKH berada  pada desil  1-4 dengan  syarat  masih  memiliki  Komponen  PKH; 2.KPM BPNT/ Sembako  pada desil  1-5
+PENENTUAN PESERTA PBI MEI 2025 A.Kaidah peserta PBI April yang Tetap menjadi peserta PBI JK Mei 2025 : Penerima PBI yang berada di Desil Bawah, baik yang sudah di GC maupun belum  tetap bisa menerima PBI JK.
+B. Kaidah peserta PBI JK April yang dikeluarkan dari peserta PBI JK Mei 2025 :
+•Berada pada DTSEN dengan Desil 6 -10 sebanyak 2.306.943 jiwa.
+•Berada di luar DTSEN sebanyak 5.090.334 jiwa.
+C.Kaidah pemenuhan Kuota PBI JK :
+•Membuat proporsi jumlah PBI -JK dengan angka kemiskinan kab/kota yang dikeluarkan BPS (Maret 2024).
+•Membandingkan jumlah PBI JK Kab/Kota existing dengan proporsi seharusnya untuk menentukan daerah tersebut under/over kuota, jika jumlah PBI JK existing sudah melebihi proporsi seharusnya daerah tersebut termasuk daerah over begitu juga sebaliknya.
+•Mendistribusikan sisa kuota nasional kepada daerah under kuota dengan prioritas : 1.DTSEN Desil 1 -5 yang bukan peserta PBI JK dan sudah di GC.
+2.Daftar tunggu dari usulan yang disahkan oleh kepala daerah.
+3.DTSEN Desil 1 -5 yang bukan peserta PBI JK sisanya.
+1.Keputusan Menteri nomor  80/HUK/2025  (SK PBI Mei).
+2.Surat Dinas Menteri Sosial  kepada  Kepala Dinas Sosial  Kab/Kota seluruh  Indonesia, Nomor  S-445/MS/DI.01/6/2025 tanggal 03 Juni 2025 perihal Pemberitahuan  Perubahan Data Peserta  PBI JK Berdasarkan  DTSEN, tembusan  Kepala  Dinas Sosial  Provinsi Seluruh  Indonesia  dan BPJS Kesehatan.
+3.Surat Dinas Menteri Sosial kepada  Kepada Menteri Kesehatan nomor  S- 444/MS/DI.01/6/2025  tanggal  3 Juni 2025 perihal  Reaktivasi Kepesertaan PBI Jaminan Kesehatan, tembusan direktur utama BPJS.
+DASAR PELAKSANAN REAKTIVASI PBI JK
+KETENTUAN REAKTIVASI PESERTA PBI Surat Dinas Menteri Sosial Nomor S-494/MS/DI.01/7/2025 B. Menyertakan  surat  keterangan  reaktivasi  kepesertaan  PBI JK dari Dinas  Sosial Kabupaten /Kota  dan surat  keterangan  membutuhkan  layanan  kesehatan  dari fasilitas kesehatan ; danA. Peserta  PBI yang  dinonaktifkan  per bulan  Mei 2025  dan periode  penghapusan selanjutnya , namun  kemudian  terbukti  masih  membutuhkan  layanan  kesehatan  segera karena  mengalami  penyakit  kronis , katastropik , atau  kondisi  darurat  medis  yang membahayakan  keselamatan  jiwa, dapat  diajukan  untuk  reaktivasi  bersyarat  selama masuk  dalam  kategori  masyarakat  miskin  atau  rentan  miskin  (berdasarkan  hasil verifikasi  dan validasi  Dinas  Sosial  Kabupaten /Kota) ; C. Melakukan  pemutakhiran  data  peserta  PBI JK yang  diajukan  reaktivasi , paling  lambat dua periode  pemutakhiran  DTSEN  setelah  kepesertaan  diaktifkan .
+TERIMA KASIH Pusdatin@2025
+
+PEMERINGKATAN DATA TUNGGAL SOSIAL EKONOMI NASIONAL Jakarta, 08 -07-2025Tim Pemeringkatan DTSEN BPS
+2Proses Integrasi Data ( Pemadanan ) Relasi IndividuRelasi KeluargaPenunggalan Keluarga Penunggalan Individu Verifikasi NIKKonfirmasi Individu , Keluarga , dan DomisiliPemadanan Individu Regsosek ×P3KE ×DTKSNIK Valid Pemadanan Deterministik NIK Tidak Valid Pemadanan Probabilistik Data Regsosek menjadi baseline kerena memiliki waktu lebih awal dan cakupan yang lebih luas dan pendataan dilakukan oleh BPS.
+Data yang tidak padan akan menjadi record baru ,termasuk selisih data yang ada diDUKCAPIL .
+Data BPJS Kesehatan digunakan untuk konfirmasi domisili dan memutakhirkan status kematian * Paralel proses pemadanan data individu Regsosek ,P3KE, dan DTKS oleh Dukcapil .Hasil pemadanan dapat memperkuat data tunggal melalui penunggalan individu dan keluarga serta domisili keberadaan .
+21 3 Penunggalan & Pengayaan Karakteristik /Variabel Pemeringkatan Status KesejahteraanDUKCAPIL Data Tunggal Sosial Ekonomi NasionalSumber data lain digunakan , termasuk PLN dan BPJS Ketenagakerjaan 2
+3Metode Pemeringkatan DTSEN Lengkap , Parsial (GC dan Pemutakhiran ) Versi Mei 20251.
+DTSEN Model PMT Regsosek2. GC Pengembangan Model PMT3.
+Pemuta khiran
+➢Karena perbedaan kelengkapan data!
+❖PEMERINGKATAN LENGKAP❖PEMERINGKATAN PARSIAL
+4Pemeringkatan DTSEN Lengkap sebelum GC
+5Pemeringkatan Kesejahteraan DTSEN Lengkap TUJUAN : sebagai dasar targeting pemberian bantuan sosial.
+Relasi keluarga : 89 juta* Persentase padan Regsosek x P3KE x DTKS : 41%*Gambaran Hasil Pemadanan * 12 3 45 6 7TANTANGAN: Pemeringkatan dilakukan untuk seluruh keluarga pada Data Tunggal hasil pemadanan (terdiri dari 7 kondisi /relasi ) Cakupan dan ketersediaan variabel ketiga sumber data berbeda
+•Regsosek: target 100 persen keluarga , memiliki variabel penciri kesejahteraan yang lebih lengkap .
+•P3KE: target 100 persen keluarga , terdapat desil secara nasional .
+•DTKS: 48% keluarga sasaran , sangat minim variabel penciri kesejahteraan .
+Pemeringkatan dilakukan pada tingkat kabupaten/kota , provinsi , dan nasional .*
+*) Angka sebagai ilustrasi saja
+6TANTANGAN: Perbedaan Variabel Penciri Kesejahteraan 1. Memiliki tempat berteduh tetap 2. Kepala keluarga masih bekerja 3. Pernah khawatir atau tidak makan dalam setahun terakhir 4. Pengeluaran pangan lebih besar 50% dari total pengeluaran 5. Pengeluaran untuk pakaian selama setahun terakhir 6. Tempat tinggal berlantai tanah dan/ atau plesteran 7. Tempat tinggal berdinding bambu /kawat /kayu 8. Tempat tinggal memiliki fasilitas BAB sendiri 9. Sumber penerangan listrik PLN 450 watt atau bukan listrikNo. Variabel Penciri Kesejahteraan Regsosek P3KE 1jenis dinding V V 2jenis atap V V 3jenis lantai teluas V V 4jenis kloset V 5tempat pembuangan tinja /akhir V V 6bahan bakar memasak V V 7sumber air minum V V 8status penguasaan bangunan V V 9sumber penerangan V V 10luas lantai perkapita V 11jumlah anggota keluarga menurut kelompok umur V V 12jumlah anggota keluarga menurut pendidikan tertinggi yang ditamatkan V V 13jumlah anggota keluarga menurut lapangan pekerjaan V V 14jumlah anggota keluarga menurut status dalam pekerjaan V 15mobil V 16komputer /Laptop V 17kulkas V 18emas V 19perahu motor V 20sepeda motor V 21perahu V 22telepon seluler VVariabel DTKS Isian jawaban biner 0 dan 1
+7Pemeringkatan DTSEN lengkap Mendapatkan ෠𝑌P3KE dengan metode imputasi regresi variabel P3KE Area 4, 6 Mendapatkan Skor DTKS dengan metode scoring variabel DTKS Area 7Menggunakan Model PMT Regsosek untuk data Regsosek Area 1, 2, 3, 5 12 345 6 7Relasi Data Regsosek –P3KE -DTKS
+෠𝑌_regsosek
+෠𝑌_P3KE 𝑆𝑘𝑜𝑟DTKS Regsosek P3KE DTKS R_Skor 1 1 111_0 1.5552 1 1 111_1 1.5535
+… … … … 100 99 000_10 0.4885 100 100 000_10 0.4880➢Urutan dari 907.888 (101 x 101 x 89) kombinasi peringkat berdasarkan rata- rata skor pengeluaran listrik .
+➢Perbandingan antar kelkesejahteraan Skori= (Rata -rata Rp. Pemakaian Listrik)i-2➢Peringkat 1 sampai dengan N di setiap kab/kota .
+1
+⋮ 𝑘1 𝑘1+1
+⋮ 𝑘2
+.
+.
+.
+𝑘907.888+1
+⋮ 𝑁 Proses pemeringkatan pada level kabupaten /kota
+%tilSkor 1 1.6736 2 1.5339
+…… 990.4804 100 0.4786Regsosek P3KE DTKS
+%tilSkor 1 1.3184 2 1.2594
+…… 990.4890 100 0.4875Kel Skor 111_0 1.6736 111_1 1.6684
+…… 010_10 0.5539 000_10 0.4979 Yang lebih berperan pada pemeringkatan DTSEN awal adalah kombinasi peringkat dari ketiga sumber data
+Pemeringkatan DTSEN lengkap PEMERINGKATAN DTSEN PADA LEVEL NASIONAL
+➢Hasil konsisten dengan angka kemiskinan makro (ekstrem , miskin, rentan miskin) untuk seluruh kabupaten /kota.
+➢Menggunakan pembobot yang diperoleh dari rasio garis kemiskinan nasional dengan kabupaten /kota
+➢Dapat mensinergikan kemiskinan mikro dan kemiskinan makro , di mana targeting keluarga sasaran dapat memanfaatkan angka kemiskinan makro dan data kemiskinan mikro dapat digunakan sebagai evaluasi kemiskinan makro .
+00,050,10,150,20,250,30,350,40,450,5 0 0,1 0,2 0,3 0,4 0,500,10,20,30,40,50,60,70,80,9 0 0,2 0,4 0,6 0,8 1Plot Kemiskinan P0 Kab/Kota Makro  ( Susenas ) vs DTSENPlot Persen Rentan Miskin Kab/Kota Makro ( Susenas ) vs DTSEN 0102030405060708090 0 20 40 60 80 100Persen Keluarga DTKS Angka Makro RMDTKS vs Angka Makro Rentan Miskin
+9Evaluasi Metode Pemeringkatan DTSEN Evaluasi Umum DTSEN dengan Penerima Bantuan TW 1 2025 :
+➢Angka IE pada tabel merupakan dugaan (perkiraan ) yang perlu verifikasi
+➢Memberikan gambaran persentase penerima bantuan yang diduga tidak layak menerima berdasarkan Kepmensos .Metode PemeringkatanBantuan PKH Bantuan Sembako Bantuan PBI Desil 1-4Desil 1-5Desil 1 -6Desil 1-4Desil 1-5Desil 1-6Desil 1-4Desil 1-5Desil 1-6 Metode 82% 92% 97% 78% 89% 96% 75% 87% 95% IE = 18% IE = 11% IE = 13%Persentase penerima bantuan menurut jenis bantuan , desil dan metode :
+⃰Berdasarkan Keputusan Menteri Sosial RI No.73/HUK/2025
+10Catatan Pemeringkatan DTSEN Lengkap Catatan :
+•Metode pemeringkatan lengkap (awal) hanya digunakan pada saat integrasi tigadata utama saja, selanjutnya akan menggunakan pengembangan Model PMT.
+•Yang lebih berperan pada pemeringkatan DTSEN awal adalah kombinasi peringkat dari ketiga sumber data. Peringkat terbawah ketika Regsosek dan P3KE menyatakan persentil 1 dan DTKS menyatakan skor kecil dan mendapatkan bantuan , demikian pula sebaliknya .
+•Peringkat nasional dibentuk berdasarkan angka kemiskinan makro Susenas , berdampak pada Kab/kota dengan angka kemiskinan rendah namun persentase penerima bantuan besar , akan lebih banyak penerima bantuan yang keluar , demikian pula sebaliknya .
+•DTSEN bagai bayi yang baru lahir, proses pemadanan dan pemeringkatan sudah dilakukan secara optimal namun masih terdapat kesalahan yang disebabkan karena perbedaan cakupan dan kelengkapan data, proses pemadanan , dan proses pemeringkatan . Idealnya setelah DTSEN terbentuk dilakukan verifikasi secara menyeluruh .
+11Metode Pemeringkatan Parsial
+(GC)
+12Pemeringkatan DTSEN Parsial (GC) BAGAIMANA MENYISIPKAN SEBAGIAN KELUARGA (HASIL GC) KE DALAM DTSEN?
+1.Buat distribusi persentil (semesta ) untuk setiap kabupaten /kota menggunakan data Regsosek dengan model PMT 2.Prediksi pengeluaran perkapita (Y_hat) berdasarkan model PMT* (belum mengakomodir variabel tambahan dan isian pada kepemilikan asset) untuk keluarga hasil pemutakhiran 3.Berdasarkan nilai Y_hat, setiap keluarga hasil pemutakhiran dicari posisi peringkatnya (persentil), dengan menggunakan distribusi prediksi pengeluaran perkapita pada data regsosek lengkap (semesta).
+4.Y_hat juga dilakukan penyesuaian berdasarkan kriteria keluarga tunggal lansia, disabilitas, KK Perempuan, penyakit kronis, dan keluarga tunggal disabilitas.
+5.Jika terdapat peran masyarakat (musdes/muskel/FKP) dan  data -data administrative dari KL lain, maka digunakan sebagai penyesuaian.
+6.Untuk kasus GC (karena cukup banyak) dilakukan perangkingan kembali untuk seluruh data di DTSEN.
+7.Peringkat dihasilkan pada tingkat kab/kota, provinsi, maupun nasional.
+* IE/EE model PMT berdasarkan Susenas berkisar 29%Kab persentil1 persentil2 persentil3 … persentil98 persentil99 persentil100 1101 627,381.9 680,332.3 714,726.2 … 3,818,982.0 4,452,549.5 9,923,277.4 1102 609,047.7 665,948.5 706,319.7 … 3,534,185.1 4,110,719.0 18,159,717.7
+… … … … … … … … 9436 484,787.4 510,638.2 510,876.5 … 3,351,515.9 3,590,805.6 22,346,912.5 9471 621,469.9 675,099.2 714,759.1 … 4,505,241.8 5,080,925.8 517,289,723.4
+13Variabel lengkap DTSEN 26 Informasi Keluarga 13 Informasi Individu No. Variabel Keterangan 1-12Identitas Identitas wilayah dan keluarga 13 keluarga dalam rumah Jumlah keluarga yang tinggal dalam satu rumah 14 status kepemilikan rumah status kepemilikan rumah yang dihuni 15 jenis lantai terluas jenis lantai terluas darirumah yang dihuni 16 jenis dinding terluas jenis dinding terluas darirumah yang dihuni 17 jenis atap terluas jenis atap terluas darirumah yang dihuni 18 sumber air minum utama sumber air minum utama darirumah yang dihuni 19 sumber penerangan utama sumber penerangan utama darirumah yang dihuni 20daya terpasang daya listrik terpasang darirumah yang dihuni 21 id meteran PLN ID pelanggan / nomor meteran PLN rumah yang dihuni 22 bahan bakar utama memasak bahan bakar utama memasak darirumah yang dihuni 23 fasilitas bab fasilitas babdarirumah yang dihuni 24 jenis kloset jenis kloset yang digunakan darirumah yang dihuni 25 pembuangan akhir tinja jenis pembuangan akhir tinja darirumah yang dihuni 26 Kepemilikan :Asset bergerak : tabung gas, lemari es, AC, pemanas air, telepon rumah , tv datar , emas perhiasan , komputer / laptop/ tablet, sepeda motor, sepeda , mobil , perahu , kapal perahu motor, smartphone; Aset tidak bergerak : sawah kebun , lahan lainnya , rumah lainnya ; Ternak : ternak besar (sapi, kerbau , kuda ), ternak kecil (kambing , domba , babi)No Nama Variabel Konsep Definisi 1-6Identitas Identitas keluarga dan individu 7 status hubungan keluargastatus hubungan anggota keluarga terhadap kepala keluarga 8 status kawin status perkawinan individu 9 pendidikan partisipasi sekolah dan pendidikan terakhir individu 10 pekerjaan status dan lapangan usaha pekerjaan utama individu 11 kepemilikan usaha jumlah usaha dan lapangan usaha yang dimiliki 12 penyandang disabilitas status penyandang disabilitas pada individu 13 penyakit kronis keluhan kesehatan kronis /menahun pada individu Kualitas data menjadi sangat penting !
+14Urutan Variabel yang Berperan pada Model PMT 1. Keluarga memiliki aset bergerak 1)Mobil 2)AC 3)Sepeda Motor 4)Emas/ Perhiasan -minimal 10 gram 5)Komputer /Laptop 6)Kulkas 7)Telepon Rumah 8)Perahu Motor 9)Water Heater 10)Perahu 2. Ijazah/STTB tertinggi yang dimiliki anggota keluarga 3. Jumlah anggota keluarga 4. Bahan bakar /energi utama untuk memasak 5. Sumber air minum utama 6. Lapangan usaha dan status dariperkerjaan utama anggota keluarga 7. Sumber penerangan utama 8. Jenis lantai terluas 9. Jenis kloset , kepemilikan dan penggunaan fasilitas tempat buang air besar 10. Jenis dinding terluas 11. Jenis atap terluas 12. Status kepemilikan bangunan tempat tinggal yang ditempati 13. Tempat pembuangan akhir tinja! Sayangnya kepemilikan aset bergerak masih menggunakan jawaban ya/tidak belum menggunakan jumlah , dan jenis karakteristik rumah tidak melihat kualitas .
+15Catatan Pemeringkatan DTSEN Hasil GC Catatan :
+•Pemeringkatan hasil GC tidak bisa 100% benar , perkiraan Inclusion dan Exclusion Errors (IE/EE) model berkisar 20-30% yang disebabkan proses pendataan , entri data, dan model pemeringkatan .
+•Pemeringkatan GC belum melibatkan Forum Masyarakat (FKP/ musdes /muskel padahal halini dapat mengurangi kesalahan pemeringkatan .
+Sumber Error PMT: The PMT is so inaccurate
+(Kidd et.al., 2017)
+•In-built design errors
+•Implementation errors
+•The static nature of the instrument
+16Metode Pemeringkatan Pemutakhiran
+(Pengembangan Model PMT)
+17Rencana Perbaikan Pemeringkatan Keluarga Pemutakhiran DTSEN 1.Model PMT dengan memperkaya variable kepemilikan asset ( jumlah ), lahan dan ternak .
+2.Memanfaatkan Data Administrasi seperti PLN, BPJS, PBB, Samsat , BKN dllsebagai dasar untuk menyesuaikan peringkat dan atau menetapkan peringkat (Mean Test ) 3.Melibatkan informasi dari Forum Komunikasi kePublik seperti Musdes/Muskel atau FKP desa /rt/rw 4.Mengembangkan Model PMT Machine Learning dan PMT SAE Multilevel (unit & area) 5.Memanfaatkan fotokondisi rumah (tampak depan , dapur , kamar mandi) untuk memetukan kesejahteraan melalui metode image -based classification 6.Pengembangan distribusi pengeluaran perkapita susenas untuk penggabungan peringkat di level Nasional 7.Membuat sistem otomatis pemeringkatan untuk setiap data yang masuk (otomatisasi )
+18Solusi Perbaikan Kesalahan (IE/EE)
+•Mengoptimalkan mekanisme pembaharuan , usul-sanggah dan verifikasi lapangan .
+•Pelibatan Masyarakat melalui forum misalnya FKP dan musdes /muskel yang terkontrol dan terukur .
+Terima Kasih
+•Tidak adamodel yang bisa menangkap semua kompleksitas realitas , setiap model memiliki asumsi , batasan , dan penyimpangan darikenyataan .
+•Gunakan model secara bijak, jangan mempercayai model seolah itukebenaran mutlak , tapijuga jangan menolaknya hanya karena tidak sempurna .
+20Ringkasan Pemeringkatan Data DTSEN Awal Data hasil GC 1 Data Pemutakhiran
+•Kondisi data berbeda baik cakupan , kelengkapan , dan periode waktu .
+•Memanfaatkan peringkat masing - masing sumber data (Persentil Regsosek , Persentil P3KE, Skor DTKS) untuk dibuat skor komposit .
+•Peringkat terbawah ketika Regsosek dan P3KE menyatakan Persentil 1 dan DTKS menyatakan skor kecil dan mendapatkan bantuan , demikian pula sebaliknya .•Sudah tidak melihat sumber data tetapi memperhatikan variabel penciri kesejahteraan .
+•Menggunakan model Proxy Mean Test
+(PMT) Regsosek untuk memprediksi pengeluaran perkapita keluarga .
+•Peringkat ditentukan lokasi hasil PMT berdasarkan sebaran data Regsosek di DTSEN yang sebanding .
+•Variabel yang berperan : aset, pendidikan , pekerjaan , dan karakteristik perumahan .•Memanfaatkan 39 variabel dan forum Masyarakat ( musdes /muskel )
+•Menggunakan model Proxy Mean Test
+(PMT) yang dikembangkan dengan Machine Learning.
+•Memanfaatkan Data Administrasi seperti PLN, BPJS, PBB, Samsat , BKN dllsebagai dasar untuk menyesuaikan peringkat .
+•Memanfaatkan fotokondisi rumah untuk memetukan kesejahteraan melalui metode image -based classification .
+Motivasi : Tingkat kesalahan (IE/EE) terus semakin mengecil
+21Isutrasi Desil dan Pengeluaran Perkapita Pengertian Desil Ilustrasi Desil pada Pengeluaran Perkapita Desil : Membagi data yang sudah DIURUTKAN kedalam 10 bagian yang sama besar . Masing -masing bagian disebut desil pertama (D1), desil kedua
+(D2), hingga desil kesepuluh (D10).
+22Pemeringkatan DTSEN lengkap Mendapatkan ukuran urutan kesejahteraan keluarga di dalam setiap kelompokMenetapkan mekanisme pemeringkatan antar kelompokMendapatkan peringkat kesejahteraan keluarga pada tingkat kab/kota , provinsi dan nasional
+•Memanfaatkan peringkat kesejahteraan dari setiap sumber data ( persentil regsosek , persentile P3KE, dan kombinasi skor dan bantuan DTKS).
+•Membentuk dan menetapkan urutan kombinasi peringkat kesejahteraan dengan memanfaatkan data PLN
+(rupiah pengeluaran Listrik 10,99 juta sampel keluarga yang eligible)•Memeringkatkan berdasarkan urutan kombinasi kelompok kesejahteraan dan urutan dalam kelompok
+•Melakukan penyesuaian pada keluarga dengan kondisi tertentu .
+•Membuat peringkat pada level provinsi dan nasional .
+•Menggunakan pendekatan distribusi Burr XII (3 parameter) .•Ukuran yang sebanding untuk mengurutkan kesejahteraan keluarga di dalam kelompok (dari sumber data yang sama ), namun tidak dapat dibandingkan antar kelompok .
+•Menggunakan ukuran dari 3 model: PMT Regsosek , Imputasi P3KE, Scoring DTKS .1 3 2Strategi pemeringkatan : Bottom -Up (mengurutkan antar kelompok →mengurutkan di dalam kelompok
+→dan memeringkatkan pada level yang lebih tinggi )
+23Pemeringkatan DTSEN lengkap PEMERINGKATAN DTSEN PADA LEVEL NASIONAL
+➢Perlu ukuran yang dapat dibandingkan antar kab/kota→prediksi pengeluaran perkapita sintetik dengan pendekatan distribusi .
+➢Distribusi pengeluaran perkapita diasumsikan mengikuti distribusi Burr XII dengan 3 parameter yaitu shape1, shape2, dan scale yang diperoleh berdasarkan angka kemiskinan makro kabupaten /kota tahun 2024 (miskin ekstrem , miskin dan rentan miskin).
+➢Contoh : PDF Kabupaten Mandailing Natal hasil estimasi pada DTSEN dan perbandingannya dengan data Susenas .
+Angka Makro Estimasi DTSEN Distribusi SusenasDistribusi DTSEN Miskin Ekstrem Miskin Rentan Miskin GK % GK % GK % 323.259 0,72 519.553 7,96 831.285 37,21
+24PROXY MEAN TEST 1.Proxy mean test (PMT) merupakan metode yang memprediksi tingkat konsumsi rumah tangga menggunakan informasi karakteristik rumah tangga dan komunitas yang diperoleh melalui data survei rumah tangga . Karakteristik yang dipilih adalah yang berkorelasi dengan kesejahteraan /kemiskinan dan mudah diverifikasi seperti komposisi rumah tangga , kondisi perumahan , kepemilikan aset , status pekerjaan , dsb.
+2.Model PMT dibangun berdasarkan regresi konsumsi perkapita spesifik kabupaten /kota untuk diperhitungkan secara eksplisit heterogenitas antar wilayah.
+3.PMT telah menjadi metodologi penargetan pilihan di banyak negara berpenghasilan rendah dan menengah , seperti Bangladesh , Uganda , Nepal , Pakistan , Rwanda, Sri Lanka, Mexico, Kamboja , Palestina , dll(Kidd et.al., 2017) 4.Bank Dunia mempromosikan PMT dapat secara akurat dan hemat biaya menargetkan orang miskin kronis (del Ninno dan Mills, 2015)TENTANG PMT
+25Model Umum PMT vh vh vhy vh  +++='ln'X Log konsumsiKarakteristik rumah tanggaError Karakteristik Komunitas lny : log pengeluaran rumah tangga h : rumah tangga h, ν : desa/kelurahan ν, X : variabel penjelas, α : intercept , β : koefisien parameter rumah tangga hasil estimasi pada variabel yang terkait dan
+ : Koefesien karakteristik komunitas η : Karakteristik Komunitas Sumber Data Utama: Susenas Gabungan
+(Pooled ) Maret 2017 -2022 Cakupan Varibel PMT 2022: Variabel pengeluaran, variabel demografi, pendidikan, ketenagakerjaan, kondisi perumahan, kepemilikan asset Pengembangan Model : pengembangan alternatif model dilakukan untuk 514 kabupaten/kota Cakupan sampel : seluruh rumah tangga yang terdiri dari 1 keluarga Evaluasi Model : Adj R -square; IE/EE serta memperhatikan kelogisan tanda koefisien model; Pengecekan lapangan melalui mekanisme Ground Check hasil pemodelan.MODEL PMT
+26Evaluasi Metode Pemeringkatan DTSEN Evaluasi Umum Pemeringkatan DTSEN dengan Susenas 2024:
+➢Menggunakan sampel Susenas 2024 yang padan dengan DTSEN ( 325.585 rumah tangga )
+➢Kenaikan IE/EE pada DTSEN dibandingkan dengan hasil Testing Model disebabkan 1.Perbedaan cakupan sampel Susenas vs populasi DTSEN, 2.Perbedaan waktu Susenas 2024 vs DTSEN beragam 2022 -2025.
+➢Proporsi IE/EE lebih besar pada kelompok tengah (Desil 4-6)
+➢Secara umum kualitas pemeringkatan DTKS lebih baik daripada Regsosek , apalagi P3KE, halini dikarenakan cakupan DTKS yang hanya 48% keluarga berpendapatan terendah .Ukuran DTSEN Awal IE/EE DTSEN 0.374 IE/EE REGSOSEK 0.380 IE/EE P3KE 0.392 IE/EE DTKS 0.235IE/EE Model PMT 0.290
+27Target Pemeringkatan GC Data hasil pendataan Keluarga GC DTSEN: Belum di -GC, cakupan GC tidak lengkap .
+LANJUT SURVEI 6.992.702 (80%)TIDAK LANJUT SURVEI 1.782.703 (20%)
+•Update Pemeringkatan berdasarkan data GC berdasarkan model PMT regsosek
+•Hanya 57% dari target•70% tidak ditemukan dan tidak eligible, perlu diantisipasi untuk keluarga sasaran baru
+•Tetap Mengunakan peringkat awalJenis Prelist TargetSudah Disurvei Belum Disurvei Jumlah Persen Jumlah Persen Exclusion 3,762,702 2,645,058 70.30 1,117,644 29.70 Inclusion 4,530,326 3,382,887 74.67 1,147,439 25.33 Nonactive 3,940,211 2,747,460 69.73 1,192,751 30.27 Total 12,233,239 8,775,405 71.73 3,457,834 28.27 tidak_lanjut Persen meninggal 20% menolak 10% tidak_ditemukan 67% tidak_eligible 3% tinggal_di_lembaga 0%
+
+- 1 -
+
+PERATURAN MENTERI SOSIAL REPUBLIK INDONESIA NOMOR 3 TAHUN 2025 TENTANG PEMUTAKHIRAN DAN PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL UNTUK BANTUAN SOSIAL, PEMBERDAYAAN SOSIAL, DAN PROGRAM PENYELENGGARAAN KESEJAHTERAAN SOSIAL
+
+DENGAN RAHMAT TUHAN YANG MAHA ESA
+
+MENTERI SOSIAL REPUBLIK INDONESIA,
+
+
+Menimbang  : a. bahwa untuk memberikan acuan bagi kementerian/lembaga dan pemerintah daerah dalam pemutakhiran dan penggunaan data tunggal sosial dan ekonomi nasional untuk bantuan sosial, pe mberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial, perlu adanya pengaturan mengenai pemutakhiran dan penggunaan data tunggal sosial dan ekonomi nasional; b. bahwa Peraturan Menteri Sosial Nomor 3 Tahun 2021 tentang Pengelolaan Data Terpadu K esejahteraan Sosial sudah tidak sesuai dengan perkembangan masyarakat dan kebutuhan hukum , sehingg a perlu diganti; c. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Menteri  Sosial tentang Pemutakhiran dan Penggunaan Data Tunggal Sosial dan Ekonomi Nasional untuk Bantuan Sosial, Pemberdayaan Sosial, dan Program Penyelenggaraan Kesejahteraan Sosial;
+
+Mengingat  : 1. Pasal 17 ayat (3) Undang -Undang Dasar Negara Republik Indones ia Tahun 1945; 2. Undang -Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916) sebagaimana telah diubah dengan Undang -Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang -Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 225, Tambahan Lembaran Negara Republik Indonesia Nomor 6994 );
+- 2 -
+
+3. Undang -Undang Nomor 11 Tahun 2009 tentang Kesejahteraan Sosial (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 12, Tambahan Lembaran Negara Republik Indonesia Nom or 4967); 4. Undang -Undang Nomor 13 Tahun 2011 tentang Penanganan Fakir Miskin (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 83, Tambahan Lembaran Negara Republik Indonesia Nomor 5235); 5. Undang -Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah (Lem baran Negara Republik Indonesia Tahun 2014 Nomor 244, Tambahan Lembaran Negara Republik Indonesia Nomor 5587) sebagaimana telah beberapa kali diubah terakhir dengan Undang - Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang –Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi  Undang - Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856); 6. Peraturan Pemerintah Nomor 39 Tahun 2012 tentang Penyelenggaraan Kesejahteraan Sosial (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 5294); 7. Peraturan Presiden Nomor 162 Tahun 2024 tentang Kementerian Sosial (Lembaran Negara Republik Indonesia Ta hun 2024 Nomor 358); 8. Peraturan Menteri Sosial Nomor 2 Tahun 2025 tentang Organisasi dan Tata Kerja Kementerian Sosial (Berita Negara Republik Indonesia Tahun 2025 Nomor 222);
+
+MEMUTUSKAN:
+
+Menetapkan  : PERATURAN MENTERI SOSIAL TENTANG PEMUTAKHIRAN DAN PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL UNTUK BANTUAN SOSIAL, PEMBERDAYAAN SOSIAL, DAN PROGRAM PENYELENGGARAAN KESEJAHTERAAN SOSIAL.
+
+BAB I KETENTUAN UMUM
+
+Pasal 1 Dalam Peraturan Menteri ini yang dimaksud dengan: 1. Data Tunggal Sosial dan Ekonomi Nasional yang selanjutnya disebut DTSEN adalah basis data tunggal individu, dan/atau keluarga yang mencakup kondisi sosial, ekonomi dan peringkat kesejahteraan keluarga, yang dibentuk dari penggabungan data registrasi sosial dan ekonomi, data terpadu kesejahteraan sosial, dan data pensasaran percepatan penghapusan kemiskinan ekstrem serta telah dipadankan dengan data kependudukan dan dimutakhirkan secara berkala yang dikelola oleh lembaga pemerintah yang melaksanakan tugas pe merintahan di bidang kegiatan statistik.
+
+- 3 -
+
+2. Pemutakhiran Data adalah proses memperbaharui dan/atau melengkapi data mengenai bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial yang sudah ada dan/atau pengusulan data untuk m ewujudkan data yang akurat, terkini dan terintegrasi.
+3. Penyelenggaraan Kesejahteraan Sosial adalah upaya yang terarah, terpadu, dan berkelanjutan yang dilakukan pemerintah, pemerintah daerah, dan masyarakat dalam bentuk pelayanan sosial guna memenuhi kebut uhan dasar setiap warga negara, yang meliputi rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan perlindungan sosial.
+4. Proses Usulan Data adalah kegiatan perubahan meliputi penambahan, penghapusan, dan perbaikan data berupa angka, teks, gambar, a udio, dan/atau video yang dilakukan dengan metode pencatatan, perekaman, atau melalui sistem elektronik.
+5. Verifikasi Data yang selanjutnya disebut Verifikasi adalah proses pemeriksaan data untuk memastikan Proses Usulan Data yang telah dilakukan sesuai deng an prosedur yang telah ditetapkan dan memastikan data yang telah dikumpulkan atau diperbaiki sesuai dengan fakta di lapangan.
+6. Validasi Data yang selanjutnya disebut Validasi adalah proses pengesahan data dengan memastikan dan memperbaiki data sehingga data  valid.
+7. Peringkat Kesejahteraan Keluarga adalah urutan tingkat kesejahteraan keluarga yang disusun berdasarkan variabel sosial ekonomi melalui penerapan metode statistik yang dilaksanakan oleh lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang  statistik.
+8. Pemerlu Pelayanan Kesejahteraan Sosial adalah perseorangan, keluarga, kelompok, dan/atau masyarakat yang karena suatu hambatan, kesulitan, atau gangguan, tidak dapat melaksanakan fungsi sosialnya, sehingga memerlukan pelayanan sosial unt uk memenuhi kebutuhan hidupnya baik jasmani dan rohani maupun sosial secara memadai dan wajar.
+9. Potensi dan Sumber Kesejahteraan Sosial adalah perseorangan, keluarga, kelompok, dan/atau masyarakat yang dapat berperan serta untuk menjaga, menciptakan, menduk ung, dan memperkuat penyelenggaraan kesejahteraan sosial.
+10. Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.
+11. Sistem Informasi Kesejahte raan Sosial Next-Generation yang selanjutnya disingkat SIKS -NG adalah sistem informasi yang mendukung proses pemutakhiran DTSEN untuk bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial.
+
+- 4 -
+
+12. Menteri adalah menteri yang menyel enggarakan urusan pemerintahan di bidang sosial.
+
+BAB II PEMUTAKHIRAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL
+
+Bagian  Kesatu Umum
+
+Pasal 2
+(1) Menteri melakukan pemutakhiran DTSEN.
+(2) Untuk mendukung pemutakhiran DTSEN sebagaimana dimaksud pada ayat (1), Menteri memperoleh DTSEN dari lembaga pemerintah yang melaksanakan tugas pemerintahan di bidang kegiatan statistik.
+(3) Pemutakhiran DTSEN sebagaimana dimaksud pada ayat
+(1) dilakukan melalui sinkronisasi DTSEN.
+
+Pasal 3
+(1) Sinkronisasi DTSEN sebagaimana dimaksud  dalam Pasal 2 ayat (3) dilakukan terhadap data yang diajukan oleh: a. Pemerintah Daerah kabupaten/kota; b. Kementerian Sosial; atau c. masyarakat.
+(2) Sinkronisasi DTSEN sebagaimana dimaksud pada ayat
+(1) dilakukan dengan tahapan: a. Proses Usulan Data; dan b. Verifikasi d an Validasi Proses Usulan Data.
+(3) Sinkronisasi DTSEN sebagaimana dimaksud pada ayat
+(2) meliputi data individu dan keluarga yang memiliki Peringkat Kesejahteraan Keluarga.
+
+Bagian Kedua Proses Usulan Data
+
+Pasal 4
+(1) Proses Usulan Data oleh Pemerintah Daerah kabupaten/kota sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf a berasal dari: a. desa/kelurahan/nama lain; dan/atau b. instansi daerah yang menyelenggarakan urusan pemerintahan di bidang sosial.
+(2) Proses Usulan Data sebagaimana dimaksud pada a yat (1) dapat berupa usulan dan/atau perubahan data individu dan keluarga.
+(3) Proses Usulan Data sebagaimana dimaksud pada ayat (1) dan ayat (2) diperuntukkan bagi individu dan/atau keluarga yang layak menerima bantuan sosial, pemberdayaan sosial, dan program  penyelenggaraan kesejahteraan sosial sesuai dengan kriteria yang ditetapkan oleh Kementerian Sosial.
+
+
+
+- 5 -
+
+Pasal 5
+(1) Pengajuan Proses Usulan Data yang dilakukan oleh Pemerintah Daerah kabupaten/kota yang berasal dari desa/kelurahan/nama lain sebagaimana dimak sud dalam Pasal 4 ayat (1) huruf a dilakukan oleh: a. ketua rukun tetangga atau ketua rukun warga; b. kepala dusun; c. kepala desa/lurah/nama lain; d. Potensi dan Sumber Kesejahteraan Sosial; dan/atau e. masyarakat kepada perangkat desa/kelurahan/ nama lain.
+(2) Pengajuan Proses Usulan Data sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui musyawarah desa/kelurahan/nama lain dan disampaikan kepada bupati/wali kota melalui camat.
+(3) Bupati/wali kota wajib melakukan Verifikasi dan Validasi Proses Usulan Data s ebagaimana dimaksud pada ayat (1).
+
+Pasal 6
+(1) Proses Usulan Data yang dilakukan oleh Pemerintah Daerah kabupaten/kota yang berasal dari usulan instansi daerah yang menyelenggarakan urusan pemerintahan di bidang sosial sebagaimana dimaksud dalam Pasal 4 ayat  (1) huruf b disampaikan kepada bupati/wali kota.
+(2) Bupati/wali kota sebagaimana dimaksud pada ayat (1) wajib melakukan Verifikasi dan Validasi Proses Usulan Data.
+
+Pasal 7
+(1) Hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 5 dan Pasal 6 disampaikan oleh pejabat yang ditunjuk bupati/wali kota kepada Menteri dengan tembusan kepada gubernur.
+(2) Penyampaian hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (1) disampaikan melalui aplikasi SIKS -NG.
+
+Pasal 8
+(1) Hasil Verifikasi dan Validasi Proses Usulan Data yang telah diterima oleh Menteri sebagaimana dimaksud dalam Pasal 7, dilakukan Verifikasi dan Validasi Proses Usulan Data oleh satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (1) paling sedikit meliputi: a. data perorangan bersifat individual dan tunggal; b. data perorangan mempunyai nomor induk kependudukan, nama, dan alamat yang sesuai dengan data ke pendudukan yang dikelola oleh direktorat jenderal yang menangani urusan kependudukan dan pencatatan sipil; c. data keluarga, kelompok, dan masyarakat merupakan himpunan data perorangan;
+- 6 -
+
+d. anggota keluarga tidak terdata ganda dengan anggota keluarga lain; dan e. kelengkapan atribut DTSEN yang digunakan untuk pemeringkatan kesejahteraan.
+(3) Dalam hal Proses Usulan Data dinilai tidak memenuhi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2), satuan kerja pengelola data di lingkungan  Kementerian Sosial mengembalikan usulan data kepada Pemerintah Daerah kabupaten/kota untuk dilakukan perbaikan data.
+
+Pasal 9
+(1) Proses Usulan Data yang dilakukan oleh Kementerian Sosial sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf b diajukan oleh unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial kepada satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial sebagaimana dimaksud pada ayat (1) melaksanakan Verifik asi dan Validasi Proses Usulan Data sebelum diajukan kepada satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(3) Dalam melaksanakan Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2), unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial dapat dibantu oleh Potensi dan Sumber Kesejahteraan Sosial.
+(4) Hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2) dan ayat (3) dilakukan Verifikasi dan Validasi Proses Usulan Data oleh satuan kerj a pengelola data di lingkungan Kementerian Sosial.
+(5) Dalam hal hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (4) dinilai tidak memenuhi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 8 a yat (2), satuan kerja pengelola data di lingkungan Kementerian Sosial menginformasikan data kepada Pemerintah Daerah kabupaten/kota untuk diperbaiki.
+
+Pasal 10
+(1) Proses Usulan Data oleh masyarakat sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf c diajukan kepada Kementerian Sosial dengan menggunakan apikasi yang dikelola oleh satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Pengajuan Proses Usulan Data sebagaimana dimaksud pada ayat (1) dilakukan Verifikasi dan Validasi Proses Usulan Data oleh: a. Potensi dan Sumber Kesejahteraan Sosial; b. Pemerintah Daerah kabupaten/kota; dan/atau c. masyarakat melalui musyawarah desa/kelurahan/ nama lain.
+
+
+- 7 -
+
+(3) Dalam hal hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2) dinilai tidak memenu hi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 8 ayat (2), satuan kerja pengelola data di lingkungan Kementerian Sosial menginformasikan data kepada Pemerintah Daerah kabupaten/kota untuk diperbaiki.
+
+Bagian Ketiga Verifikasi dan Validasi DTSEN
+
+Pasal 11
+(1) Verifikasi dan Validasi DTSEN dilakukan terhadap Proses Usulan Data yang diajukan oleh Pemerintah Daerah kabupaten/kota, Kementerian Sosial, atau masyarakat.
+(2) Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan: a. Pemerintah Daerah kabupaten/kota; b. Potensi dan Sumber Kesejahteraan Sosial; dan/atau c. Kementerian Sosial.
+(3) Hasil Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (2) dilaporkan kepada Menteri.
+(4) Hasil Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (3) disampaikan oleh Menteri kepada lembaga pemerintah yang melaksanakan tugas pemerintahan di bidang kegiatan statistik untuk dilakukan pemutakhiran DTSEN dan pemeringkatan kesejahteraan.
+
+Pasal 12 Ketentuan mengenai tata cara pengajuan Proses Usulan Data serta Verifikasi dan Validasi DTSEN sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 11 ditetapkan oleh Menteri.
+
+BAB III PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL
+
+Pasal 13
+(1) DTSEN dijadikan sebagai acuan untuk: a. bantuan sosial; b. pemberdayaan sosial; dan/atau c. program penyelenggaraan kesejahteraan sosial.
+(2) Ketentuan mengenai kriteria penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial yang dilaksanakan oleh Kementerian S osial ditetapkan oleh Menteri.
+
+Pasal 14
+(1) Menteri dapat menetapkan penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial berdasarkan DTSEN yang telah dilakukan pemutakhiran .
+
+- 8 -
+
+(2) Dalam hal DTSEN belum dilakukan pemut akhiran, Menteri dapat menetapkan penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial berdasarkan DTSEN periode sebelumnya dan perubahan data yang berasal dari kementerian/lembaga/Pemerintah Daerah kabupaten/ kota.
+(3) Perubahan data sebagaimana dimaksud pada ayat (2) terkait perubahan data kependudukan, sosial dan ekonomi individu, dan/atau keluarga.
+
+Pasal 15
+(1) DTSEN digunakan oleh: a. unit kerja di lingkungan Kementerian Sosial; b. kementerian/lembaga; c. Pemerintah Daerah; d. badan usaha milik negara atau badan usaha milik daerah; dan/atau e. masyarakat.
+(2) DTSEN sebagaimana dimaksud pada ayat (1) berupa data penerima bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahter aan sosial.
+
+Pasal 16
+(1) Unit kerja di lingkungan Kementerian Sosial sebagaimana dimaksud dalam Pasal 15 huruf a harus menggunakan DTSEN dalam pemberian bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial.
+(2) Penggunaan DTS EN sebagaimana dimaksud pada ayat (1) dapat dikecualikan dalam kondisi: a. situasi kebencanaan; b. Pemerlu Pelayanan Kesejahteraan Sosial ditemukan dalam kondisi tidak tertangani; c. kondisi lain yang mengancam keselamatan atau kedaruratan; dan/atau d. sesuai dengan kebijakan pemerintah dan/atau arahan Presiden/Wakil Presiden.
+(3) Dalam hal terjadi pengecualian sebagaimana dimaksud pada ayat (2), unit kerja di lingkungan Kementerian Sosial melaporkan data penerima program untuk diusulkan dalam DTSEN.
+(4) Ketentuan meng enai Proses Usulan Data sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 11 berlaku secara mutatis mutandis terhadap pengusulan sebagaimana dimaksud pada ayat (3).
+
+Pasal 17 Tata cara penggunaan DTSEN oleh unit kerja di lingkungan Kementerian Sosial sebagaimana dimaksud dalam Pasal 16 dilakukan dengan ketentuan: a. unit kerja mengajukan permintaan data kepada satuan kerja pengelola data; b. satuan kerja pengelola data memberikan data awal sesuai permintaan yang diajukan oleh unit kerja;
+- 9 -
+
+c. unit kerja melakukan penyaringan data sesuai dengan kriteria program yang akan diberikan; d. unit kerja menyesuaikan data yang telah dilakukan penyaringan dengan kuota jumlah penerima manfaat/keluarga penerima manfaat yang tersedia; dan e. data calon penerima manfaat/kelua rga penerima manfaat yang telah disesuaikan dengan kebutuhan program ditetapkan oleh unit kerja sebagai penerima manfaat/keluarga penerima manfaat.
+
+Pasal 18
+(1) Penggunaan DTSEN oleh unit kerja di lingkungan Kementerian Sosial untuk penyaluran bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial dengan mitra penyalur dilakukan melalui aplikasi yang dikelola oleh satuan kerja pengelola data.
+(2) Penggunaan DTSEN sebagaimana dimaksud pada ayat (1) ditindaklanjuti dengan p erjanjian kerja sama antara unit kerja di lingkungan Kementerian Sosial dengan mitra penyalur.
+(3) Mitra penyalur sebagaimana dimaksud pada ayat (2) terdiri atas bank penyalur, pos penyalur, atau pihak lain.
+
+Pasal 19 Penggunaan DTSEN oleh kementerian/lembaga , Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 15 huruf b sampai dengan huruf e wajib mendapatkan persetujuan Menteri.
+
+Pasal 20 DTSEN yang digunakan oleh kementerian/lembag a, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 19 dilakukan dengan mengajukan permohonan secara tertulis kepada Menteri sesuai dengan ketentuan peraturan perundang -undangan .
+
+Pasal 21
+(1) Permohonan penggunaan DTSEN oleh kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 20 yang telah mendapatkan persetujuan oleh Menteri, diberikan dengan ketentuan: a. Menteri menugaskan kepala satuan kerja pengelola data/wali data untuk menyiapkan DTSEN sesuai dengan permohonan; b. DTSEN yang telah disiapkan oleh kepala satuan kerja pengelola data/wali data dituangkan dalam bentuk surat pernyataan kerahasiaan penggunaan DTSEN dan berita acara serah terima;
+
+
+- 10 -
+
+c. kepala satuan kerja pengelola data/wali data menyampaikan surat pernyataan ke rahasiaan penggunaan DTSEN dan berita acara serah terima kepada pemohon untuk ditandatangani dan sekaligus menyerahkan data kepada pemohon berupa dokumen elektronik/digital; d. surat pernyataan kerahasiaan penggunaan DTSEN dan berita acara serah terima sebag aimana dimaksud pada huruf c ditandatangani oleh pemohon dan pejabat pimpinan tinggi madya atau pejabat pimpinan tinggi pratama; dan e. kepala satuan kerja pengelola data/wali data melaksanakan pemantauan terhadap penggunaan DTSEN.
+(2) Permohonan sebagaimana dim aksud pada ayat (1) ditandatangani oleh: a. kementerian/lembaga oleh menteri/pimpinan lembaga, pejabat pimpinan tinggi madya atau pejabat pimpinan tinggi pratama; b. Pemerintah Daerah oleh kepala daerah; c. badan usaha milik negara atau badan usaha milik daerah ol eh direktur; atau d. masyarakat oleh pimpinan lembaga atau individu.
+
+Pasal 22 Dalam hal Menteri menyetujui permohonan penggunaan DTSEN sebagaimana dimaksud dalam Pasal 21 melalui sistem informasi elektronik, kementerian/lembaga atau badan usaha milik negara atau badan usaha milik daerah wajib menindaklanjuti dengan naskah hukum kerja sama.
+
+Pasal 23 DTSEN yang diterima oleh Pemerintah Daerah kabupaten/kota dari satuan kerja pengelola data yang akan digunakan untuk melakukan pemutakhiran DTSEN, diberikan kepada petugas Verifikasi dan Validasi yang telah ditunjuk dan ditetapkan oleh Pemerintah Daerah kabupaten/kota dengan membuat berita acara serah terima.
+
+Pasal 24
+(1) Pengguna DTSEN harus mematuhi ketentuan yang tercantum dalam surat pernyataan kera hasiaan penggunaan DTSEN, berita acara serah terima, dan/atau naskah hukum kerja sama yang disepakati.
+(2) Pengguna DTSEN sebagaimana dimaksud pada ayat (1) dapat memberikan DTSEN kepada pihak ketiga dengan ketentuan: a. merupakan hasil olahan penggunaan DTSEN; b. penyajian dalam bentuk deskripsi statistik; dan c. mencantumkan sumber data.
+
+
+
+
+
+- 11 -
+
+BAB IV PELAPORAN
+
+Pasal 25
+(1) Unit kerja di lingkungan Kementerian Sosial, kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan masyarakat yang telah menggunakan DTSEN harus melaporkan secara tertulis dengan memberikan informasi penggunaan  DTSEN kepada: a. Menteri; b. pejabat pimpinan tinggi madya; atau c. pejabat pimpinan tinggi pratama, sesuai dengan kewenangannya paling lama 1 (satu) bulan sejak penggunaan DTSEN selesai dilaksanakan.
+(2) Laporan informasi penggunaan DTSEN sebagaimana dimaksud pada ay at (1) dilaksanakan terhadap penggunaan DTSEN.
+
+Pasal 26
+(1) Unit kerja di lingkungan Kementerian Sosial, kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan masyarakat yang tidak menyampaikan laporan informasi penggunaan DTSEN sebagaimana dimaksud dalam Pasal 25 tidak dapat diberikan permohonan penggunaan DTSEN berikutnya.
+(2) Permohonan penggunaan DTSEN sebagaimana dimaksud pada ayat (1) dapat diberikan setelah pemohon menyampaikan laporan informasi penggunaan DTSEN .
+
+BAB V KETENTUAN PERALIHAN
+
+Pasal 27 Istilah data terpadu kesejahteraan sosial yang sudah ada sebelum Peraturan Menteri ini mulai berlaku harus dimaknai DTSEN sepanjang tidak bertentangan dengan Peraturan  Menteri  ini.
+
+BAB VI KETENTUAN PENUTUP
+
+Pasal 28 Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Sosial Nomor 3 Tahun 2021 tentang Pengelolaan Data Terpadu Kesejahteraan Sosial (Berita Negara Republik Indonesia Tahun 2021 Nomor 578), dicabut dan dinyatakan tidak berlaku.
+
+Pasal 29 Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.
+
+
+- 12 -
+
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.
+
+
+Ditetapkan di Jakarta pada tanggal 10 Jun i 2025
+
+MENTERI SOSIAL REPUBLIK INDONESIA,
+
+Œ
+
+SAIFULLAH YUSUF
+
+Diundangkan di Jakarta pada tanggal                   Д
+
+DIREKTUR JENDERAL PERATURAN PERUNDANG -UNDANGAN KEMENTERIAN HUKUM REPUBLIK INDONESIA,
+
+Ѽ
+
+DHAHANA PUTRA
+
+
+BERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOM OR       Ж
+
+Saifullah Yusuf Menteri Sosial Republik Indonesia Jakarta, 8 Juli 2025disampaikan dalam rangka Pembukaan Rakornas Dinas Sosial se Indonesia terkait Implementasi DTSEN untuk Bantuan Sosial, Pemberdayaan Sosial dan Program Penyelenggaraan Kesejahteraan Sosial Arahan Menteri Sosial
+DASAR HUKUM Tiap-tiap warga negara berhak mendapat pengajaranFakir miskin dan anak-anak yang terlantar dipelihara oleh negara Pasal 31, ayat (1), UUD ‘45 Pasal 34, UUD ‘45 Pasal 7, Ayat (1), UU 13/2011 tentang Penanganan Fakir Miskin
+“Penanganan fakir miskin dilaksanakan dalam bentuk: Pengembangan Potensi Diri; bantuan pangan dan sandang; penyediaan pelayanan perumahan; penyediaan pelayanan kesehatan; penyediaan pelayanan pendidikan; penyediaan akses kesempatan kerja danberusaha; bantuan hukum; dan/atau pelayanan sosial”.“Kesejahteraan Sosial adalah kondisi terpenuhinya kebutuhan material, spiritual, dan sosial warga negara agar dapat hidup layak dan mampu mengembangkan diri, sehingga dapat melaksanakan fungsi sosialnya”Pasal 5, UU No 13/2011 tentang Penanganan Fakir Miskin
+“Penanganan Fakir Miskin dilakukan dengan Terarah, Terpadu, Berkelanjutan oleh Pemerintah, pemerintahdaerah, dan masyarakat” Pasal 1, ayat (1), UU 11/2009 tentang Kesejahteraan Sosial INPRES 8/2025 tentang Optimalisasi Pelaksanaan Pengentasan Kemiskinan dan Penghapusan Kemiskinan Ekstrem UUD ‘45 Undang-Undang Instruksi Presiden INPRES 4/2025 tentang Data Tunggal Sosial dan Ekonomi Nasional
+TEN TA N G  D TSEN
+Negara harus hadir dengan data yang akurat, valid, dan menyatu, agar tidak ada lagi rakyat kecil yang tercecer dari hak-haknya.
+Bahwa setiap rupiah bantuan, setiap program pemberdayaan, setiap langkah kebijakan kesejahteraan sosial, harus sampai pada mereka yang benar-benar membutuhkan, tepat sasaran, tepat waktu, dan tepat jumlah
+Bantuan SosialMengembangkan fungsi sosial
+(habilitasi) Meningkatnya Keberdayaan Sosial Mengembalikan fungsi sosial
+(rehabilitasi)Perlindungan inklusif Perlindungan adaptif Kesehatan terjamin Pendidikan terjamin Sandang, Pangan, Papan terjaminMeningkatkan kapasitas (ability) Memaksimalkan potensi dan sumberdaya kesejahteraan sosial
+(accessibility, asset) GRADUASIDTSENDesil 10 Desil  9 Desil  8 Desil  7 Desil  6 Desil  5 Desil  4 Desil  3 Desil  2 Desil   1Input dari kelas menengah yang turun menjadi rentan Input dari transmisi kemiskinanJaminan & Perlind Sosial Rehabilitasi Sosial Pemberdayaan Sosial Pengembangan SosialSocial Cohetion
+(Functioning)Minimum requirement
+(Surviving)Inclusive Growth
+(Empowering) Potensi Kolaborasi: BUMN dan Lembaga Filantropi (BAZNAS, Lazisnu, Lazismu, KitaBisa, dll)Graduasi 2 Beralih ke program pemberdayaan Bantuan : modal, akses pasar, dll Menjadi binaan K/L lain K/LBUMNPemdaGraduasi 1 Lepas dari program bantuan Masih menerima PBI-JKNPendekatan: “Terarah, Terpadu dan Berkelanjutan” Miskin Miskin EkstremBISNIS PROSES PENYELENGGARAAN KESEJAHTERAAN SOSIAL
+Tentang Data Tunggal Sosial dan Ekonomi Nasioanl Tugas Kementerian Sosial Melakukan sinkronisasi Bersama Badan Pusat Statistik untuk mendukung pemutakhiran data Tunggal sosial dan Ekonomi Nasional sebagai acuan utama dalam penetapan pemberian bantuan dan/atau pemberdayaan sosial.
+Peran Pemerintah Daerah Mendukung Proses Pemutakhiran Data, melalui ground check dan penetapan usulan; Bersama BPS dan Pendamping Desa, melakukan verifikasi lapangan atas usulun/perubahan DTSEN; Menerima pengaduaan atas usulan dan sanggahan dari masyarakat terkait perubahan DTSEN; Memanfaatkan DTSEN untuk pelakasanaan program dan kegiatan pembangunan;
+Data Tunggal Sosial Ekonomi Nasional Tunggal Individu Tunggal Keluarga Pemeringkatan“...adalah basis data tunggal individu dan/atau keluarga yang memuat kondisi sosial ekonomi penduduk Indonesia dan telah dipadankan dengan data kependudukan.”
+“...digunakan untuk mendukung keterpaduan program pembangunan nasional dan sinergi antar kementerian, lembaga dan pemerintah daerah dalam rangka mencapai tujuan pembangunan yang terukur dan berkelanjutan...”
+USUL SANGGAHMusyawarah Desa/KelDinas Sosial & BPS Kab/Kota Pendamping PKH BPS Dinas Sosial & BPS Kab/KotaPendamping PKHPenetapan KDH Musyawarah Desa/KelCEK BANSOS...Jalur Formal Jalur PartisipasiRT/RW PUSDATIN KEMENSOSDTSEN Musdes/Muskel SKTMVerval
+Pemeringkatan (Desil) Dinamis:  Pemeringkatan berubah dalam kurun waktu 3 bulan sekali akibat pemutakhiran data; Inclusion Errors :  mereka yang seharusnya tidak menerima bansos tetapi menerima (desil atas); Exclusion Errors:  mereka yang seharusnya menerima namun tidak menerima (desil bawah); Penerima Bansos Berubah Selalu ada yang keluar dan ada yang menggantikan; Siapa yang keluar:  inclusion errors , masuk daftar negative list, yang bansosnya disalahgunakan (judol), yang sudah sejahtera
+(graduasi); Siapa yang masuk:  exclusion errors, dan yang sesuai dengan kriteria program;Kuota Bansos Daerah Berubah Kuota bansos Nasional tidak berubah:  10 juta PKH, 18,3 Juta Sembako, 96 Juta PBI-JKN Distribusi  kuota daerah berubah:  mengikuti proporsi jumlah penduduk miskin di daerah, semakin banyak penduduk miskin semakin banyak kuota bansos (azas keadilan); Jumlah Penduduk Miskin Daerah Jumlah Penduduk Miskin NasionalX100% XKuota Bansos Daerah yang kurang dari kuota akan ditambah, daerah yang over kuota akan berkurang; contoh PBI-JKN : dikeluarkan 7.397.277 Jiwa 2.306.943 karena berada pada desil 6-10 5.090.334 karena berada diluar DTSEN dialihkan kepada mereka yang berada pada desil 1-4, sesuai kuota daerah;
+1 001 02TELAH DISALURKAN BUKA REKENING KOLEKTIF (BUREKOL)per 7 Juli  2025 PKH 1.945.399 KPM1.315.886 KPMPeralihan dari PT. Pos 629.513 KPMKPM Baru
+(exclusion errors) SEMBAKO 2.723.515 KPM1.953.139 KPMPeralihan dari PT. Pos 770.376 KPMKPM Baru
+(exclusion errors)Bantuan Kuota (KPM) Tersalur (KPM) Nilai (Rp) Burekol Sisa Transfer S e m b a k o 1 8 . 2 7 7 . 0 8 31 5 . 4 8 1 . 8 8 0
+(84,71%)9.289.128.000.000 2 . 7 2 3 . 5 1 5 7 1 . 6 8 8 * P e n e b a l a n 1 8 . 2 7 7 . 0 8 31 5 . 4 8 1 . 8 8 0
+(84,71%)6.192.752.000.000 2 . 7 2 3 . 5 1 5 7 1 . 6 8 8 * P K H 1 0 . 0 0 0 . 0 0 08 . 1 0 8 . 7 4 0
+(81,08%)5.850.035.975.000 1 . 8 8 6 . 5 2 2 4 . 7 3 8 *
+EXERCISE YANG DILAKUKAN KEMENSOS :UPAYA PENYALURAN BANSOS TEPAT SASARAN POTENSI EFISIENSI JIKA SUBSIDI DAN BANSOS TEPAT SASARAN Sumber: DEN, 2025 Catatan : 1) Terdiri dari bansos dan subsidi non-energi lainnya, tingkat mistargeted merupakan asumsi, 2) Berdasarkan realisasi 2024, 3) Merupakan asumsi potensi saving berdasarkan peningkatan efisiensi berkisar 40% - 50% Sumber : Estimasi SUSENAS Maret 2024, Kemensos, kemendikdasmen, Nota Keuangan RAPBN TA 2025Menggunakan desil (pemeringkatan) status sosial ekonomi pada DTSEN untuk menetapkan prioritas penerima Bansos; Melakukan Ground Check (GC) terhadap yang diduga inclusion/exclusion errors dan NIK tidak aktif, untuk mengetahui kebenaran kondisi di lapangan; Hasil pemutakhiran DTSEN oleh BPS dengan memperhatikan hasil GC ditemukan KPM tidak layak menerima Bansos : 616.367 KPM PKH 1.286.066 KPM Sembako Total = 1.902.433 (inclusion errors) 1.902.433 tersebut dikeluarkan dan digantikan oleh: 1.000.000 KPM desil 1 komplementaritas
+/ penerima salah satu (PKH/Sembako) 902.433 KPM dari desil 1 yang sudah di GC
+(exclusion error) 11
+571.410 NIK Sama 2% orang  penerima bansos adalah pemain judol tahun 2024KPM Bansos28,4 juta NIK9,7 juta NIKData Pemain Judol 2024 terdapat 7,5 jt transaksi dengan nilai Rp. 957 MilyarV S Sumber: PPATK, 2025 1 2
+Melalui mekanisme bagi pakai data Mekanisme diatur oleh Bappenas (sesuai inpres 4/2025); PermenPPN terkait Bagi-Pakai DTSEN sedang tahap harmonisasi pada Kementerian Hukum; Pemda (melalui wali data daerah) dapat mengajukan Penggunaan dan Pemanfaatan DTSEN melalui portal Satu Data Indonesia ; Melalui mekanisme pemadanan data Mekanisme diatur oleh Kemensos (Permensos 3/2025 ttg Pemutakhiran dan Penggunaan DTSEN untuk Bansos, Pemberdayaan Sosial dan Program Penyelenggaraan Kesejahteraan Sosial); Pemda mengajukan pemadanan data (BNBA) kepada Pusdatin Kemensos; Kemensos akan memberikan data balikan DTSEN sesuai kebutuhan;
+Tugas kita bukan hanya mengumpulkan data.
+Tugas kita adalah menghidupkan data dengan kejujuran, merawatnya dengan integritas, dan menggunakannya dengan hati nurani.
+TEN TA N G  SEK O LA H  R A K Y A T
+Tugas Kementerian Sosial Tugas Pemerintah Daerah tentang Optimalisasi Pelaksanaan Pengentasan Kemiskinan dan Penghapusan Kemiskinan Ekstrem membentuk dan menyelenggarakan sekolah rakyat berasrama bagi masyarakat miskin dan miskin ekstrem; menyiapkan dan menyusun kurikulum sekolah rakyat berasrama yang berlandaskan pada sekolah formal dan sekolah karakter; menyiapkan sarana prasarana dan asrama sekolah rakyat membentuk tim formatur untuk sekolah rakyat mendukung program sekolah rakyat di wilayah kabupaten/kota berupa penyiapan lahan, perizinan, dan penyiapan guru serta tenaga pendidik dalam rangka optimalisasi pelaksanaan pengentasan kemiskinan dan penghapusan kemiskinan ekstrem;
+Sekolah Rakyat : Negara Hadir untuk Memuliakan Orang Miskin
+“KESAMAAN” “KESETARAAN” Mereka diperlakukan Sama Mereka diperlakukan sesuai KebutuhannyaSekolah Rakyat : Kebijakan Afirmatif untuk Masalah Spesifik
+2 JENIS SEKOLAH RAKYAT Sekolah Rakyat Rintisan Sekolah Rakyat Permanen
+Lokasi Sekolah Rakyat 256 Rombel6.130 Siswa139 Rombel3.625 SiswaTahap 1a 6 3titik operasional JuliTahap 1b 3 7titik operasional JuliLOKASI SEKOLAH RAKYAT 1 0 0 3     Rombel SD 112 Rombel SMP 141 Rombel SMA75       siswa SD 2.800 siswa SMP 3.225 siswa SMA4   Rombel SD 53 Rombel SMP 82 Rombel SMA100    siswa SD 1.310 siswa SMP 2.215 siswa SMA 9.755 SISWA 1.554 GURU 3.390 TENDIK TAHAP 1 Potensi Lokasi 217 Rombel5.375 Siswa210 Rombel5.150 SiswaTahap 2a 5 1BLK Kemenaker LayakTahap 2b 4 5Pemda Layak2 0 2 2.595    siswa SD 900     siswa SMP 1.180  siswa SMA90 Rombel SD 73 Rombel SMP 43 Rombel SMA1.250 siswa SD 1.800 siswa SMP 1.075 siswa SMA 10.425 TARGET SISWA 2.180 GURU 4.069 TENDIK TAHAP 2 105 Rombel SD 36   Rombel SMP 76   Rombel SMAPerencanaan Tahap 2
+Jabar 1.Sentra Phalamarta Sukabumi 2.Sentra Abiyoso Cimahi 3.Sentra Wyataguna Bandung I (Padjajaran Bandung) 4.Sentra Wyataguna Bandung II (Cisarua Lembang) 5.Sentra Galih Pakuan Bogor 6.Sentra Terpadu Inten Suweno Cibinong 7.Sentra Terpadu Pangudi Luhur Bekasi 8.Poltekesos Bandung 9.BBPPKS Bandung 10.Kota Cirebon 11.Kab. Sumedang 12.Kab. Bandung 13.Kota CimahiJatim 1.Univ. Negeri Surabaya 2.Prov Jatim (UPT PPSPA Batu) 3.Prov. Jatim (BPSDM Kota Malang) 4.Kab. Mojokerto 5.Kota Malang 6.Kab. Banyuwangi 7.Kab. Pasuruan 8.Kota Pasuruan 9.Kab. PacitanKalimantan Selatan 1.Sentra Budi Luhur Banjarbaru 2.BBPPKS Banjarmasin, Banjarbaru LAMPUNG Kab. Lampung SelatanSEBARAN LOKASI  100 TITIK SEKOLAH RAKYAT ACEH 1.Sentra Darussa’adah Aceh 2.Prov. Aceh (SMA N 2 Unggul Ali Hasjmi) 3.Kab. Aceh Selatan SUMUT 1.Sentra Bahagia Medan 2.Sentra Insyaf Medan 3.UIN Sumut, Kota Tebing Tinggi 4.SMKN Pertanian, Kota Padang Sidempuan RIAU 1.Sentra Abiseka Pekanbaru 2.Rusunawa/Asrama Haji Riau 3.Rokan Hilir SUMBAR 1.BBPPKS Padang 2.Kab. Solok 3.Universitas Negeri PadangJAMBI 1.Sentra Alyatama Jambi 2.Kab. Tanjung Jabung Timur SUMSEL 1.Sentra Budi Perkasa Palembang 2.IPWL Sriwijaya, Ogan Ilir 3.Kab. Empat Lawang JAKARTA 1.Sentra Mulyajaya 2.Sentra Handayani 3.Pusdiklat Margaguna Jateng 1.Sentra Antasena Magelang 2.Sentra Margo Laras Pati 3.Sentra Satria Baturaden 4.Sentra Terpadu Kartini Temanggung 5.Sentra Terpadu Prof. dr. Soeharso Solo (Jebres) 6.Kab. Magelang 7.Kab. Blora 8.Kab. Wonosobo 9.Kab. BanjarnegaraDI Yogyakarta 1.Sentra Terpadu Prof. dr Soeharso Solo (Sonosewu) 2.BBPPKS Yogyakarta (Sleman) Bali Sentra Mahatmiya Bali
+(Tabanan)NTB 1.Sentra Paramitha Mataram 2.Kab. Lombok Timur NTT Sentra Efata KupangSulut 1.Sentra Tumou Tou Manado 2.IPWL Manado (Kab.
+Minahasa) SulSel 1.Sentra Gau Mabaji 2.Sentra Wirajaya Makassar 3.Sentra Pangurangi Takalar 4.BBPPKS Makassar 5.Kota Makassar 6.Kab. Takalar 7.Kab. Sidrap 8.Kab. WajoSulawesi Tenggara Sentra Meohai KendariSulteng 1.Sentra Nipotowe Palu 2.Kota PaluMaluku Utara 1.Sentra Wasana Bahagia Ternate 2.IPWL Sofifi 3.Kab. Halmahera Utara Papua 1.BBPPKS Jayapura 2.Kab. Biak Numfor 3.Kab. SarmiKEP. RIAU Kab. Kepulauan Anambas BENGKULU 1.Sentra Dharma Guna Bengkulu 2.Kab. Kaur BANTEN 1.Kota Tangerang Selatan 2.Kab. Lebak 10 Kab. Kediri 11. Kab. Jombang 12. Kab. Lamongan 13. Kab. Tuban 14. Kab. Ponorogo 15. Kab. Bojonegoro 16. Kab. Gresik 17. Kab. Pamekasan 18. Kab. Jember 19. Kota ProbolinggoSulbar 1.Kab. Mamuju 2.Kab. PolmanKalimantan Tengah Kab. KatinganKalimantan Timur Kota Samarinda Maluku Kota Ambon SUMATERA - 22 titik JAWA - 48 titik BALI & NUSA TENGGARA - 4 titik MALUKU - 4 titik KALIMANTAN - 4 titik SULAWESI - 15 titik PAPUA - 3 titik
+Gambaran Site Plan Sekolah Rakyat
+Gambaran Prototipe Sekolah Rakyat
+Pelaksanaan Renovasi Bangunan yang akan digunakan sebagai Sekolah Rakyat Sementara Tahun Ajaran 2025/2026     [1] Lokasi : Sentra Handayani, Bambu Apus, Jakarta
+SEKOLAH ASRAMA Nilai Akhlak Mulia dan Keagamaan Karakter Kepemimpinan Penguasaan Bahasa & Literasi Digital Keberdayaan dan Entrepreneurship Ketuntasan AkademikKesiapan Fisik Kesiapan Mental Kesiapan AkademikKurikulum Sekolah Rakyat Pendidikan FormalPendidikan KarakterLulusan Sekolah Rakyat Program Persiapan (Learner Preparatoal) Program Akademik Program Asrama (Boarding)Talent Mapping Mengikuti Standar Kurikulum Nasional: Intrakurikuler Kokurikuler Ekstrakurikuler Penguatan Karakter Penguatan Spiritualitas Penguatan Cinta Tanah Air Penguatan BahasaKurikulum Sekolah Rakyat disusun dalam Kurikulum yang dirancang Khusus
+(taylor made) dilengkapi dengan LMS (Learning Management System)
+1 0 . 4 3 4 SISWA TERDAFTAR3 . 7 6 6 SISWA TERDAFTAR Pengumuman Peserta Didik yang diterima8 JULI, 9.755 SISWA AKAN DITETAPKAN MENJADI SISWA SEKOLAH RAKYAT, 14 JULI AKAN MULAI MASUK ASRAMA SISWA SEKOLAH RAKYAT256 6.130139Tahap 1a 6 3 titikTahap 1b 3 7 titikRombel Rombel DAYA TAMPUNG 3.625 3     Rombel SD 112 Rombel SMP 141 Rombel SMA75       siswa SD 2.800 siswa SMP 3.225 siswa SMA4   Rombel SD 53 Rombel SMP 82 Rombel SMA100    siswa SD 1.310 siswa SMP 2.215 siswa SMA Penetapan Calon Peserta Didik Oleh Kepala Daerah dan Pengumuman Calon Peserta Didik13 JUNI 2025 (TAHAP 1) 3 JULI 2025 (TAHAP 2)Home Visit dan Wawancara Penetapan Peserta Didik oleh Kepala DaerahRegistrasi ulang dan pemanggilan peserta didik ke asrama (Menyesuaikan kesiapan sarana prasarana (timeline KemenPU) 1 JULI 2025 (TAHAP 1) 9 JULI 2025 (TAHAP 2)14 JULI 2025 Pemeriksaan Kesehatan Gratis (PKG)16-18 JUNI 2025 (TAHAP 1) 4-6 JULI 2025 (TAHAP 2)19 JUNI 2025 (TAHAP 1) 7 JULI 2025 (TAHAP 2)20 JUNI 2025 (TAHAP 1) 8 JULI 2025 (TAHAP 2)DAYA TAMPUNG
+Profil Calon Peserta Didik MUHAMMAD UAFAR SYADATUL
+GURU DAN TENDIK SEKOLAH RAKYATTahap 1a 53 Kepala SekolahTelah melakukan Retret 5 Hari di Pusdiklat Kemensos, bekerjasama dengan TNITahap 1b 47 Kepala Sekolahakan melaksanakan retret 5 Hari pada 1 Juli 1.554 Guru PPPK telah ditetapkan melalui Permenpanrb 120/2025 2.730 Tendik ASN dengan skema Penugasan telah ditetapkanterdiri dari Guru Kelas dan Guru Agama, telah melalui seleksi PPG (kemendigdasmen) dan CAT (BKN).
+terdiri dari Wali Asuh, Wali Asrama, Tata USaha, Bendahara, Operator, Juru Masak, Keamanan dan Petugas Kebersihan Berasal dari Penugasan ASN Kemensos, Pemda dan Kemenag
+OPTIMALISASI SEKOLAH RAKYAT DALAM PENGENTASAN KEMISKINAN Pendidikan Berkualitas bagi Anak Keluarga MiskinOrang tua siswa sekolah rakyat DIBERDAYAKAN Pembangunan Rumah Tidak Layah Huni bagi Orang Tua Siswa dan Sekitar SekolahDiharapkan turut mengungkit Pertumbuhan Ekonomi Lokal dan Pengentasan KemiskinanRehabilitasi Sosial Kawasan Kumuh di sekitar Sekolah Rakyat
+Pesan Kun ci Kampanye Sekolah Rakyat: Memuliakan Keluarga Miskin, Mendorong Kebangkitan Wong Cilik Memutus mata rantai kemiskinan Keluarga miskin Sekolah gratis berasrama Dibangun oleh negara Pendidikan adalah hak setiap masyarakatKata Kunci: Memutus Kem iskinan Lewat Pendidikan Pemerintah Daerah Kampanyekan Sekolah Rakyat
+Sekolah Rakyat bukan hanya tempat belajar, tapi tempat dimana anak-anak belajar percaya bahwa mereka layak untuk bermimpi.
+TERIM A KASIH
+
+DUKUNGAN DTSEN untuk  Bantuan Sosial , Pemberdayaan  Sosial , dan Program Penyelenggaraan  Kesejahteraan  Sosial Amalia Adininggar  Widyasanti Kepala Badan Pusat Statistik RIJakarta, 8 Juli 2025 Disampaikan  pada Rapat  Koordinasi  Nasional Kementerian Sosial  RI
+Data Tunggal Sosial  dan Ekonomi Nasional (DTSEN) Per 3 Februari  2025 * 285.579.122  penduduk 93.025.360 keluarga Penunggalan Individu Penunggalan Keluarga Penguatan Variabel Pemeringkatan KesejahteraanKondisi  Data Sosial  dan Ekonomi Dukcapil DTKS P3KE RegsosekBPJS PLNData Administrasi : 2 DTSEN:  HASIL KOLABORASI MEWUJUDKAN INSTRUKSI PRESIDEN
+*) juga sudah  hasil  rekonsiliasi  dengan data Kemendagri
+INPRES NOMOR 4/2025 TENTANG DTSEN 3Peran dan Tugas  Kepala  BPS: 1Menetapkan  sumber  dan jenis  data  serta  pedoman  integrasi  data yang  digunakan  dalam  penyusunan  dan pengelolaan  integrasi  DTSEN 2Menerima  DTSEN  yang  mencakup  informasi  BNBA  dari K/L, serta melakukan  integrasi  data  secara  nasional  untuk  menghasilkan  DTSEN sebagai  rujuan  utama  bagi  K/L dan Pemda 3 Menyusun DTSEN yang akurat , terkini , dan terintegrasi 4Mengelola  DTSEN  untuk  penyelenggaraan  kegiatan  statistik , termasuk  pemutakhiran  dan pengamanan  data  sesuai  standar  terbaik 5Menyerahkan  pemanfaatan  DTSEN  kepada  MenkoPM , Bappenas , Mensos  sesuai  dengan  ketentuan  peraturan  perundang -undangan 6Melaporkan  pelaksanaan  integrasi  DTSEN  kepada  Presiden  secara berkala  atau  sewaktu -waktu  jika diperlukan
+BPS MEMBANGUN DAN MENYERAHKAN DTSEN,  SESUAI AMANAT INPRES 4Sesuai  amanat  Inpres 4 tahun  2025, Kepala  BPS telah  menyerahkan  hasil  pembangunan  DTSEN kepada Menteri PPN/ Kepala  Bappenas , Menko Bidang  Pemberdayaan  Masyarakat, dan Menteri Sosial pada Kamis, 20 Februari  2025
+5
+“Untuk  pertama  kali dalam sejarah , kita sekarang  mempunyai Data Tunggal Sosial dan Ekonomi Nasional”
+6 Ground check  untuk  mengecek  inclusion  error  dan exclusion error  pada penyaluran  tahap  1 sehingga dapat  menyempurnakan  DTSEN untuk  penyaluran  tahap  berikutnya .
+Hasil ground check digunakan  BPS untuk  memutakhirkan  DTSEN.
+Proses berkelanjutan  demi penyempurnaan  dan pengelolaan  DTSEN jangka  panjang .GROUND CHECK  OLEH BPS  DAN KEMENSOS DTSEN dimanfaatkan  untuk  penyaluran  Bansos  pada Triwulan  2-2025 ; setelah sebelumnya  penyaluran  bansos  triwulan  1-2025 merupakan  masa transisi .
+KOLABORASI PEMANFAATAN DTSEN UNTUK BANSOS
+?
+UPDATE DTSEN DENGAN DATA ADMINISTRASI DAN SURVEI BPS 7DTSEN Per 9 Mei 2025 Di-update  berdasarkan : 1. Pemutakhiran /GroundCheck285.862.199 individu 93.089.414 keluarga
++283.077 individu +64.054  keluargaDTSEN Per 25 Juni 2025 Di-update  berdasarkan : 1. Pemutakhiran /GroundCheck 2. Susenas  - BPS 3. Sakernas  - BPS 4. SNLIK - BPS 5. Dapodik  – Kemen Dikdasmen286.917. 226 individu 93.184.000 keluarga DiverifikasiDTSEN Per 3 Feb 2025 Jumlah populasi dan keluarga
+(berdasarkan Kartu Keluarga) telah disepakati oleh Menteri Dalam Negeri dan Kepala BPS bersama -sama dengan:
+• Menteri PPN/Kepala Bappenas
+• Menko Bidang Pemberdayaan Masyarakat
+• Menteri Sosial285.579.122 individu 93.025.360 keluarga
++1.055.027 individu +94.586 keluarga
++1.338.104 individu +158.640 keluarga
+KOLABORASI PEMANFAATAN DTSEN dalam  Program Perumahan 8 Data Tunggal Sosial  dan Ekonomi Nasional
+(DTSEN) sebagai  basis data untuk  menyalurkan program bantuan  perumahan : Perumahan  bagi  guru Perumahan  bagi  tenaga  kesehatan Perumahan  bagi  wartawan Perumahan  bagi  buruh Perumahan  bagi  pekerja  migran  dan keluarganya Perumahan  bagi  ASN di pusat  maupun  daerah Perumahan  bagi  masyarakat  berpenghasilan rendah  lainnya
+PERAN BPS DALAM TIM PENYELENGGARAAN SEKOLAH RAKYAT BPS masuk  dalam Satgas  Peserta Didik dengan tugas  antara  lain: melakukan pemadanan data calon peserta didik dengan DTSEN dan memberikan informasi peringkat kesejahteraan keluarganya .
+Sumber : Kementerian Sosial 9
+DUKUNGAN BPS UNTUK PROGRAM SEKOLAH RAKYAT 10 Surat Sekjen  Kemensos  Nomor  : 1824/1/DL.03/5/2025: Poin  1 Kementerian  Sosial  telah  menyerahkan  data  By Name  By Address  yang  berasal  dari desil  1
+(satu ) DTSEN  kepada  daerah  melalui  Dinas  Sosial , SDM  PKH dan Lembaga  penyelenggara Sekolah  Rakyat .
+Poin  2 Dinas  Sosial  bersama  dengan  SDM  PKH, BPS, dan penyelenggara  Sekolah  Rakyat  melakukan verifikasi  di lapangan  untuk  kemudian  diusulkan  melalui  link pendaftaran  Satgas  Penerimaan Peserta  Didik  Sekolah  Rakyat  (https ://sdmpkh .kemensos .go.id/sr/) . Adapun  data  di luar desil  1
+(satu ) DTSEN  namun  layak  untuk  diusulkan  menjadi  calon  siswa  (exclusion  error ), dapat diusulkan  dengan  melampirkan  surat  keterangan  tidak  mampu  (SKTM),  dan atas data  tersebut agar  berkoordinasi  dengan BPS daerah  untuk  diusulkan  dalam  DTSEN  sesuai  dengan  kondisi kesejahteraannya .
+Poin  3 Pemerintah  Daerah  melalui  Dinas  Sosial  bersama  dengan BPS daerah , Dinas  Pendidikan  dan Lembaga  penyelenggara  Sekolah  Rakyat  agar  melakukan  proses  seleksi  terhadap  data  poin  2
+(dua)  sesuai  dengan  kebutuhan  jumlah  rombongan  belajar  dan jenjang  pendidikan  yang  telah ditentukan  beserta  cadangan  sebanyak  10% dari kebutuhan  jumlah  peserta  didik .
+11PERSENTASE DAN JUMLAH PENDUDUK 7 –18 TAHUN MENURUT STATUS SEKOLAH
+(MARET 2024) Kelompok UmurTidak/Belum Pernah SekolahMasih SekolahTidak Bersekolah LagiTotal (2+4) Total (2+3+4)
+(1) (2) (3) (4) (5) (6) 7 –12 Tahun 0,79 99,19 0,03 0,81 100,00 13–15 Tahun 0,44 96,17 3,39 3,83 100,00 16–18 Tahun 0,66 74,64 24,70 25,36 100,00 Total
+(7–18 Tahun)0,67 92,37 6,96 7,63 100,00 Kelompok  UmurTidak/Belum Pernah SekolahMasih SekolahTidak Bersekolah LagiTotal (2+4) Total (2+3+4)
+(1) (2) (3) (4) (5) (6) 7 –12 Tahun 220.006 27.718.054 7.318 227.324 27.945.378 13–15 Tahun 57.903 12.546.445 442.047 499.950 13.046.396 16–18 Tahun 89.027 10.106.720 3.344.128 3.433.154 13.539.874 Total
+(7–18 Tahun)366.93 5 50.371.2 19 3.793.49 4 4.160.429 54.531.648 Sumber: Badan Pusat Statistik  (Susenas Maret 2024, diolah)Persentase  Penduduk Usia 7 –18 Tahun Menurut Status Sekolah, Maret 2024 (persen) Jumlah  Penduduk Usia 7 –18 Tahun Menurut Status Sekolah, Maret 2024
+PEMANFAATAN DTSEN UNTUK PENJARINGAN CALON SISWA SEKOLAH RAKYAT Anak usia sekolah  di desil  1-2 yang tidak  bersekolah  di Jawa Barat dan Papua 12 Jawa Barat PapuaNIK Nama Nomor Kartu Keluarga UmurJenis KelaminIjazah Tertinggi yang DitamatkanStatus Bekerja 9211 046402140 001 MAKDALENA IBA 9202 272106100 008 10 Perempuan - Tidak Bekerja 9211 040503090 001 ARIS INDEN 9202 202207080 006 15 Laki-laki - Bekerja 9212 011502070 001 YUSTUS INDOU 9202 021205110 002 17 Laki-laki - Bekerja 9271 062001110 001 ANUGERAH 9271 060302210 013 13 Laki-laki Tidak punya ijazah SD Tidak Bekerja 9205 140110100 001MESAK OKTOVIANUS METUS MANGGAPROUW9205 141910110 001 14 Laki-laki Tidak punya ijazah SD Tidak BekerjaNIK Nama Nomor Kartu Keluarga UmurJenis KelaminIjazah Tertinggi yang DitamatkanStatus Bekerja 3674 060304120 003 ANDIKA PRAMUDIA 3201 100803100 003 12 Laki-laki - Tidak Bekerja 3674 050307170 002 ALEXIS JULIANO MUSA BALI 3201 122104210 006 7Laki-laki- Tidak Bekerja 7502 024207120 003 PUTRI LESMANA SARI 3214 060603090 004 12 Perempuan Tidak punya ijazah SD Tidak Bekerja 5203 084205160 003 KEISHA INTAN AZZAHRA 3275 031910200 004 8 Perempuan - Tidak Bekerja 3674 046703060 004 HELENA 3217 131806190 013 18 Perempuan SMP Tidak Bekerja Sumber : DTSEN
+DESIL 1 – CONTOH PROFIL KELUARGA DARI ANAK USIA SEKOLAH KOTA BANDUNG 13Contoh  Desil  1 Nama :TIARA RAHAYU Jenis Kelamin :Perempuan Umur :15 tahun Status Partisipasi  Sekolah :Masih bersekolah Jenjang  pendidikan  tertinggi :SMP Pekerjaan  kepala  keluarga :Pekerja  bebas  non pertanian  pada sektor lapangan  usaha  kontruksi Kepemilikan  Rumah :Kontrak /sewa Jenis Lantai Terluas :Keramik Jenis Atap Terluas :Genteng Jenis Dinding  Terluas :Tembok Air Minum  dan Bahan Bakar Utama:Air isi ulang  dan Gas elpiji  3kg Kepemilikan  Aset :Smartphone Kecamatan  SUKAJADI, Kelurahan  CIPEDES JL.SUKAGALIH GG. PAK ELAS V NO. 82
+DESIL 2 – CONTOH PROFIL KELUARGA DARI ANAK USIA SEKOLAH KOTA BANDUNG 14Contoh  Desil  2Kecamatan  BOJONGLOA KIDUL, Kelurahan  CIBADUYUT JL. MA EJA Nama :WULAN SITI MAESAROH Jenis Kelamin :Perempuan Umur :13 Status Partisipasi  Sekolah :Masih bersekolah Jenjang  pendidikan  tertinggi :SMP Pekerjaan  kepala  keluarga :Buruh /karyawan  pada sektor  lapangan usaha  aktivitas  jasa lainnya Kepemilikan  Rumah :Kontrak /sewa Jenis Lantai Terluas :Keramik Jenis Atap Terluas :Genteng Jenis Dinding  Terluas :Tembok Air Minum  dan Bahan Bakar Utama:Leding dan Gas elpiji  3kg Kepemilikan  Aset :Sepeda motor, Sepeda, dan Smartphone
+Mari Kawal Bersama, Langkah Besar  Wujudkan Kemandirian  Perekonomian  Bangsa  Untuk Indonesia yang Lebih  Sejahtera““TERIMA KASIH SENSUS EKONOMI 2026 MILIK INDONESIA!
+#MencatatEkonomiIndonesia

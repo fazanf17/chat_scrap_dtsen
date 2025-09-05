@@ -1,0 +1,126 @@
+PEMERINGKATAN DATA TUNGGAL SOSIAL EKONOMI NASIONAL Jakarta, 08 -07-2025Tim Pemeringkatan DTSEN BPS
+2Proses Integrasi Data ( Pemadanan ) Relasi IndividuRelasi KeluargaPenunggalan Keluarga Penunggalan Individu Verifikasi NIKKonfirmasi Individu , Keluarga , dan DomisiliPemadanan Individu Regsosek ×P3KE ×DTKSNIK Valid Pemadanan Deterministik NIK Tidak Valid Pemadanan Probabilistik Data Regsosek menjadi baseline kerena memiliki waktu lebih awal dan cakupan yang lebih luas dan pendataan dilakukan oleh BPS.
+Data yang tidak padan akan menjadi record baru ,termasuk selisih data yang ada diDUKCAPIL .
+Data BPJS Kesehatan digunakan untuk konfirmasi domisili dan memutakhirkan status kematian * Paralel proses pemadanan data individu Regsosek ,P3KE, dan DTKS oleh Dukcapil .Hasil pemadanan dapat memperkuat data tunggal melalui penunggalan individu dan keluarga serta domisili keberadaan .
+21 3 Penunggalan & Pengayaan Karakteristik /Variabel Pemeringkatan Status KesejahteraanDUKCAPIL Data Tunggal Sosial Ekonomi NasionalSumber data lain digunakan , termasuk PLN dan BPJS Ketenagakerjaan 2
+3Metode Pemeringkatan DTSEN Lengkap , Parsial (GC dan Pemutakhiran ) Versi Mei 20251.
+DTSEN Model PMT Regsosek2. GC Pengembangan Model PMT3.
+Pemuta khiran
+➢Karena perbedaan kelengkapan data!
+❖PEMERINGKATAN LENGKAP❖PEMERINGKATAN PARSIAL
+4Pemeringkatan DTSEN Lengkap sebelum GC
+5Pemeringkatan Kesejahteraan DTSEN Lengkap TUJUAN : sebagai dasar targeting pemberian bantuan sosial.
+Relasi keluarga : 89 juta* Persentase padan Regsosek x P3KE x DTKS : 41%*Gambaran Hasil Pemadanan * 12 3 45 6 7TANTANGAN: Pemeringkatan dilakukan untuk seluruh keluarga pada Data Tunggal hasil pemadanan (terdiri dari 7 kondisi /relasi ) Cakupan dan ketersediaan variabel ketiga sumber data berbeda
+•Regsosek: target 100 persen keluarga , memiliki variabel penciri kesejahteraan yang lebih lengkap .
+•P3KE: target 100 persen keluarga , terdapat desil secara nasional .
+•DTKS: 48% keluarga sasaran , sangat minim variabel penciri kesejahteraan .
+Pemeringkatan dilakukan pada tingkat kabupaten/kota , provinsi , dan nasional .*
+*) Angka sebagai ilustrasi saja
+6TANTANGAN: Perbedaan Variabel Penciri Kesejahteraan 1. Memiliki tempat berteduh tetap 2. Kepala keluarga masih bekerja 3. Pernah khawatir atau tidak makan dalam setahun terakhir 4. Pengeluaran pangan lebih besar 50% dari total pengeluaran 5. Pengeluaran untuk pakaian selama setahun terakhir 6. Tempat tinggal berlantai tanah dan/ atau plesteran 7. Tempat tinggal berdinding bambu /kawat /kayu 8. Tempat tinggal memiliki fasilitas BAB sendiri 9. Sumber penerangan listrik PLN 450 watt atau bukan listrikNo. Variabel Penciri Kesejahteraan Regsosek P3KE 1jenis dinding V V 2jenis atap V V 3jenis lantai teluas V V 4jenis kloset V 5tempat pembuangan tinja /akhir V V 6bahan bakar memasak V V 7sumber air minum V V 8status penguasaan bangunan V V 9sumber penerangan V V 10luas lantai perkapita V 11jumlah anggota keluarga menurut kelompok umur V V 12jumlah anggota keluarga menurut pendidikan tertinggi yang ditamatkan V V 13jumlah anggota keluarga menurut lapangan pekerjaan V V 14jumlah anggota keluarga menurut status dalam pekerjaan V 15mobil V 16komputer /Laptop V 17kulkas V 18emas V 19perahu motor V 20sepeda motor V 21perahu V 22telepon seluler VVariabel DTKS Isian jawaban biner 0 dan 1
+7Pemeringkatan DTSEN lengkap Mendapatkan ෠𝑌P3KE dengan metode imputasi regresi variabel P3KE Area 4, 6 Mendapatkan Skor DTKS dengan metode scoring variabel DTKS Area 7Menggunakan Model PMT Regsosek untuk data Regsosek Area 1, 2, 3, 5 12 345 6 7Relasi Data Regsosek –P3KE -DTKS
+෠𝑌_regsosek
+෠𝑌_P3KE 𝑆𝑘𝑜𝑟DTKS Regsosek P3KE DTKS R_Skor 1 1 111_0 1.5552 1 1 111_1 1.5535
+… … … … 100 99 000_10 0.4885 100 100 000_10 0.4880➢Urutan dari 907.888 (101 x 101 x 89) kombinasi peringkat berdasarkan rata- rata skor pengeluaran listrik .
+➢Perbandingan antar kelkesejahteraan Skori= (Rata -rata Rp. Pemakaian Listrik)i-2➢Peringkat 1 sampai dengan N di setiap kab/kota .
+1
+⋮ 𝑘1 𝑘1+1
+⋮ 𝑘2
+.
+.
+.
+𝑘907.888+1
+⋮ 𝑁 Proses pemeringkatan pada level kabupaten /kota
+%tilSkor 1 1.6736 2 1.5339
+…… 990.4804 100 0.4786Regsosek P3KE DTKS
+%tilSkor 1 1.3184 2 1.2594
+…… 990.4890 100 0.4875Kel Skor 111_0 1.6736 111_1 1.6684
+…… 010_10 0.5539 000_10 0.4979 Yang lebih berperan pada pemeringkatan DTSEN awal adalah kombinasi peringkat dari ketiga sumber data
+Pemeringkatan DTSEN lengkap PEMERINGKATAN DTSEN PADA LEVEL NASIONAL
+➢Hasil konsisten dengan angka kemiskinan makro (ekstrem , miskin, rentan miskin) untuk seluruh kabupaten /kota.
+➢Menggunakan pembobot yang diperoleh dari rasio garis kemiskinan nasional dengan kabupaten /kota
+➢Dapat mensinergikan kemiskinan mikro dan kemiskinan makro , di mana targeting keluarga sasaran dapat memanfaatkan angka kemiskinan makro dan data kemiskinan mikro dapat digunakan sebagai evaluasi kemiskinan makro .
+00,050,10,150,20,250,30,350,40,450,5 0 0,1 0,2 0,3 0,4 0,500,10,20,30,40,50,60,70,80,9 0 0,2 0,4 0,6 0,8 1Plot Kemiskinan P0 Kab/Kota Makro  ( Susenas ) vs DTSENPlot Persen Rentan Miskin Kab/Kota Makro ( Susenas ) vs DTSEN 0102030405060708090 0 20 40 60 80 100Persen Keluarga DTKS Angka Makro RMDTKS vs Angka Makro Rentan Miskin
+9Evaluasi Metode Pemeringkatan DTSEN Evaluasi Umum DTSEN dengan Penerima Bantuan TW 1 2025 :
+➢Angka IE pada tabel merupakan dugaan (perkiraan ) yang perlu verifikasi
+➢Memberikan gambaran persentase penerima bantuan yang diduga tidak layak menerima berdasarkan Kepmensos .Metode PemeringkatanBantuan PKH Bantuan Sembako Bantuan PBI Desil 1-4Desil 1-5Desil 1 -6Desil 1-4Desil 1-5Desil 1-6Desil 1-4Desil 1-5Desil 1-6 Metode 82% 92% 97% 78% 89% 96% 75% 87% 95% IE = 18% IE = 11% IE = 13%Persentase penerima bantuan menurut jenis bantuan , desil dan metode :
+⃰Berdasarkan Keputusan Menteri Sosial RI No.73/HUK/2025
+10Catatan Pemeringkatan DTSEN Lengkap Catatan :
+•Metode pemeringkatan lengkap (awal) hanya digunakan pada saat integrasi tigadata utama saja, selanjutnya akan menggunakan pengembangan Model PMT.
+•Yang lebih berperan pada pemeringkatan DTSEN awal adalah kombinasi peringkat dari ketiga sumber data. Peringkat terbawah ketika Regsosek dan P3KE menyatakan persentil 1 dan DTKS menyatakan skor kecil dan mendapatkan bantuan , demikian pula sebaliknya .
+•Peringkat nasional dibentuk berdasarkan angka kemiskinan makro Susenas , berdampak pada Kab/kota dengan angka kemiskinan rendah namun persentase penerima bantuan besar , akan lebih banyak penerima bantuan yang keluar , demikian pula sebaliknya .
+•DTSEN bagai bayi yang baru lahir, proses pemadanan dan pemeringkatan sudah dilakukan secara optimal namun masih terdapat kesalahan yang disebabkan karena perbedaan cakupan dan kelengkapan data, proses pemadanan , dan proses pemeringkatan . Idealnya setelah DTSEN terbentuk dilakukan verifikasi secara menyeluruh .
+11Metode Pemeringkatan Parsial
+(GC)
+12Pemeringkatan DTSEN Parsial (GC) BAGAIMANA MENYISIPKAN SEBAGIAN KELUARGA (HASIL GC) KE DALAM DTSEN?
+1.Buat distribusi persentil (semesta ) untuk setiap kabupaten /kota menggunakan data Regsosek dengan model PMT 2.Prediksi pengeluaran perkapita (Y_hat) berdasarkan model PMT* (belum mengakomodir variabel tambahan dan isian pada kepemilikan asset) untuk keluarga hasil pemutakhiran 3.Berdasarkan nilai Y_hat, setiap keluarga hasil pemutakhiran dicari posisi peringkatnya (persentil), dengan menggunakan distribusi prediksi pengeluaran perkapita pada data regsosek lengkap (semesta).
+4.Y_hat juga dilakukan penyesuaian berdasarkan kriteria keluarga tunggal lansia, disabilitas, KK Perempuan, penyakit kronis, dan keluarga tunggal disabilitas.
+5.Jika terdapat peran masyarakat (musdes/muskel/FKP) dan  data -data administrative dari KL lain, maka digunakan sebagai penyesuaian.
+6.Untuk kasus GC (karena cukup banyak) dilakukan perangkingan kembali untuk seluruh data di DTSEN.
+7.Peringkat dihasilkan pada tingkat kab/kota, provinsi, maupun nasional.
+* IE/EE model PMT berdasarkan Susenas berkisar 29%Kab persentil1 persentil2 persentil3 … persentil98 persentil99 persentil100 1101 627,381.9 680,332.3 714,726.2 … 3,818,982.0 4,452,549.5 9,923,277.4 1102 609,047.7 665,948.5 706,319.7 … 3,534,185.1 4,110,719.0 18,159,717.7
+… … … … … … … … 9436 484,787.4 510,638.2 510,876.5 … 3,351,515.9 3,590,805.6 22,346,912.5 9471 621,469.9 675,099.2 714,759.1 … 4,505,241.8 5,080,925.8 517,289,723.4
+13Variabel lengkap DTSEN 26 Informasi Keluarga 13 Informasi Individu No. Variabel Keterangan 1-12Identitas Identitas wilayah dan keluarga 13 keluarga dalam rumah Jumlah keluarga yang tinggal dalam satu rumah 14 status kepemilikan rumah status kepemilikan rumah yang dihuni 15 jenis lantai terluas jenis lantai terluas darirumah yang dihuni 16 jenis dinding terluas jenis dinding terluas darirumah yang dihuni 17 jenis atap terluas jenis atap terluas darirumah yang dihuni 18 sumber air minum utama sumber air minum utama darirumah yang dihuni 19 sumber penerangan utama sumber penerangan utama darirumah yang dihuni 20daya terpasang daya listrik terpasang darirumah yang dihuni 21 id meteran PLN ID pelanggan / nomor meteran PLN rumah yang dihuni 22 bahan bakar utama memasak bahan bakar utama memasak darirumah yang dihuni 23 fasilitas bab fasilitas babdarirumah yang dihuni 24 jenis kloset jenis kloset yang digunakan darirumah yang dihuni 25 pembuangan akhir tinja jenis pembuangan akhir tinja darirumah yang dihuni 26 Kepemilikan :Asset bergerak : tabung gas, lemari es, AC, pemanas air, telepon rumah , tv datar , emas perhiasan , komputer / laptop/ tablet, sepeda motor, sepeda , mobil , perahu , kapal perahu motor, smartphone; Aset tidak bergerak : sawah kebun , lahan lainnya , rumah lainnya ; Ternak : ternak besar (sapi, kerbau , kuda ), ternak kecil (kambing , domba , babi)No Nama Variabel Konsep Definisi 1-6Identitas Identitas keluarga dan individu 7 status hubungan keluargastatus hubungan anggota keluarga terhadap kepala keluarga 8 status kawin status perkawinan individu 9 pendidikan partisipasi sekolah dan pendidikan terakhir individu 10 pekerjaan status dan lapangan usaha pekerjaan utama individu 11 kepemilikan usaha jumlah usaha dan lapangan usaha yang dimiliki 12 penyandang disabilitas status penyandang disabilitas pada individu 13 penyakit kronis keluhan kesehatan kronis /menahun pada individu Kualitas data menjadi sangat penting !
+14Urutan Variabel yang Berperan pada Model PMT 1. Keluarga memiliki aset bergerak 1)Mobil 2)AC 3)Sepeda Motor 4)Emas/ Perhiasan -minimal 10 gram 5)Komputer /Laptop 6)Kulkas 7)Telepon Rumah 8)Perahu Motor 9)Water Heater 10)Perahu 2. Ijazah/STTB tertinggi yang dimiliki anggota keluarga 3. Jumlah anggota keluarga 4. Bahan bakar /energi utama untuk memasak 5. Sumber air minum utama 6. Lapangan usaha dan status dariperkerjaan utama anggota keluarga 7. Sumber penerangan utama 8. Jenis lantai terluas 9. Jenis kloset , kepemilikan dan penggunaan fasilitas tempat buang air besar 10. Jenis dinding terluas 11. Jenis atap terluas 12. Status kepemilikan bangunan tempat tinggal yang ditempati 13. Tempat pembuangan akhir tinja! Sayangnya kepemilikan aset bergerak masih menggunakan jawaban ya/tidak belum menggunakan jumlah , dan jenis karakteristik rumah tidak melihat kualitas .
+15Catatan Pemeringkatan DTSEN Hasil GC Catatan :
+•Pemeringkatan hasil GC tidak bisa 100% benar , perkiraan Inclusion dan Exclusion Errors (IE/EE) model berkisar 20-30% yang disebabkan proses pendataan , entri data, dan model pemeringkatan .
+•Pemeringkatan GC belum melibatkan Forum Masyarakat (FKP/ musdes /muskel padahal halini dapat mengurangi kesalahan pemeringkatan .
+Sumber Error PMT: The PMT is so inaccurate
+(Kidd et.al., 2017)
+•In-built design errors
+•Implementation errors
+•The static nature of the instrument
+16Metode Pemeringkatan Pemutakhiran
+(Pengembangan Model PMT)
+17Rencana Perbaikan Pemeringkatan Keluarga Pemutakhiran DTSEN 1.Model PMT dengan memperkaya variable kepemilikan asset ( jumlah ), lahan dan ternak .
+2.Memanfaatkan Data Administrasi seperti PLN, BPJS, PBB, Samsat , BKN dllsebagai dasar untuk menyesuaikan peringkat dan atau menetapkan peringkat (Mean Test ) 3.Melibatkan informasi dari Forum Komunikasi kePublik seperti Musdes/Muskel atau FKP desa /rt/rw 4.Mengembangkan Model PMT Machine Learning dan PMT SAE Multilevel (unit & area) 5.Memanfaatkan fotokondisi rumah (tampak depan , dapur , kamar mandi) untuk memetukan kesejahteraan melalui metode image -based classification 6.Pengembangan distribusi pengeluaran perkapita susenas untuk penggabungan peringkat di level Nasional 7.Membuat sistem otomatis pemeringkatan untuk setiap data yang masuk (otomatisasi )
+18Solusi Perbaikan Kesalahan (IE/EE)
+•Mengoptimalkan mekanisme pembaharuan , usul-sanggah dan verifikasi lapangan .
+•Pelibatan Masyarakat melalui forum misalnya FKP dan musdes /muskel yang terkontrol dan terukur .
+Terima Kasih
+•Tidak adamodel yang bisa menangkap semua kompleksitas realitas , setiap model memiliki asumsi , batasan , dan penyimpangan darikenyataan .
+•Gunakan model secara bijak, jangan mempercayai model seolah itukebenaran mutlak , tapijuga jangan menolaknya hanya karena tidak sempurna .
+20Ringkasan Pemeringkatan Data DTSEN Awal Data hasil GC 1 Data Pemutakhiran
+•Kondisi data berbeda baik cakupan , kelengkapan , dan periode waktu .
+•Memanfaatkan peringkat masing - masing sumber data (Persentil Regsosek , Persentil P3KE, Skor DTKS) untuk dibuat skor komposit .
+•Peringkat terbawah ketika Regsosek dan P3KE menyatakan Persentil 1 dan DTKS menyatakan skor kecil dan mendapatkan bantuan , demikian pula sebaliknya .•Sudah tidak melihat sumber data tetapi memperhatikan variabel penciri kesejahteraan .
+•Menggunakan model Proxy Mean Test
+(PMT) Regsosek untuk memprediksi pengeluaran perkapita keluarga .
+•Peringkat ditentukan lokasi hasil PMT berdasarkan sebaran data Regsosek di DTSEN yang sebanding .
+•Variabel yang berperan : aset, pendidikan , pekerjaan , dan karakteristik perumahan .•Memanfaatkan 39 variabel dan forum Masyarakat ( musdes /muskel )
+•Menggunakan model Proxy Mean Test
+(PMT) yang dikembangkan dengan Machine Learning.
+•Memanfaatkan Data Administrasi seperti PLN, BPJS, PBB, Samsat , BKN dllsebagai dasar untuk menyesuaikan peringkat .
+•Memanfaatkan fotokondisi rumah untuk memetukan kesejahteraan melalui metode image -based classification .
+Motivasi : Tingkat kesalahan (IE/EE) terus semakin mengecil
+21Isutrasi Desil dan Pengeluaran Perkapita Pengertian Desil Ilustrasi Desil pada Pengeluaran Perkapita Desil : Membagi data yang sudah DIURUTKAN kedalam 10 bagian yang sama besar . Masing -masing bagian disebut desil pertama (D1), desil kedua
+(D2), hingga desil kesepuluh (D10).
+22Pemeringkatan DTSEN lengkap Mendapatkan ukuran urutan kesejahteraan keluarga di dalam setiap kelompokMenetapkan mekanisme pemeringkatan antar kelompokMendapatkan peringkat kesejahteraan keluarga pada tingkat kab/kota , provinsi dan nasional
+•Memanfaatkan peringkat kesejahteraan dari setiap sumber data ( persentil regsosek , persentile P3KE, dan kombinasi skor dan bantuan DTKS).
+•Membentuk dan menetapkan urutan kombinasi peringkat kesejahteraan dengan memanfaatkan data PLN
+(rupiah pengeluaran Listrik 10,99 juta sampel keluarga yang eligible)•Memeringkatkan berdasarkan urutan kombinasi kelompok kesejahteraan dan urutan dalam kelompok
+•Melakukan penyesuaian pada keluarga dengan kondisi tertentu .
+•Membuat peringkat pada level provinsi dan nasional .
+•Menggunakan pendekatan distribusi Burr XII (3 parameter) .•Ukuran yang sebanding untuk mengurutkan kesejahteraan keluarga di dalam kelompok (dari sumber data yang sama ), namun tidak dapat dibandingkan antar kelompok .
+•Menggunakan ukuran dari 3 model: PMT Regsosek , Imputasi P3KE, Scoring DTKS .1 3 2Strategi pemeringkatan : Bottom -Up (mengurutkan antar kelompok →mengurutkan di dalam kelompok
+→dan memeringkatkan pada level yang lebih tinggi )
+23Pemeringkatan DTSEN lengkap PEMERINGKATAN DTSEN PADA LEVEL NASIONAL
+➢Perlu ukuran yang dapat dibandingkan antar kab/kota→prediksi pengeluaran perkapita sintetik dengan pendekatan distribusi .
+➢Distribusi pengeluaran perkapita diasumsikan mengikuti distribusi Burr XII dengan 3 parameter yaitu shape1, shape2, dan scale yang diperoleh berdasarkan angka kemiskinan makro kabupaten /kota tahun 2024 (miskin ekstrem , miskin dan rentan miskin).
+➢Contoh : PDF Kabupaten Mandailing Natal hasil estimasi pada DTSEN dan perbandingannya dengan data Susenas .
+Angka Makro Estimasi DTSEN Distribusi SusenasDistribusi DTSEN Miskin Ekstrem Miskin Rentan Miskin GK % GK % GK % 323.259 0,72 519.553 7,96 831.285 37,21
+24PROXY MEAN TEST 1.Proxy mean test (PMT) merupakan metode yang memprediksi tingkat konsumsi rumah tangga menggunakan informasi karakteristik rumah tangga dan komunitas yang diperoleh melalui data survei rumah tangga . Karakteristik yang dipilih adalah yang berkorelasi dengan kesejahteraan /kemiskinan dan mudah diverifikasi seperti komposisi rumah tangga , kondisi perumahan , kepemilikan aset , status pekerjaan , dsb.
+2.Model PMT dibangun berdasarkan regresi konsumsi perkapita spesifik kabupaten /kota untuk diperhitungkan secara eksplisit heterogenitas antar wilayah.
+3.PMT telah menjadi metodologi penargetan pilihan di banyak negara berpenghasilan rendah dan menengah , seperti Bangladesh , Uganda , Nepal , Pakistan , Rwanda, Sri Lanka, Mexico, Kamboja , Palestina , dll(Kidd et.al., 2017) 4.Bank Dunia mempromosikan PMT dapat secara akurat dan hemat biaya menargetkan orang miskin kronis (del Ninno dan Mills, 2015)TENTANG PMT
+25Model Umum PMT vh vh vhy vh  +++='ln'X Log konsumsiKarakteristik rumah tanggaError Karakteristik Komunitas lny : log pengeluaran rumah tangga h : rumah tangga h, ν : desa/kelurahan ν, X : variabel penjelas, α : intercept , β : koefisien parameter rumah tangga hasil estimasi pada variabel yang terkait dan
+ : Koefesien karakteristik komunitas η : Karakteristik Komunitas Sumber Data Utama: Susenas Gabungan
+(Pooled ) Maret 2017 -2022 Cakupan Varibel PMT 2022: Variabel pengeluaran, variabel demografi, pendidikan, ketenagakerjaan, kondisi perumahan, kepemilikan asset Pengembangan Model : pengembangan alternatif model dilakukan untuk 514 kabupaten/kota Cakupan sampel : seluruh rumah tangga yang terdiri dari 1 keluarga Evaluasi Model : Adj R -square; IE/EE serta memperhatikan kelogisan tanda koefisien model; Pengecekan lapangan melalui mekanisme Ground Check hasil pemodelan.MODEL PMT
+26Evaluasi Metode Pemeringkatan DTSEN Evaluasi Umum Pemeringkatan DTSEN dengan Susenas 2024:
+➢Menggunakan sampel Susenas 2024 yang padan dengan DTSEN ( 325.585 rumah tangga )
+➢Kenaikan IE/EE pada DTSEN dibandingkan dengan hasil Testing Model disebabkan 1.Perbedaan cakupan sampel Susenas vs populasi DTSEN, 2.Perbedaan waktu Susenas 2024 vs DTSEN beragam 2022 -2025.
+➢Proporsi IE/EE lebih besar pada kelompok tengah (Desil 4-6)
+➢Secara umum kualitas pemeringkatan DTKS lebih baik daripada Regsosek , apalagi P3KE, halini dikarenakan cakupan DTKS yang hanya 48% keluarga berpendapatan terendah .Ukuran DTSEN Awal IE/EE DTSEN 0.374 IE/EE REGSOSEK 0.380 IE/EE P3KE 0.392 IE/EE DTKS 0.235IE/EE Model PMT 0.290
+27Target Pemeringkatan GC Data hasil pendataan Keluarga GC DTSEN: Belum di -GC, cakupan GC tidak lengkap .
+LANJUT SURVEI 6.992.702 (80%)TIDAK LANJUT SURVEI 1.782.703 (20%)
+•Update Pemeringkatan berdasarkan data GC berdasarkan model PMT regsosek
+•Hanya 57% dari target•70% tidak ditemukan dan tidak eligible, perlu diantisipasi untuk keluarga sasaran baru
+•Tetap Mengunakan peringkat awalJenis Prelist TargetSudah Disurvei Belum Disurvei Jumlah Persen Jumlah Persen Exclusion 3,762,702 2,645,058 70.30 1,117,644 29.70 Inclusion 4,530,326 3,382,887 74.67 1,147,439 25.33 Nonactive 3,940,211 2,747,460 69.73 1,192,751 30.27 Total 12,233,239 8,775,405 71.73 3,457,834 28.27 tidak_lanjut Persen meninggal 20% menolak 10% tidak_ditemukan 67% tidak_eligible 3% tinggal_di_lembaga 0%

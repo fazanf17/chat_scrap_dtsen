@@ -1,0 +1,226 @@
+- 1 -
+
+PERATURAN MENTERI SOSIAL REPUBLIK INDONESIA NOMOR 3 TAHUN 2025 TENTANG PEMUTAKHIRAN DAN PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL UNTUK BANTUAN SOSIAL, PEMBERDAYAAN SOSIAL, DAN PROGRAM PENYELENGGARAAN KESEJAHTERAAN SOSIAL
+
+DENGAN RAHMAT TUHAN YANG MAHA ESA
+
+MENTERI SOSIAL REPUBLIK INDONESIA,
+
+
+Menimbang  : a. bahwa untuk memberikan acuan bagi kementerian/lembaga dan pemerintah daerah dalam pemutakhiran dan penggunaan data tunggal sosial dan ekonomi nasional untuk bantuan sosial, pe mberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial, perlu adanya pengaturan mengenai pemutakhiran dan penggunaan data tunggal sosial dan ekonomi nasional; b. bahwa Peraturan Menteri Sosial Nomor 3 Tahun 2021 tentang Pengelolaan Data Terpadu K esejahteraan Sosial sudah tidak sesuai dengan perkembangan masyarakat dan kebutuhan hukum , sehingg a perlu diganti; c. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Menteri  Sosial tentang Pemutakhiran dan Penggunaan Data Tunggal Sosial dan Ekonomi Nasional untuk Bantuan Sosial, Pemberdayaan Sosial, dan Program Penyelenggaraan Kesejahteraan Sosial;
+
+Mengingat  : 1. Pasal 17 ayat (3) Undang -Undang Dasar Negara Republik Indones ia Tahun 1945; 2. Undang -Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916) sebagaimana telah diubah dengan Undang -Undang Nomor 61 Tahun 2024 tentang Perubahan atas Undang -Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2024 Nomor 225, Tambahan Lembaran Negara Republik Indonesia Nomor 6994 );
+- 2 -
+
+3. Undang -Undang Nomor 11 Tahun 2009 tentang Kesejahteraan Sosial (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 12, Tambahan Lembaran Negara Republik Indonesia Nom or 4967); 4. Undang -Undang Nomor 13 Tahun 2011 tentang Penanganan Fakir Miskin (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 83, Tambahan Lembaran Negara Republik Indonesia Nomor 5235); 5. Undang -Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah (Lem baran Negara Republik Indonesia Tahun 2014 Nomor 244, Tambahan Lembaran Negara Republik Indonesia Nomor 5587) sebagaimana telah beberapa kali diubah terakhir dengan Undang - Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang –Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi  Undang - Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856); 6. Peraturan Pemerintah Nomor 39 Tahun 2012 tentang Penyelenggaraan Kesejahteraan Sosial (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 5294); 7. Peraturan Presiden Nomor 162 Tahun 2024 tentang Kementerian Sosial (Lembaran Negara Republik Indonesia Ta hun 2024 Nomor 358); 8. Peraturan Menteri Sosial Nomor 2 Tahun 2025 tentang Organisasi dan Tata Kerja Kementerian Sosial (Berita Negara Republik Indonesia Tahun 2025 Nomor 222);
+
+MEMUTUSKAN:
+
+Menetapkan  : PERATURAN MENTERI SOSIAL TENTANG PEMUTAKHIRAN DAN PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL UNTUK BANTUAN SOSIAL, PEMBERDAYAAN SOSIAL, DAN PROGRAM PENYELENGGARAAN KESEJAHTERAAN SOSIAL.
+
+BAB I KETENTUAN UMUM
+
+Pasal 1 Dalam Peraturan Menteri ini yang dimaksud dengan: 1. Data Tunggal Sosial dan Ekonomi Nasional yang selanjutnya disebut DTSEN adalah basis data tunggal individu, dan/atau keluarga yang mencakup kondisi sosial, ekonomi dan peringkat kesejahteraan keluarga, yang dibentuk dari penggabungan data registrasi sosial dan ekonomi, data terpadu kesejahteraan sosial, dan data pensasaran percepatan penghapusan kemiskinan ekstrem serta telah dipadankan dengan data kependudukan dan dimutakhirkan secara berkala yang dikelola oleh lembaga pemerintah yang melaksanakan tugas pe merintahan di bidang kegiatan statistik.
+
+- 3 -
+
+2. Pemutakhiran Data adalah proses memperbaharui dan/atau melengkapi data mengenai bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial yang sudah ada dan/atau pengusulan data untuk m ewujudkan data yang akurat, terkini dan terintegrasi.
+3. Penyelenggaraan Kesejahteraan Sosial adalah upaya yang terarah, terpadu, dan berkelanjutan yang dilakukan pemerintah, pemerintah daerah, dan masyarakat dalam bentuk pelayanan sosial guna memenuhi kebut uhan dasar setiap warga negara, yang meliputi rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan perlindungan sosial.
+4. Proses Usulan Data adalah kegiatan perubahan meliputi penambahan, penghapusan, dan perbaikan data berupa angka, teks, gambar, a udio, dan/atau video yang dilakukan dengan metode pencatatan, perekaman, atau melalui sistem elektronik.
+5. Verifikasi Data yang selanjutnya disebut Verifikasi adalah proses pemeriksaan data untuk memastikan Proses Usulan Data yang telah dilakukan sesuai deng an prosedur yang telah ditetapkan dan memastikan data yang telah dikumpulkan atau diperbaiki sesuai dengan fakta di lapangan.
+6. Validasi Data yang selanjutnya disebut Validasi adalah proses pengesahan data dengan memastikan dan memperbaiki data sehingga data  valid.
+7. Peringkat Kesejahteraan Keluarga adalah urutan tingkat kesejahteraan keluarga yang disusun berdasarkan variabel sosial ekonomi melalui penerapan metode statistik yang dilaksanakan oleh lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang  statistik.
+8. Pemerlu Pelayanan Kesejahteraan Sosial adalah perseorangan, keluarga, kelompok, dan/atau masyarakat yang karena suatu hambatan, kesulitan, atau gangguan, tidak dapat melaksanakan fungsi sosialnya, sehingga memerlukan pelayanan sosial unt uk memenuhi kebutuhan hidupnya baik jasmani dan rohani maupun sosial secara memadai dan wajar.
+9. Potensi dan Sumber Kesejahteraan Sosial adalah perseorangan, keluarga, kelompok, dan/atau masyarakat yang dapat berperan serta untuk menjaga, menciptakan, menduk ung, dan memperkuat penyelenggaraan kesejahteraan sosial.
+10. Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.
+11. Sistem Informasi Kesejahte raan Sosial Next-Generation yang selanjutnya disingkat SIKS -NG adalah sistem informasi yang mendukung proses pemutakhiran DTSEN untuk bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahteraan sosial.
+
+- 4 -
+
+12. Menteri adalah menteri yang menyel enggarakan urusan pemerintahan di bidang sosial.
+
+BAB II PEMUTAKHIRAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL
+
+Bagian  Kesatu Umum
+
+Pasal 2
+(1) Menteri melakukan pemutakhiran DTSEN.
+(2) Untuk mendukung pemutakhiran DTSEN sebagaimana dimaksud pada ayat (1), Menteri memperoleh DTSEN dari lembaga pemerintah yang melaksanakan tugas pemerintahan di bidang kegiatan statistik.
+(3) Pemutakhiran DTSEN sebagaimana dimaksud pada ayat
+(1) dilakukan melalui sinkronisasi DTSEN.
+
+Pasal 3
+(1) Sinkronisasi DTSEN sebagaimana dimaksud  dalam Pasal 2 ayat (3) dilakukan terhadap data yang diajukan oleh: a. Pemerintah Daerah kabupaten/kota; b. Kementerian Sosial; atau c. masyarakat.
+(2) Sinkronisasi DTSEN sebagaimana dimaksud pada ayat
+(1) dilakukan dengan tahapan: a. Proses Usulan Data; dan b. Verifikasi d an Validasi Proses Usulan Data.
+(3) Sinkronisasi DTSEN sebagaimana dimaksud pada ayat
+(2) meliputi data individu dan keluarga yang memiliki Peringkat Kesejahteraan Keluarga.
+
+Bagian Kedua Proses Usulan Data
+
+Pasal 4
+(1) Proses Usulan Data oleh Pemerintah Daerah kabupaten/kota sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf a berasal dari: a. desa/kelurahan/nama lain; dan/atau b. instansi daerah yang menyelenggarakan urusan pemerintahan di bidang sosial.
+(2) Proses Usulan Data sebagaimana dimaksud pada a yat (1) dapat berupa usulan dan/atau perubahan data individu dan keluarga.
+(3) Proses Usulan Data sebagaimana dimaksud pada ayat (1) dan ayat (2) diperuntukkan bagi individu dan/atau keluarga yang layak menerima bantuan sosial, pemberdayaan sosial, dan program  penyelenggaraan kesejahteraan sosial sesuai dengan kriteria yang ditetapkan oleh Kementerian Sosial.
+
+
+
+- 5 -
+
+Pasal 5
+(1) Pengajuan Proses Usulan Data yang dilakukan oleh Pemerintah Daerah kabupaten/kota yang berasal dari desa/kelurahan/nama lain sebagaimana dimak sud dalam Pasal 4 ayat (1) huruf a dilakukan oleh: a. ketua rukun tetangga atau ketua rukun warga; b. kepala dusun; c. kepala desa/lurah/nama lain; d. Potensi dan Sumber Kesejahteraan Sosial; dan/atau e. masyarakat kepada perangkat desa/kelurahan/ nama lain.
+(2) Pengajuan Proses Usulan Data sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui musyawarah desa/kelurahan/nama lain dan disampaikan kepada bupati/wali kota melalui camat.
+(3) Bupati/wali kota wajib melakukan Verifikasi dan Validasi Proses Usulan Data s ebagaimana dimaksud pada ayat (1).
+
+Pasal 6
+(1) Proses Usulan Data yang dilakukan oleh Pemerintah Daerah kabupaten/kota yang berasal dari usulan instansi daerah yang menyelenggarakan urusan pemerintahan di bidang sosial sebagaimana dimaksud dalam Pasal 4 ayat  (1) huruf b disampaikan kepada bupati/wali kota.
+(2) Bupati/wali kota sebagaimana dimaksud pada ayat (1) wajib melakukan Verifikasi dan Validasi Proses Usulan Data.
+
+Pasal 7
+(1) Hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 5 dan Pasal 6 disampaikan oleh pejabat yang ditunjuk bupati/wali kota kepada Menteri dengan tembusan kepada gubernur.
+(2) Penyampaian hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (1) disampaikan melalui aplikasi SIKS -NG.
+
+Pasal 8
+(1) Hasil Verifikasi dan Validasi Proses Usulan Data yang telah diterima oleh Menteri sebagaimana dimaksud dalam Pasal 7, dilakukan Verifikasi dan Validasi Proses Usulan Data oleh satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (1) paling sedikit meliputi: a. data perorangan bersifat individual dan tunggal; b. data perorangan mempunyai nomor induk kependudukan, nama, dan alamat yang sesuai dengan data ke pendudukan yang dikelola oleh direktorat jenderal yang menangani urusan kependudukan dan pencatatan sipil; c. data keluarga, kelompok, dan masyarakat merupakan himpunan data perorangan;
+- 6 -
+
+d. anggota keluarga tidak terdata ganda dengan anggota keluarga lain; dan e. kelengkapan atribut DTSEN yang digunakan untuk pemeringkatan kesejahteraan.
+(3) Dalam hal Proses Usulan Data dinilai tidak memenuhi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2), satuan kerja pengelola data di lingkungan  Kementerian Sosial mengembalikan usulan data kepada Pemerintah Daerah kabupaten/kota untuk dilakukan perbaikan data.
+
+Pasal 9
+(1) Proses Usulan Data yang dilakukan oleh Kementerian Sosial sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf b diajukan oleh unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial kepada satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial sebagaimana dimaksud pada ayat (1) melaksanakan Verifik asi dan Validasi Proses Usulan Data sebelum diajukan kepada satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(3) Dalam melaksanakan Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2), unit kerja dan/atau satuan kerja di lingkungan Kementerian Sosial dapat dibantu oleh Potensi dan Sumber Kesejahteraan Sosial.
+(4) Hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2) dan ayat (3) dilakukan Verifikasi dan Validasi Proses Usulan Data oleh satuan kerj a pengelola data di lingkungan Kementerian Sosial.
+(5) Dalam hal hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (4) dinilai tidak memenuhi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 8 a yat (2), satuan kerja pengelola data di lingkungan Kementerian Sosial menginformasikan data kepada Pemerintah Daerah kabupaten/kota untuk diperbaiki.
+
+Pasal 10
+(1) Proses Usulan Data oleh masyarakat sebagaimana dimaksud dalam Pasal 3 ayat (1) huruf c diajukan kepada Kementerian Sosial dengan menggunakan apikasi yang dikelola oleh satuan kerja pengelola data di lingkungan Kementerian Sosial.
+(2) Pengajuan Proses Usulan Data sebagaimana dimaksud pada ayat (1) dilakukan Verifikasi dan Validasi Proses Usulan Data oleh: a. Potensi dan Sumber Kesejahteraan Sosial; b. Pemerintah Daerah kabupaten/kota; dan/atau c. masyarakat melalui musyawarah desa/kelurahan/ nama lain.
+
+
+- 7 -
+
+(3) Dalam hal hasil Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud pada ayat (2) dinilai tidak memenu hi kriteria Verifikasi dan Validasi Proses Usulan Data sebagaimana dimaksud dalam Pasal 8 ayat (2), satuan kerja pengelola data di lingkungan Kementerian Sosial menginformasikan data kepada Pemerintah Daerah kabupaten/kota untuk diperbaiki.
+
+Bagian Ketiga Verifikasi dan Validasi DTSEN
+
+Pasal 11
+(1) Verifikasi dan Validasi DTSEN dilakukan terhadap Proses Usulan Data yang diajukan oleh Pemerintah Daerah kabupaten/kota, Kementerian Sosial, atau masyarakat.
+(2) Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (1) dilakukan dengan melibatkan: a. Pemerintah Daerah kabupaten/kota; b. Potensi dan Sumber Kesejahteraan Sosial; dan/atau c. Kementerian Sosial.
+(3) Hasil Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (2) dilaporkan kepada Menteri.
+(4) Hasil Verifikasi dan Validasi DTSEN sebagaimana dimaksud pada ayat (3) disampaikan oleh Menteri kepada lembaga pemerintah yang melaksanakan tugas pemerintahan di bidang kegiatan statistik untuk dilakukan pemutakhiran DTSEN dan pemeringkatan kesejahteraan.
+
+Pasal 12 Ketentuan mengenai tata cara pengajuan Proses Usulan Data serta Verifikasi dan Validasi DTSEN sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 11 ditetapkan oleh Menteri.
+
+BAB III PENGGUNAAN DATA TUNGGAL SOSIAL DAN EKONOMI NASIONAL
+
+Pasal 13
+(1) DTSEN dijadikan sebagai acuan untuk: a. bantuan sosial; b. pemberdayaan sosial; dan/atau c. program penyelenggaraan kesejahteraan sosial.
+(2) Ketentuan mengenai kriteria penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial yang dilaksanakan oleh Kementerian S osial ditetapkan oleh Menteri.
+
+Pasal 14
+(1) Menteri dapat menetapkan penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial berdasarkan DTSEN yang telah dilakukan pemutakhiran .
+
+- 8 -
+
+(2) Dalam hal DTSEN belum dilakukan pemut akhiran, Menteri dapat menetapkan penerima bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial berdasarkan DTSEN periode sebelumnya dan perubahan data yang berasal dari kementerian/lembaga/Pemerintah Daerah kabupaten/ kota.
+(3) Perubahan data sebagaimana dimaksud pada ayat (2) terkait perubahan data kependudukan, sosial dan ekonomi individu, dan/atau keluarga.
+
+Pasal 15
+(1) DTSEN digunakan oleh: a. unit kerja di lingkungan Kementerian Sosial; b. kementerian/lembaga; c. Pemerintah Daerah; d. badan usaha milik negara atau badan usaha milik daerah; dan/atau e. masyarakat.
+(2) DTSEN sebagaimana dimaksud pada ayat (1) berupa data penerima bantuan sosial, pemberdayaan sosial, dan program penyelenggaraan kesejahter aan sosial.
+
+Pasal 16
+(1) Unit kerja di lingkungan Kementerian Sosial sebagaimana dimaksud dalam Pasal 15 huruf a harus menggunakan DTSEN dalam pemberian bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial.
+(2) Penggunaan DTS EN sebagaimana dimaksud pada ayat (1) dapat dikecualikan dalam kondisi: a. situasi kebencanaan; b. Pemerlu Pelayanan Kesejahteraan Sosial ditemukan dalam kondisi tidak tertangani; c. kondisi lain yang mengancam keselamatan atau kedaruratan; dan/atau d. sesuai dengan kebijakan pemerintah dan/atau arahan Presiden/Wakil Presiden.
+(3) Dalam hal terjadi pengecualian sebagaimana dimaksud pada ayat (2), unit kerja di lingkungan Kementerian Sosial melaporkan data penerima program untuk diusulkan dalam DTSEN.
+(4) Ketentuan meng enai Proses Usulan Data sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 11 berlaku secara mutatis mutandis terhadap pengusulan sebagaimana dimaksud pada ayat (3).
+
+Pasal 17 Tata cara penggunaan DTSEN oleh unit kerja di lingkungan Kementerian Sosial sebagaimana dimaksud dalam Pasal 16 dilakukan dengan ketentuan: a. unit kerja mengajukan permintaan data kepada satuan kerja pengelola data; b. satuan kerja pengelola data memberikan data awal sesuai permintaan yang diajukan oleh unit kerja;
+- 9 -
+
+c. unit kerja melakukan penyaringan data sesuai dengan kriteria program yang akan diberikan; d. unit kerja menyesuaikan data yang telah dilakukan penyaringan dengan kuota jumlah penerima manfaat/keluarga penerima manfaat yang tersedia; dan e. data calon penerima manfaat/kelua rga penerima manfaat yang telah disesuaikan dengan kebutuhan program ditetapkan oleh unit kerja sebagai penerima manfaat/keluarga penerima manfaat.
+
+Pasal 18
+(1) Penggunaan DTSEN oleh unit kerja di lingkungan Kementerian Sosial untuk penyaluran bantuan sosial, pemberdayaan sosial, dan/atau program penyelenggaraan kesejahteraan sosial dengan mitra penyalur dilakukan melalui aplikasi yang dikelola oleh satuan kerja pengelola data.
+(2) Penggunaan DTSEN sebagaimana dimaksud pada ayat (1) ditindaklanjuti dengan p erjanjian kerja sama antara unit kerja di lingkungan Kementerian Sosial dengan mitra penyalur.
+(3) Mitra penyalur sebagaimana dimaksud pada ayat (2) terdiri atas bank penyalur, pos penyalur, atau pihak lain.
+
+Pasal 19 Penggunaan DTSEN oleh kementerian/lembaga , Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 15 huruf b sampai dengan huruf e wajib mendapatkan persetujuan Menteri.
+
+Pasal 20 DTSEN yang digunakan oleh kementerian/lembag a, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 19 dilakukan dengan mengajukan permohonan secara tertulis kepada Menteri sesuai dengan ketentuan peraturan perundang -undangan .
+
+Pasal 21
+(1) Permohonan penggunaan DTSEN oleh kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan/atau masyarakat sebagaimana dimaksud dalam Pasal 20 yang telah mendapatkan persetujuan oleh Menteri, diberikan dengan ketentuan: a. Menteri menugaskan kepala satuan kerja pengelola data/wali data untuk menyiapkan DTSEN sesuai dengan permohonan; b. DTSEN yang telah disiapkan oleh kepala satuan kerja pengelola data/wali data dituangkan dalam bentuk surat pernyataan kerahasiaan penggunaan DTSEN dan berita acara serah terima;
+
+
+- 10 -
+
+c. kepala satuan kerja pengelola data/wali data menyampaikan surat pernyataan ke rahasiaan penggunaan DTSEN dan berita acara serah terima kepada pemohon untuk ditandatangani dan sekaligus menyerahkan data kepada pemohon berupa dokumen elektronik/digital; d. surat pernyataan kerahasiaan penggunaan DTSEN dan berita acara serah terima sebag aimana dimaksud pada huruf c ditandatangani oleh pemohon dan pejabat pimpinan tinggi madya atau pejabat pimpinan tinggi pratama; dan e. kepala satuan kerja pengelola data/wali data melaksanakan pemantauan terhadap penggunaan DTSEN.
+(2) Permohonan sebagaimana dim aksud pada ayat (1) ditandatangani oleh: a. kementerian/lembaga oleh menteri/pimpinan lembaga, pejabat pimpinan tinggi madya atau pejabat pimpinan tinggi pratama; b. Pemerintah Daerah oleh kepala daerah; c. badan usaha milik negara atau badan usaha milik daerah ol eh direktur; atau d. masyarakat oleh pimpinan lembaga atau individu.
+
+Pasal 22 Dalam hal Menteri menyetujui permohonan penggunaan DTSEN sebagaimana dimaksud dalam Pasal 21 melalui sistem informasi elektronik, kementerian/lembaga atau badan usaha milik negara atau badan usaha milik daerah wajib menindaklanjuti dengan naskah hukum kerja sama.
+
+Pasal 23 DTSEN yang diterima oleh Pemerintah Daerah kabupaten/kota dari satuan kerja pengelola data yang akan digunakan untuk melakukan pemutakhiran DTSEN, diberikan kepada petugas Verifikasi dan Validasi yang telah ditunjuk dan ditetapkan oleh Pemerintah Daerah kabupaten/kota dengan membuat berita acara serah terima.
+
+Pasal 24
+(1) Pengguna DTSEN harus mematuhi ketentuan yang tercantum dalam surat pernyataan kera hasiaan penggunaan DTSEN, berita acara serah terima, dan/atau naskah hukum kerja sama yang disepakati.
+(2) Pengguna DTSEN sebagaimana dimaksud pada ayat (1) dapat memberikan DTSEN kepada pihak ketiga dengan ketentuan: a. merupakan hasil olahan penggunaan DTSEN; b. penyajian dalam bentuk deskripsi statistik; dan c. mencantumkan sumber data.
+
+
+
+
+
+- 11 -
+
+BAB IV PELAPORAN
+
+Pasal 25
+(1) Unit kerja di lingkungan Kementerian Sosial, kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan masyarakat yang telah menggunakan DTSEN harus melaporkan secara tertulis dengan memberikan informasi penggunaan  DTSEN kepada: a. Menteri; b. pejabat pimpinan tinggi madya; atau c. pejabat pimpinan tinggi pratama, sesuai dengan kewenangannya paling lama 1 (satu) bulan sejak penggunaan DTSEN selesai dilaksanakan.
+(2) Laporan informasi penggunaan DTSEN sebagaimana dimaksud pada ay at (1) dilaksanakan terhadap penggunaan DTSEN.
+
+Pasal 26
+(1) Unit kerja di lingkungan Kementerian Sosial, kementerian/lembaga, Pemerintah Daerah, badan usaha milik negara atau badan usaha milik daerah, dan masyarakat yang tidak menyampaikan laporan informasi penggunaan DTSEN sebagaimana dimaksud dalam Pasal 25 tidak dapat diberikan permohonan penggunaan DTSEN berikutnya.
+(2) Permohonan penggunaan DTSEN sebagaimana dimaksud pada ayat (1) dapat diberikan setelah pemohon menyampaikan laporan informasi penggunaan DTSEN .
+
+BAB V KETENTUAN PERALIHAN
+
+Pasal 27 Istilah data terpadu kesejahteraan sosial yang sudah ada sebelum Peraturan Menteri ini mulai berlaku harus dimaknai DTSEN sepanjang tidak bertentangan dengan Peraturan  Menteri  ini.
+
+BAB VI KETENTUAN PENUTUP
+
+Pasal 28 Pada saat Peraturan Menteri ini mulai berlaku, Peraturan Menteri Sosial Nomor 3 Tahun 2021 tentang Pengelolaan Data Terpadu Kesejahteraan Sosial (Berita Negara Republik Indonesia Tahun 2021 Nomor 578), dicabut dan dinyatakan tidak berlaku.
+
+Pasal 29 Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.
+
+
+- 12 -
+
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.
+
+
+Ditetapkan di Jakarta pada tanggal 10 Jun i 2025
+
+MENTERI SOSIAL REPUBLIK INDONESIA,
+
+Œ
+
+SAIFULLAH YUSUF
+
+Diundangkan di Jakarta pada tanggal                   Д
+
+DIREKTUR JENDERAL PERATURAN PERUNDANG -UNDANGAN KEMENTERIAN HUKUM REPUBLIK INDONESIA,
+
+Ѽ
+
+DHAHANA PUTRA
+
+
+BERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOM OR       Ж
+
+
+
+
+
